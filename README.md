@@ -7,6 +7,6 @@
 </p>
 <p align="center">
    <a href="https://www.buymeacoffee.com/wouterwisse" target="_blank">
-      <img width="144" src="Assets/bmc-button.png" alt="Buy me a Coffee">
+      <img width="180" src="Assets/bmc-button.png" alt="Buy me a Coffee">
    </a>
 </p>
