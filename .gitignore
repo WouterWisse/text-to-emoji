@@ -88,3 +88,8 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# Sketch
+#
+# Sketch files can get quite big, so it's not recommended to store these in the git repo.
+*.sketch
