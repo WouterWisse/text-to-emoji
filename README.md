@@ -6,6 +6,9 @@
    Not sure why you'd need this.
 </p>
 <p align="center">
+   <img src="https://github.com/WouterWisse/text-to-emoji/actions/workflows/develop.yml/badge.svg">
+</p>
+<p align="center">
    <a href="https://www.buymeacoffee.com/wouterwisse" target="_blank">
       <img width="180" src=".github/assets/bmc-button.png" alt="Buy me a Coffee">
    </a>
