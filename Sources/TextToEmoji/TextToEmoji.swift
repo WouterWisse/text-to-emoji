@@ -2,7 +2,7 @@ import Foundation
 
 public struct TextToEmoji {
     /**
-     Matches the given text with an emoji.
+     Tries to match the given text with an emoji.
      
      The category passed in `highPriorityCategory` will be given a higher priorty when multiple
      emoji's match the given `text`. For example: "Chicken" could match 🐔 and 🍗.
