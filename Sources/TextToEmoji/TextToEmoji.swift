@@ -39,7 +39,7 @@ public struct TextToEmoji {
             emoji = NSLocalizedString(input, bundle: Bundle.module, value: input, comment: input)
         }
         
-        guard emoji != input else { return nil }
+        guard emoji != input, emoji?.isEmpty == false else { return nil }
         return emoji
     }
 }
