@@ -17,4 +17,17 @@ public enum EmojiCategory {
     case symbols
     /// 🎌 Flags - Country flag emojis.
     case flags
+    
+    var stringsFileName: String {
+        switch self {
+        case .smileysAndPeople: return "SmileysAndPeople"
+        case .animalsAndNature:  return "AnimalsAndNature"
+        case .foodAndDrink:  return "FoodAndDrink"
+        case .activity:  return "Activity"
+        case .travelAndPlaces:  return "TravelAndPlaces"
+        case .objects:  return "Objects"
+        case .symbols:  return "Symbols"
+        case .flags:  return "Flags"
+        }
+    }
 }
