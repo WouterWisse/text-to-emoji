@@ -23,7 +23,7 @@ public struct TextToEmoji {
         
         var emoji: String?
         
-        // First try the preferred category.
+        // Try to find a match in the preferred category.
         if let preferredCategory = preferredCategory {
             emoji = NSLocalizedString(
                 input,
@@ -34,7 +34,7 @@ public struct TextToEmoji {
             )
         }
         
-        // Fall back on default Localizable.strings.
+        // Try to find a match in default Localizable.strings.
         if emoji == nil || emoji == input {
             emoji = NSLocalizedString(input, bundle: Bundle.module, value: input, comment: input)
         }
