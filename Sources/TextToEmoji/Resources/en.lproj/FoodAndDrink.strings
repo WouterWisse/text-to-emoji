@@ -1,0 +1,47 @@
+// 🍔 Food & Drink
+// Emojis for fruit, vegetables, meals, beverages and utensils.
+
+// TEST
+"chicken" = "🍗";
+
+// 🍇
+"grapes" = "🍇";
+"grape" = "🍇";
+
+// 🍈
+"melon" = "🍈";
+"melons" = "🍈";
+
+// 🍉
+"watermelon" = "🍉";
+"watermelons" = "🍉";
+
+// 🍊
+"tangerine" = "🍊";
+"tangerines" = "🍊";
+
+// 🍋
+"lemon" = "🍋";
+"lemons" = "🍋";
+
+// 🍌
+"banana" = "🍌";
+"bananas" = "🍌";
+
+// 🍍
+"pineapple" = "🍍";
+"pineapples" = "🍍";
+
+// 🥭
+"mango" = "🥭";
+"mangos" = "🥭";
+
+// 🍎
+"apple" = "🍎";
+"apples" = "🍎";
+"red apple" = "🍎";
+"red apples" = "🍎";
+
+// 🍏
+"green apple" = "🍏";
+"green apples" = "🍏";
