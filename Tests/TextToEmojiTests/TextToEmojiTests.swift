@@ -19,15 +19,23 @@ final class TextToEmojiTests: XCTestCase {
     
     // MARK: Tests
     
-    func test_emojiForText_withValidText_shouldReturnEmoji() {
+    func test_emoji_withValidText_shouldReturnEmoji() {
         let emoji = sut.emoji(for: "lemon")
         
         XCTAssertEqual(emoji, "🍋")
     }
     
-    func test_emojiForText_withInvalidText_shouldReturnNil() {
+    func test_emoji_withInvalidText_shouldReturnNil() {
         let emoji = sut.emoji(for: "abc123")
         
         XCTAssertNil(emoji)
+    }
+    
+    func test_emoji_withTextAndPreferredCategory_shouldReturnDifferentEmoji() {
+        let emoji = sut.emoji(for: "chicken")
+        let preferredEmoji = sut.emoji(for: "chicken", preferredCategory: .foodAndDrink)
+        
+        XCTAssertEqual(emoji, "🐔")
+        XCTAssertEqual(preferredEmoji, "🍗")
     }
 }
