@@ -35,7 +35,7 @@ public struct TextToEmoji {
         }
         
         // Fall back on default Localizable.strings.
-        if emoji == nil {
+        if emoji == nil || emoji == input {
             emoji = NSLocalizedString(input, bundle: Bundle.module, value: input, comment: input)
         }
         
