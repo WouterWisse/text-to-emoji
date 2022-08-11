@@ -1,163 +1,129 @@
 // MARK: 🍔 Food & Drink
 // Emojis for fruit, vegetables, meals, beverages and utensils.
 
-// 🍇
 "grapes" = "🍇";
-"grape" = "🍇";
-
-// 🍈
 "melon" = "🍈";
-"melons" = "🍈";
-
-// 🍉
 "watermelon" = "🍉";
-"watermelons" = "🍉";
-
-// 🍊
 "tangerine" = "🍊";
-"tangerines" = "🍊";
-
-// 🍋
 "lemon" = "🍋";
-"lemons" = "🍋";
-
-// 🍌
 "banana" = "🍌";
-"bananas" = "🍌";
-
-// 🍍
 "pineapple" = "🍍";
-"pineapples" = "🍍";
-
-// 🥭
 "mango" = "🥭";
-"mangos" = "🥭";
-
-// 🍎
-"apple" = "🍎";
-"apples" = "🍎";
 "red apple" = "🍎";
-"red apples" = "🍎";
-
-// 🍏
 "green apple" = "🍏";
-"green apples" = "🍏";
-
-/*
-🍐 Pear
-🍑 Peach
-🍒 Cherries
-🍓 Strawberry
-🫐 Blueberries
-🥝 Kiwi Fruit
-🍅 Tomato
-🫒 Olive
-🥥 Coconut
-🥑 Avocado
-🍆 Eggplant
-🥔 Potato
-🥕 Carrot
-🌽 Ear of Corn
-🌶️ Hot Pepper
-🫑 Bell Pepper
-🥒 Cucumber
-🥬 Leafy Green
-🥦 Broccoli
-🧄 Garlic
-🧅 Onion
-🍄 Mushroom
-🥜 Peanuts
-🫘 Beans
-🌰 Chestnut
-🍞 Bread
-🥐 Croissant
-🥖 Baguette Bread
-🫓 Flatbread
-🥨 Pretzel
-🥯 Bagel
-🥞 Pancakes
-🧇 Waffle
-🧀 Cheese Wedge
-🍖 Meat on Bone
-🍗 Poultry Leg
-🥩 Cut of Meat
-🥓 Bacon
-🍔 Hamburger
-🍟 French Fries
-🍕 Pizza
-🌭 Hot Dog
-🥪 Sandwich
-🌮 Taco
-🌯 Burrito
-🫔 Tamale
-🥙 Stuffed Flatbread
-🧆 Falafel
-🥚 Egg
-🍳 Cooking
-🥘 Shallow Pan of Food
-🍲 Pot of Food
-🫕 Fondue
-🥣 Bowl with Spoon
-🥗 Green Salad
-🍿 Popcorn
-🧈 Butter
-🧂 Salt
-🥫 Canned Food
-🍱 Bento Box
-🍘 Rice Cracker
-🍙 Rice Ball
-🍚 Cooked Rice
-🍛 Curry Rice
-🍜 Steaming Bowl
-🍝 Spaghetti
-🍠 Roasted Sweet Potato
-🍢 Oden
-🍣 Sushi
-🍤 Fried Shrimp
-🍥 Fish Cake with Swirl
-🥮 Moon Cake
-🍡 Dango
-🥟 Dumpling
-🥠 Fortune Cookie
-🥡 Takeout Box
-🦪 Oyster
-🍦 Soft Ice Cream
-🍧 Shaved Ice
-🍨 Ice Cream
-🍩 Doughnut
-🍪 Cookie
-🎂 Birthday Cake
-🍰 Shortcake
-🧁 Cupcake
-🥧 Pie
-🍫 Chocolate Bar
-🍬 Candy
-🍭 Lollipop
-🍮 Custard
-🍯 Honey Pot
-🍼 Baby Bottle
-🥛 Glass of Milk
-☕ Hot Beverage
-🫖 Teapot
-🍵 Teacup Without Handle
-🍶 Sake
-🍾 Bottle with Popping Cork
-🍷 Wine Glass
-🍸 Cocktail Glass
-🍹 Tropical Drink
-🍺 Beer Mug
-🍻 Clinking Beer Mugs
-🥂 Clinking Glasses
-🥃 Tumbler Glass
-🫗 Pouring Liquid
-🥤 Cup with Straw
-🧋 Bubble Tea
-🧃 Beverage Box
-🧉 Mate
-🧊 Ice
-🥢 Chopsticks
-🍽️ Fork and Knife with Plate
-🍴 Fork and Knife
-🥄 Spoon
-🫙 Jar
-*/
+"pear" = "🍐";
+"peach" = "🍑";
+"cherries" = "🍒";
+"strawberry" = "🍓";
+"blueberries" = "🫐";
+"kiwi fruit" = "🥝";
+"tomato" = "🍅";
+"olive" = "🫒";
+"coconut" = "🥥";
+"avocado" = "🥑";
+"eggplant" = "🍆";
+"potato" = "🥔";
+"carrot" = "🥕";
+"ear of corn" = "🌽";
+"hot pepper" = "🌶️";
+"bell pepper" = "🫑";
+"cucumber" = "🥒";
+"leafy green" = "🥬";
+"broccoli" = "🥦";
+"garlic" = "🧄";
+"onion" = "🧅";
+"mushroom" = "🍄";
+"peanuts" = "🥜";
+"beans" = "🫘";
+"chestnut" = "🌰";
+"bread" = "🍞";
+"croissant" = "🥐";
+"baguette bread" = "🥖";
+"flatbread" = "🫓";
+"pretzel" = "🥨";
+"bagel" = "🥯";
+"pancakes" = "🥞";
+"waffle" = "🧇";
+"cheese wedge" = "🧀";
+"meat on bone" = "🍖";
+"poultry leg" = "🍗";
+"cut of meat" = "🥩";
+"bacon" = "🥓";
+"hamburger" = "🍔";
+"french fries" = "🍟";
+"pizza" = "🍕";
+"hot dog" = "🌭";
+"sandwich" = "🥪";
+"taco" = "🌮";
+"burrito" = "🌯";
+"tamale" = "🫔";
+"stuffed flatbread" = "🥙";
+"falafel" = "🧆";
+"egg" = "🥚";
+"cooking" = "🍳";
+"shallow pan of food" = "🥘";
+"pot of food" = "🍲";
+"fondue" = "🫕";
+"bowl with spoon" = "🥣";
+"green salad" = "🥗";
+"popcorn" = "🍿";
+"butter" = "🧈";
+"salt" = "🧂";
+"canned food" = "🥫";
+"bento box" = "🍱";
+"rice cracker" = "🍘";
+"rice ball" = "🍙";
+"cooked rice" = "🍚";
+"curry rice" = "🍛";
+"steaming bowl" = "🍜";
+"spaghetti" = "🍝";
+"roasted sweet potato" = "🍠";
+"oden" = "🍢";
+"sushi" = "🍣";
+"fried shrimp" = "🍤";
+"fish cake with swirl" = "🍥";
+"moon cake" = "🥮";
+"dango" = "🍡";
+"dumpling" = "🥟";
+"fortune cookie" = "🥠";
+"takeout box" = "🥡";
+"oyster" = "🦪";
+"soft ice cream" = "🍦";
+"shaved ice" = "🍧";
+"ice cream" = "🍨";
+"doughnut" = "🍩";
+"cookie" = "🍪";
+"birthday cake" = "🎂";
+"shortcake" = "🍰";
+"cupcake" = "🧁";
+"pie" = "🥧";
+"chocolate bar" = "🍫";
+"candy" = "🍬";
+"lollipop" = "🍭";
+"custard" = "🍮";
+"honey pot" = "🍯";
+"baby bottle" = "🍼";
+"glass of milk" = "🥛";
+"hot beverage" = "☕";
+"teapot" = "🫖";
+"teacup without handle" = "🍵";
+"sake" = "🍶";
+"bottle with popping cork" = "🍾";
+"wine glass" = "🍷";
+"cocktail glass" = "🍸";
+"tropical drink" = "🍹";
+"beer mug" = "🍺";
+"clinking beer mugs" = "🍻";
+"clinking glasses" = "🥂";
+"tumbler glass" = "🥃";
+"pouring liquid" = "🫗";
+"cup with straw" = "🥤";
+"bubble tea" = "🧋";
+"beverage box" = "🧃";
+"mate" = "🧉";
+"ice" = "🧊";
+"chopsticks" = "🥢";
+"fork and knife with plate" = "🍽️";
+"fork and knife" = "🍴";
+"spoon" = "🥄";
+"jar" = "🫙";
