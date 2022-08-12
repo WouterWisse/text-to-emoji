@@ -140,16 +140,76 @@
 "guacamole" = "🥑";
 "chips" = "🥔";
 "corn" = "🌽";
-"pepper" = "🌶️";
 "zucchini" = "🥒";
-"spinach" = "🥬";
-// TODO: Many more
-"shiitake" = "🍄";
-// TODO: Many More
 "peanut Butter" = "🥜";
 "baguette" = "🥖";
 "stack" = "🥞";
+
+// 🌶 Peppers
+"pepper" = "🌶️";
+"jalapeno" = "🌶️";
+
+// 🥬 Leafy Greens
+"greens" = "🥬";
+"spinach" = "🥬";
+"kale" = "🥬";
+"lettuce" = "🥬";
+"arugula" = "🥬";
+"rocket" = "🥬";
+"bok choy" = "🥬";
+"collard" = "🥬";
+"gandelion" = "🥬";
+"rapini" = "🥬";
+"turnip" = "🥬";
+
+// 🌿 Herbs
+"coriander" = "🌿";
+"basil" = "🌿";
+"parsley" = "🌿";
+"cilantro" = "🌿";
+"cilantro" = "🌿";
+"mint" = "🌿";
+"rosemary" = "🌿";
+"thyme" = "🌿";
+"sage" = "🌿";
+"chives" = "🌿";
+"dill" = "🌿";
+"oregano" = "🌿";
+
+// 🍄 Mushrooms
+"shiitake" = "🍄";
+"crimino" = "🍄";
+"portabello" = "🍄";
+"maitake" = "🍄";
+"oyster mushroom" = "🍄";
+"enoki" = "🍄";
+"beech" = "🍄";
+"king trumpet" = "🍄";
+"chanterelle" = "🍄";
+"hedgehog" = "🍄";
+"porcino" = "🍄";
+"porel" = "🍄";
+
+// 🧀 Cheeses
 "cheese" = "🧀";
+"mozzarella" = "🧀";
+"parmesan" = "🧀";
+"cheddar" = "🧀";
+"brie" = "🧀";
+"swiss" = "🧀";
+"gruyere" = "🧀";
+"feta" = "🧀";
+"gouda" = "🧀";
+"provolone" = "🧀";
+"monterey jack" = "🧀";
+
+// 🍺 Beers
+"beer" = "🍺";
+"ale" = "🍺";
+"ipa" = "🍺";
+"pint" = "🍺";
+"6 pack" = "🍺";
+
 "ribs" = "🍖";
 // TODO: Many more
 "chicken" = "🍗";
@@ -166,7 +226,6 @@
 "sweet potato" = "🍠";
 "shrimp" = "🍤";
 "takeout" = "🥡";
-"oyster" = "🦪";
 "mussle" = "🦪";
 "donut" = "🍩";
 "oreo" = "🍪";
@@ -189,7 +248,7 @@
 "wine" = "🍷";
 "cocktail" = "🍸";
 "smoothie" = "🍹";
-"beer" = "🍺";
+
 "whiskey" = "🥃";
 "whisky" = "🥃";
 "brandy" = "🥃";
