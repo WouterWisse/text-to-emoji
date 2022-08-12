@@ -20,26 +20,57 @@ public struct TextToEmoji {
         preferredCategory: EmojiCategory? = nil
     ) -> String? {
         let input = text.lowercased()
+        return localizedEmoji(for: input, category: preferredCategory)
+    }
+}
+
+// MARK: Localized Emoji
+
+private extension TextToEmoji {
+    func localizedEmoji(
+        for text: String,
+        category: EmojiCategory?
+    ) -> String? {
+        let tableName = category?.tableName ?? "All"
+        guard
+            let path = Bundle.module.path(forResource: tableName, ofType: "strings"),
+            let dictionary = NSDictionary(contentsOfFile: path),
+            let allKeys = dictionary.allKeys as? [String]
+        else { return nil }
         
-        var emoji: String?
+        let scores = allKeys
+            .map { (key: $0, score: matchScore(for: text, possibleMatch: $0)) }
+            .sorted(by: { $0.score < $1.score })
         
-        // Try to find a match in the preferred category.
-        if let preferredCategory = preferredCategory {
-            emoji = NSLocalizedString(
-                input,
-                tableName: preferredCategory.stringsFileName,
-                bundle: Bundle.module,
-                value: input,
-                comment: input
-            )
+        // Word must match at least 70%.
+        let maxFaultPercentage: Double = 0.3
+        
+        guard
+            let bestMatch = scores.first,
+            Double(bestMatch.score) <= Double(bestMatch.key.count) * maxFaultPercentage
+        else { return nil }
+        
+        return NSLocalizedString(
+            bestMatch.key,
+            tableName: tableName,
+            bundle: Bundle.module,
+            comment: bestMatch.key
+        )
+    }
+    
+    func matchScore(for text: String, possibleMatch: String) -> Int {
+        let empty = [Int](repeating: 0, count: possibleMatch.count)
+        var distance = [Int](0...possibleMatch.count)
+
+        for (i, characterA) in text.enumerated() {
+            var current = [i + 1] + empty
+            for (j, characterB) in possibleMatch.enumerated() {
+                current[j + 1] = characterA == characterB
+                ? distance[j]
+                : min(distance[j], distance[j + 1], current[j]) + 1
+            }
+            distance = current
         }
-        
-        // Try to find a match in default Localizable.strings.
-        if emoji == nil || emoji == input {
-            emoji = NSLocalizedString(input, bundle: Bundle.module, value: input, comment: input)
-        }
-        
-        guard emoji != input, emoji?.isEmpty == false else { return nil }
-        return emoji
+        return distance.last!
     }
 }
