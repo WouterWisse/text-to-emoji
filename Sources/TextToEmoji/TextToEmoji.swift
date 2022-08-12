@@ -1,6 +1,8 @@
 import Foundation
 
 public struct TextToEmoji {
+    public init() {}
+    
     /**
      Tries to match the given text with an emoji.
      
