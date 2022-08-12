@@ -7,6 +7,9 @@
 </p>
 <p align="center">
    <img src="https://github.com/WouterWisse/text-to-emoji/actions/workflows/develop.yml/badge.svg">
+   <a href="https://www.twitter.com/wouterwisse" target="_blank">
+      <img src="https://img.shields.io/badge/Contact%20-@wouterwisse-blue.svg">
+   </a>
 </p>
 <p align="center">
    <a href="https://www.buymeacoffee.com/wouterwisse" target="_blank">
