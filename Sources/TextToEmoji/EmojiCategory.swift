@@ -18,7 +18,7 @@ public enum EmojiCategory {
     /// 🎌 Flags - Country flag emojis.
     case flags
     
-    var stringsFileName: String {
+    var tableName: String {
         switch self {
         case .smileysAndPeople: return "SmileysAndPeople"
         case .animalsAndNature:  return "AnimalsAndNature"
