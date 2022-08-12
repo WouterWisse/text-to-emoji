@@ -37,5 +37,6 @@ final class TextToEmojiTests: XCTestCase {
         
         XCTAssertEqual(emoji, "🐔")
         XCTAssertEqual(preferredEmoji, "🍗")
+        XCTAssertNotEqual(emoji, preferredEmoji)
     }
 }
