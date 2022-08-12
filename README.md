@@ -8,7 +8,7 @@
 <p align="center">
    <img src="https://github.com/WouterWisse/text-to-emoji/actions/workflows/develop.yml/badge.svg">
    <a href="https://www.twitter.com/wouterwisse" target="_blank">
-      <img src="https://img.shields.io/badge/Contact%20-@wouterwisse-blue.svg">
+      <img src="https://img.shields.io/badge/contact%20-@wouterwisse-blue.svg">
    </a>
 </p>
 <p align="center">
