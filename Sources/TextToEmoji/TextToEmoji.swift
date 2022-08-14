@@ -1,7 +1,16 @@
 import Foundation
 
 public struct TextToEmoji {
-    public init() {}
+    private let globalDispatchQueue: DispatchQueueExecutor
+    private let mainDispatchQueue: DispatchQueueExecutor
+    
+    public init(
+        globalDispatchQueue: DispatchQueueExecutor = DispatchQueue.global(),
+        mainDispatchQueue: DispatchQueueExecutor = DispatchQueue.main
+    ) {
+        self.globalDispatchQueue = globalDispatchQueue
+        self.mainDispatchQueue = mainDispatchQueue
+    }
     
     /**
      Will try to match the given text with an emoji.
