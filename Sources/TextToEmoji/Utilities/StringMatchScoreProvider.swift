@@ -1,11 +1,11 @@
 import Foundation
 
-struct StringMatchScoreProvider {
+public struct StringMatchScoreProvider {
     var provideScore: (_ text: String, _ possibleMatch: String) -> Int
 }
 
-extension StringMatchScoreProvider {
-    static let `default` = StringMatchScoreProvider(
+public extension StringMatchScoreProvider {
+     static let `default` = StringMatchScoreProvider(
         provideScore: { text, possibleMatch in
             // https://en.wikipedia.org/wiki/Levenshtein_distance
             let empty = [Int](repeating: 0, count: possibleMatch.count)
