@@ -52,10 +52,10 @@ public struct TextToEmoji {
         preferredCategory: EmojiCategory? = nil,
         completion: @escaping (_ emoji: String?) -> Void
     ) {
-        DispatchQueue.global().async {
+        globalDispatchQueue.executeAsync {
             let input = text.lowercased()
             let emoji = localizedEmoji(for: input, category: preferredCategory)
-            DispatchQueue.main.sync {
+            mainDispatchQueue.executeAsync {
                 completion(emoji)
             }
         }
