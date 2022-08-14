@@ -1,11 +1,11 @@
 import Dispatch
 
-protocol DispatchQueueExecutor {
+public protocol DispatchQueueExecutor {
     func executeAsync(work: @escaping @convention(block) () -> Void)
 }
 
 extension DispatchQueue: DispatchQueueExecutor {
-    func executeSync(work: @escaping @convention(block) () -> Void) {
+    public func executeAsync(work: @escaping @convention(block) () -> Void) {
         sync(execute: work)
     }
 }
