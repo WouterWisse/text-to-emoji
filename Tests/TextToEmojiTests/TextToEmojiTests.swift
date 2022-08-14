@@ -4,16 +4,24 @@ import XCTest
 final class TextToEmojiTests: XCTestCase {
     
     var sut: TextToEmoji!
+    var mockDispatchQueueExecutor: MockDispatchQueueExecutor!
     
     // MARK: Setup / Teardown
     
     override func setUpWithError() throws {
         try super.setUpWithError()
-        sut = TextToEmoji()
+        mockDispatchQueueExecutor = MockDispatchQueueExecutor()
+        mockDispatchQueueExecutor.shouldInvokeExecuteAsyncWork = true
+        
+        sut = TextToEmoji(
+            globalDispatchQueue: mockDispatchQueueExecutor,
+            mainDispatchQueue: mockDispatchQueueExecutor
+        )
     }
     
     override func tearDownWithError() throws {
         try super.tearDownWithError()
+        mockDispatchQueueExecutor = nil
         sut = nil
     }
     
@@ -38,5 +46,11 @@ final class TextToEmojiTests: XCTestCase {
         XCTAssertEqual(emoji, "🐔")
         XCTAssertEqual(preferredEmoji, "🍗")
         XCTAssertNotEqual(emoji, preferredEmoji)
+    }
+    
+    func test_emoji_withTextAndCompletion_shouldReturnEmoji() {
+        sut.emoji(for: "tomato", completion: { emoji in
+            XCTAssertEqual(emoji, "🍅")
+        })
     }
 }
