@@ -4,7 +4,7 @@ public struct TextToEmoji {
     public init() {}
     
     /**
-     Tries to match the given text with an emoji.
+     Will try to match the given text with an emoji.
      
      The category passed in `preferredCategory` will be given a higher priorty when multiple
      emoji's match the given `text`. For example: "Chicken" could match 🐔 and 🍗.
@@ -23,6 +23,33 @@ public struct TextToEmoji {
     ) -> String? {
         let input = text.lowercased()
         return localizedEmoji(for: input, category: preferredCategory)
+    }
+    
+    /**
+     Will try to match the given text with an emoji asynchronously.
+     
+     The category passed in `preferredCategory` will be given a higher priorty when multiple
+     emoji's match the given `text`. For example: "Chicken" could match 🐔 and 🍗.
+     - Passing `.animalsAndNature` will return 🐔
+     - Passing `.foodAndDrink` will return 🍗
+     
+     - Parameters:
+        - text: The text that will be matched with an emoji
+        - preferredCategory: The category with which is most likely to have a match
+        - completion: Closure that will asynchronously receive the matched emoji, or nil if no match is found
+     */
+    public func emoji(
+        for text: String,
+        preferredCategory: EmojiCategory? = nil,
+        completion: @escaping (_ emoji: String?) -> Void
+    ) {
+        DispatchQueue.global().async {
+            let input = text.lowercased()
+            let emoji = localizedEmoji(for: input, category: preferredCategory)
+            DispatchQueue.main.sync {
+                completion(emoji)
+            }
+        }
     }
 }
 
