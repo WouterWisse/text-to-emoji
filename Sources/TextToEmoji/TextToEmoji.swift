@@ -3,13 +3,16 @@ import Foundation
 public struct TextToEmoji {
     private let globalDispatchQueue: DispatchQueueExecutor
     private let mainDispatchQueue: DispatchQueueExecutor
+    private let stringMatchScoreProvider: StringMatchScoreProvider
     
     public init(
         globalDispatchQueue: DispatchQueueExecutor = DispatchQueue.global(),
-        mainDispatchQueue: DispatchQueueExecutor = DispatchQueue.main
+        mainDispatchQueue: DispatchQueueExecutor = DispatchQueue.main,
+        stringMatchScoreProvider: StringMatchScoreProvider = StringMatchScoreProvider.default
     ) {
         self.globalDispatchQueue = globalDispatchQueue
         self.mainDispatchQueue = mainDispatchQueue
+        self.stringMatchScoreProvider = stringMatchScoreProvider
     }
     
     /**
@@ -77,7 +80,7 @@ private extension TextToEmoji {
         else { return nil }
         
         let scores = allKeys
-            .map { (key: $0, score: matchScore(for: text, possibleMatch: $0)) }
+            .map { (key: $0, score: stringMatchScoreProvider.provideScore(text, $0)) }
             .sorted(by: { $0.score < $1.score })
         
         // Word must match at least 70%.
@@ -94,21 +97,5 @@ private extension TextToEmoji {
             bundle: Bundle.module,
             comment: bestMatch.key
         )
-    }
-    
-    func matchScore(for text: String, possibleMatch: String) -> Int {
-        let empty = [Int](repeating: 0, count: possibleMatch.count)
-        var distance = [Int](0...possibleMatch.count)
-
-        for (i, characterA) in text.enumerated() {
-            var current = [i + 1] + empty
-            for (j, characterB) in possibleMatch.enumerated() {
-                current[j + 1] = characterA == characterB
-                ? distance[j]
-                : min(distance[j], distance[j + 1], current[j]) + 1
-            }
-            distance = current
-        }
-        return distance.last!
     }
 }
