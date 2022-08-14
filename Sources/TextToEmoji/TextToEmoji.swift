@@ -31,10 +31,11 @@ public struct TextToEmoji {
      */
     public func emoji(
         for text: String,
-        preferredCategory: EmojiCategory? = nil
+        preferredCategory: EmojiCategory? = nil,
+        errorMargin: MatchErrorMargin = .medium
     ) -> String? {
         let input = text.lowercased()
-        return localizedEmoji(for: input, category: preferredCategory)
+        return localizedEmoji(for: input, category: preferredCategory, errorMargin: errorMargin)
     }
     
     /**
@@ -53,11 +54,12 @@ public struct TextToEmoji {
     public func emoji(
         for text: String,
         preferredCategory: EmojiCategory? = nil,
+        errorMargin: MatchErrorMargin = .medium,
         completion: @escaping (_ emoji: String?) -> Void
     ) {
         globalDispatchQueue.executeAsync {
             let input = text.lowercased()
-            let emoji = localizedEmoji(for: input, category: preferredCategory)
+            let emoji = localizedEmoji(for: input, category: preferredCategory, errorMargin: errorMargin)
             mainDispatchQueue.executeAsync {
                 completion(emoji)
             }
@@ -70,7 +72,8 @@ public struct TextToEmoji {
 private extension TextToEmoji {
     func localizedEmoji(
         for text: String,
-        category: EmojiCategory?
+        category: EmojiCategory?,
+        errorMargin: MatchErrorMargin
     ) -> String? {
         let tableName = category?.tableName ?? "All"
         guard
@@ -83,12 +86,9 @@ private extension TextToEmoji {
             .map { (key: $0, score: stringMatchScoreProvider.provideScore(text, $0)) }
             .sorted(by: { $0.score < $1.score })
         
-        // Word must match at least 70%.
-        let maxFaultPercentage: Double = 0.3
-        
         guard
             let bestMatch = scores.first,
-            Double(bestMatch.score) <= Double(bestMatch.key.count) * maxFaultPercentage
+            Double(bestMatch.score) <= Double(bestMatch.key.count) * errorMargin.percentage
         else { return nil }
         
         return NSLocalizedString(
