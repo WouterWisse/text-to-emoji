@@ -26,16 +26,17 @@ public struct TextToEmoji {
      - Parameters:
         - text: The text that will be matched with an emoji
         - preferredCategory: The category with which is most likely to have a match
+        - errorMargin: // TODO: Explain
      
      - Returns: An emoji when a match is found, otherwise nil.
      */
     public func emoji(
         for text: String,
         preferredCategory: EmojiCategory? = nil,
-        errorMargin: MatchErrorMargin = .medium
+        accuracy: MatchAccuracy = .medium
     ) -> String? {
         let input = text.lowercased()
-        return localizedEmoji(for: input, category: preferredCategory, errorMargin: errorMargin)
+        return localizedEmoji(for: input, category: preferredCategory, accuracy: accuracy)
     }
     
     /**
@@ -54,12 +55,12 @@ public struct TextToEmoji {
     public func emoji(
         for text: String,
         preferredCategory: EmojiCategory? = nil,
-        errorMargin: MatchErrorMargin = .medium,
+        accuracy: MatchAccuracy = .medium,
         completion: @escaping (_ emoji: String?) -> Void
     ) {
         globalDispatchQueue.executeAsync {
             let input = text.lowercased()
-            let emoji = localizedEmoji(for: input, category: preferredCategory, errorMargin: errorMargin)
+            let emoji = localizedEmoji(for: input, category: preferredCategory, accuracy: accuracy)
             mainDispatchQueue.executeAsync {
                 completion(emoji)
             }
@@ -73,7 +74,7 @@ private extension TextToEmoji {
     func localizedEmoji(
         for text: String,
         category: EmojiCategory?,
-        errorMargin: MatchErrorMargin
+        accuracy: MatchAccuracy
     ) -> String? {
         let tableName = category?.tableName ?? "All"
         guard
@@ -85,10 +86,12 @@ private extension TextToEmoji {
         let scores = allKeys
             .map { (key: $0, score: stringMatchScoreProvider.provideScore(text, $0)) }
             .sorted(by: { $0.score < $1.score })
+
+        let accuracyPercentage = 1.0 - accuracy.percentage
         
         guard
             let bestMatch = scores.first,
-            Double(bestMatch.score) <= Double(bestMatch.key.count) * errorMargin.percentage
+            Double(bestMatch.score) <= Double(bestMatch.key.count) * accuracyPercentage
         else { return nil }
         
         return NSLocalizedString(
