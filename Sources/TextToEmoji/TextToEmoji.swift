@@ -121,8 +121,6 @@ private extension TextToEmoji {
             Double(bestMatch.score) <= Double(bestMatch.key.count) * accuracyPercentage
         else { return nil }
         
-        // TODO: Check in All when checking the category failed.
-        
         return NSLocalizedString(
             bestMatch.key,
             tableName: tableName,
