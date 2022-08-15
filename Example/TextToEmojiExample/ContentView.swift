@@ -60,8 +60,8 @@ struct ContentView: View {
                     Text("🎌 Flags").tag(7)
                 }
                 .pickerStyle(.automatic)
-                Text("The preferred category will be given a higher priorty when multiple emoji’s match the given text.\nFor example: “Shrimp” could match 🦐 and 🍤.\nThe latter is returned when Food & Drink is selected.")
                 
+                Text("The preferred category will be given a higher priorty when multiple emoji’s match the given text.\nFor example: “Shrimp” could match 🦐 and 🍤.\nThe latter is returned when Food & Drink is selected.")
                     .multilineTextAlignment(.center)
                     .font(.caption)
                     .foregroundColor(.secondary)

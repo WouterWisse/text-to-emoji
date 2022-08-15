@@ -25,8 +25,8 @@ public struct TextToEmoji {
      
      - Parameters:
         - text: The text that will be matched with an emoji
-        - preferredCategory: The category with which is most likely to have a match
-        - accuracy: The accuracy used to find the match. Higher will give more accurate results
+        - preferredCategory: The preferred category can be useful when looking for specific sets of emoji
+        - accuracy: The accuracy used to find the match. The higher the more accurate the results
      
      - Returns: An emoji when a match is found, otherwise nil.
      */
@@ -49,8 +49,8 @@ public struct TextToEmoji {
      
      - Parameters:
         - text: The text that will be matched with an emoji
-        - preferredCategory: The category with which is most likely to have a match
-        - accuracy: The accuracy used to find the match. Higher will give more accurate results
+        - preferredCategory: The preferred category can be useful when looking for specific sets of emoji
+        - accuracy: The accuracy used to find the match. The higher the more accurate the results
         - completion: Closure that will asynchronously receive the matched emoji, or nil if no match is found
      */
     public func emoji(
@@ -75,8 +75,8 @@ public struct TextToEmoji {
      
      - Parameters:
         - text: The text that will be matched with an emoji
-        - preferredCategory: The category with which is most likely to have a match
-        - accuracy: The accuracy used to find the match. Higher will give more accurate results
+        - preferredCategory: The preferred category can be useful when looking for specific sets of emoji
+        - accuracy: The accuracy used to find the match. The higher the more accurate the results
      */
     public func emoji(
         for text: String,
@@ -120,6 +120,8 @@ private extension TextToEmoji {
             let bestMatch = scores.first,
             Double(bestMatch.score) <= Double(bestMatch.key.count) * accuracyPercentage
         else { return nil }
+        
+        // TODO: Check in All when checking the category failed.
         
         return NSLocalizedString(
             bestMatch.key,
