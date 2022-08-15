@@ -1,10 +1,3 @@
-//
-//  TextToEmojiExampleApp.swift
-//  TextToEmojiExample
-//
-//  Created by Wouter Wisse on 8/15/22.
-//
-
 import SwiftUI
 
 @main

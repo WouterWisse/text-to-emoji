@@ -1,11 +1,5 @@
-//
-//  ContentView.swift
-//  TextToEmojiExample
-//
-//  Created by Wouter Wisse on 8/15/22.
-//
-
 import SwiftUI
+import TextToEmoji
 
 struct ContentView: View {
     var body: some View {
