@@ -6,6 +6,6 @@ public protocol DispatchQueueExecutor {
 
 extension DispatchQueue: DispatchQueueExecutor {
     public func executeAsync(work: @escaping @convention(block) () -> Void) {
-        sync(execute: work)
+        async(execute: work)
     }
 }
