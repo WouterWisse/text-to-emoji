@@ -26,7 +26,7 @@ public struct TextToEmoji {
      - Parameters:
         - text: The text that will be matched with an emoji
         - preferredCategory: The category with which is most likely to have a match
-        - errorMargin: // TODO: Explain
+        - accuracy: The accuracy used to find the match. Higher will give more accurate results
      
      - Returns: An emoji when a match is found, otherwise nil.
      */
@@ -40,7 +40,7 @@ public struct TextToEmoji {
     }
     
     /**
-     Will try to match the given text with an emoji asynchronously.
+     Will try to match the given text with an emoji asynchronously with completion closure.
      
      The category passed in `preferredCategory` will be given a higher priorty when multiple
      emoji's match the given `text`. For example: "Chicken" could match 🐔 and 🍗.
@@ -50,6 +50,7 @@ public struct TextToEmoji {
      - Parameters:
         - text: The text that will be matched with an emoji
         - preferredCategory: The category with which is most likely to have a match
+        - accuracy: The accuracy used to find the match. Higher will give more accurate results
         - completion: Closure that will asynchronously receive the matched emoji, or nil if no match is found
      */
     public func emoji(
@@ -58,11 +59,37 @@ public struct TextToEmoji {
         accuracy: MatchAccuracy = .medium,
         completion: @escaping (_ emoji: String?) -> Void
     ) {
-        globalDispatchQueue.executeAsync {
-            let input = text.lowercased()
-            let emoji = localizedEmoji(for: input, category: preferredCategory, accuracy: accuracy)
-            mainDispatchQueue.executeAsync {
-                completion(emoji)
+        Task {
+            let result = await emoji(for: text, preferredCategory: preferredCategory, accuracy: accuracy)
+            completion(result)
+        }
+    }
+    
+    /**
+     Will try to match the given text with an emoji asynchronously with `async await`.
+     
+     The category passed in `preferredCategory` will be given a higher priorty when multiple
+     emoji's match the given `text`. For example: "Chicken" could match 🐔 and 🍗.
+     - Passing `.animalsAndNature` will return 🐔
+     - Passing `.foodAndDrink` will return 🍗
+     
+     - Parameters:
+        - text: The text that will be matched with an emoji
+        - preferredCategory: The category with which is most likely to have a match
+        - accuracy: The accuracy used to find the match. Higher will give more accurate results
+     */
+    public func emoji(
+        for text: String,
+        preferredCategory: EmojiCategory? = nil,
+        accuracy: MatchAccuracy = .medium
+    ) async -> String? {
+        await withCheckedContinuation { continuation in
+            globalDispatchQueue.executeAsync {
+                let input = text.lowercased()
+                let emoji = localizedEmoji(for: input, category: preferredCategory, accuracy: accuracy)
+                mainDispatchQueue.executeAsync {
+                    continuation.resume(returning: emoji)
+                }
             }
         }
     }
