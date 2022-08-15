@@ -70,6 +70,7 @@ struct ContentView: View {
             
             VStack {
                 TextField("Text to Emoji", text: $text)
+                    .textFieldStyle(.roundedBorder)
                     .font(.system(.title))
                     .multilineTextAlignment(.center)
                     .onSubmit {
