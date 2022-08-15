@@ -9,7 +9,7 @@ public enum MatchAccuracy {
     case high
     /// String must match 100%. Most accurate.
     case perfect
-    /// Custom value from `0.0 - 1.0`. Higher number leaves less room for error, thus more accurate results.
+    /// Custom value from `0.0 - 1.0`. The higher the number, the more accurate results.
     case custom(value: Double)
     
     /// Percentage based accuracy means that more differences are allowed in longer Strings.
