@@ -16,3 +16,12 @@
       <img width="180" src=".github/assets/bmc-button.png" alt="Buy me a Coffee">
    </a>
 </p>
+
+## Installation
+TBD
+
+## How to use
+TBD
+
+## Contribution
+TBD
