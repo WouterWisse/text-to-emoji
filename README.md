@@ -23,5 +23,8 @@
 ## How to use
 TBD
 
+## Localization
+TBD
+
 ## Contribution
 TBD
