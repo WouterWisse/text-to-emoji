@@ -18,7 +18,7 @@
 </p>
 
 ## Installation
-TBD
+`Xcode` → `File` → `Add packages...` and enter the url of this package: `https://github.com/WouterWisse/text-to-emoji`.
 
 ## How to use
 TBD
