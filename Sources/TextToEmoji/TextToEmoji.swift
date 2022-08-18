@@ -3,16 +3,14 @@ import Foundation
 public struct TextToEmoji {
     private let globalDispatchQueue: DispatchQueueExecutor
     private let mainDispatchQueue: DispatchQueueExecutor
-    private let stringMatchScoreProvider: StringMatchScoreProvider
+    private let stringMatchScoreProvider: StringMatchScoreProvider = .default
     
     public init(
         globalDispatchQueue: DispatchQueueExecutor = DispatchQueue.global(),
-        mainDispatchQueue: DispatchQueueExecutor = DispatchQueue.main,
-        stringMatchScoreProvider: StringMatchScoreProvider = StringMatchScoreProvider.default
+        mainDispatchQueue: DispatchQueueExecutor = DispatchQueue.main
     ) {
         self.globalDispatchQueue = globalDispatchQueue
         self.mainDispatchQueue = mainDispatchQueue
-        self.stringMatchScoreProvider = stringMatchScoreProvider
     }
     
     /**
