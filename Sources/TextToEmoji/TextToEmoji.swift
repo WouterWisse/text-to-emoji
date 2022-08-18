@@ -24,17 +24,15 @@ public struct TextToEmoji {
      - Parameters:
         - text: The text that will be matched with an emoji
         - preferredCategory: The preferred category can be useful when looking for specific sets of emoji
-        - accuracy: The accuracy used to find the match. The higher the more accurate the results
      
      - Returns: An emoji when a match is found, otherwise nil.
      */
     public func emoji(
         for text: String,
-        preferredCategory: EmojiCategory? = nil,
-        confidence: MatchConfidence = .medium
+        preferredCategory: EmojiCategory? = nil
     ) -> String? {
         let input = text.lowercased()
-        return localizedEmoji(for: input, category: preferredCategory, confidence: confidence)
+        return localizedEmoji(for: input, category: preferredCategory)
     }
     
     /**
@@ -48,17 +46,15 @@ public struct TextToEmoji {
      - Parameters:
         - text: The text that will be matched with an emoji
         - preferredCategory: The preferred category can be useful when looking for specific sets of emoji
-        - accuracy: The accuracy used to find the match. The higher the more accurate the results
         - completion: Closure that will asynchronously receive the matched emoji, or nil if no match is found
      */
     public func emoji(
         for text: String,
         preferredCategory: EmojiCategory? = nil,
-        confidence: MatchConfidence = .medium,
         completion: @escaping (_ emoji: String?) -> Void
     ) {
         Task {
-            let result = await emoji(for: text, preferredCategory: preferredCategory, confidence: confidence)
+            let result = await emoji(for: text, preferredCategory: preferredCategory)
             completion(result)
         }
     }
@@ -74,17 +70,15 @@ public struct TextToEmoji {
      - Parameters:
         - text: The text that will be matched with an emoji
         - preferredCategory: The preferred category can be useful when looking for specific sets of emoji
-        - accuracy: The accuracy used to find the match. The higher the more accurate the results
      */
     public func emoji(
         for text: String,
-        preferredCategory: EmojiCategory? = nil,
-        confidence: MatchConfidence = .medium
+        preferredCategory: EmojiCategory? = nil
     ) async -> String? {
         await withCheckedContinuation { continuation in
             globalDispatchQueue.executeAsync {
                 let input = text.lowercased()
-                let emoji = localizedEmoji(for: input, category: preferredCategory, confidence: confidence)
+                let emoji = localizedEmoji(for: input, category: preferredCategory)
                 mainDispatchQueue.executeAsync {
                     continuation.resume(returning: emoji)
                 }
@@ -98,8 +92,7 @@ public struct TextToEmoji {
 private extension TextToEmoji {
     func localizedEmoji(
         for text: String,
-        category: EmojiCategory?,
-        confidence: MatchConfidence
+        category: EmojiCategory?
     ) -> String? {
         let tableName = category?.tableName ?? "All"
         guard
@@ -112,11 +105,9 @@ private extension TextToEmoji {
             .map { (key: $0, score: stringMatchScoreProvider.provideScore(text, $0)) }
             .sorted(by: { $0.score < $1.score })
 
-        let accuracyPercentage = 1.0 - confidence.percentage
-        
         guard
             let bestMatch = scores.first,
-            Double(bestMatch.score) <= Double(bestMatch.key.count) * accuracyPercentage
+            Double(bestMatch.score) <= Double(bestMatch.key.count) * 0.2
         else { return nil }
         
         return NSLocalizedString(
