@@ -32,7 +32,7 @@ You could pass your own `DispatchQueue` if you'd like.
 ```swift
 let textToEmoji = TextToEmoji(
    globalDispatchQueue: DispatchQueue.global(), // a global dispatch queue to do the heavy lifting
-   mainDispatchQueue: DispatchQueue.main // a main queue to return the emoji on
+   mainDispatchQueue: DispatchQueue.main // the main queue to return the emoji on
 )
 ```
 
@@ -51,6 +51,15 @@ let emoji = textToEmoji.emoji(for: "tomato", completion: { emoji in
 **Simple, async await**<br />
 ```swift
 let emoji = await textToEmoji.emoji(for: "tomato") // 🍅
+```
+
+**Advanced, with a preferred emoji category**<br />
+With `preferredCategory`, you can give a certain emoji category a higher priority. This can be very useful if you already know the context in which you are searching. For example, when looking for the word `shrimp`, two matching emoji's would be: `🦐` and `🍤`. By passing `.foodAndDrink` as the `preferredCategory`, the only match will be `🍤`, since the preferred category is about food (and drink). Passing `.animalsAndNature` would result in `🦐`. See `EmojiCategory.swift` for all categories.
+```swift
+let shrimp = textToEmoji.emoji(for: "shrimp", preferredCategory: .foodAndDrink) // 🍤
+```
+```swift
+let shrimp = textToEmoji.emoji(for: "shrimp", preferredCategory: .animalsAndNature) // 🦐
 ```
 
 ## Localization
