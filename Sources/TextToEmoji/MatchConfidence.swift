@@ -1,7 +1,7 @@
 import Foundation
 
 extension TextToEmoji {
-    public enum MatchAccuracy: Equatable {
+    public enum MatchConfidence: Equatable {
         /// String must match at least 50%. Not very accurate.
         case low
         /// String must match at least 70%. Accurate.
