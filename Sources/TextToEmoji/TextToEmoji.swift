@@ -31,10 +31,10 @@ public struct TextToEmoji {
     public func emoji(
         for text: String,
         preferredCategory: EmojiCategory? = nil,
-        accuracy: MatchAccuracy = .medium
+        confidence: MatchConfidence = .medium
     ) -> String? {
         let input = text.lowercased()
-        return localizedEmoji(for: input, category: preferredCategory, accuracy: accuracy)
+        return localizedEmoji(for: input, category: preferredCategory, confidence: confidence)
     }
     
     /**
@@ -54,11 +54,11 @@ public struct TextToEmoji {
     public func emoji(
         for text: String,
         preferredCategory: EmojiCategory? = nil,
-        accuracy: MatchAccuracy = .medium,
+        confidence: MatchConfidence = .medium,
         completion: @escaping (_ emoji: String?) -> Void
     ) {
         Task {
-            let result = await emoji(for: text, preferredCategory: preferredCategory, accuracy: accuracy)
+            let result = await emoji(for: text, preferredCategory: preferredCategory, confidence: confidence)
             completion(result)
         }
     }
@@ -79,12 +79,12 @@ public struct TextToEmoji {
     public func emoji(
         for text: String,
         preferredCategory: EmojiCategory? = nil,
-        accuracy: MatchAccuracy = .medium
+        confidence: MatchConfidence = .medium
     ) async -> String? {
         await withCheckedContinuation { continuation in
             globalDispatchQueue.executeAsync {
                 let input = text.lowercased()
-                let emoji = localizedEmoji(for: input, category: preferredCategory, accuracy: accuracy)
+                let emoji = localizedEmoji(for: input, category: preferredCategory, confidence: confidence)
                 mainDispatchQueue.executeAsync {
                     continuation.resume(returning: emoji)
                 }
@@ -99,7 +99,7 @@ private extension TextToEmoji {
     func localizedEmoji(
         for text: String,
         category: EmojiCategory?,
-        accuracy: MatchAccuracy
+        confidence: MatchConfidence
     ) -> String? {
         let tableName = category?.tableName ?? "All"
         guard
@@ -112,7 +112,7 @@ private extension TextToEmoji {
             .map { (key: $0, score: stringMatchScoreProvider.provideScore(text, $0)) }
             .sorted(by: { $0.score < $1.score })
 
-        let accuracyPercentage = 1.0 - accuracy.percentage
+        let accuracyPercentage = 1.0 - confidence.percentage
         
         guard
             let bestMatch = scores.first,
