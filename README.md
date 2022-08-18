@@ -2,7 +2,7 @@
    <img width="180" src=".github/assets/icon-readme.png" alt="Text To Emoji - Logo">
 </p>
 <p align="center">
-   <strong>Text to Emoji</strong><BR>
+   <strong>Text to Emoji</strong><br />
    Not sure why you'd need this.
 </p>
 <p align="center">
@@ -18,10 +18,40 @@
 </p>
 
 ## Installation
-`Xcode` → `File` → `Add packages...` and enter the url of this package: `https://github.com/WouterWisse/text-to-emoji`.
+`Xcode` → `File` → `Add packages...` → enter the url of this repository → `https://github.com/WouterWisse/text-to-emoji`
 
 ## How to use
-TBD
+**Basic initialization**<br />
+Use the default configuration.
+```swift
+let textToEmoji = TextToEmoji()
+```
+
+**Advanced initialization**<br />
+You could pass your own `DispatchQueue` if you'd like.
+```swift
+let textToEmoji = TextToEmoji(
+   globalDispatchQueue: DispatchQueue.global(), // a global dispatch queue to do the heavy lifting
+   mainDispatchQueue: DispatchQueue.main // a main queue to return the emoji on
+)
+```
+
+**Simple, synchronous**<br />
+```swift
+let emoji = textToEmoji.emoji(for: "tomato") // 🍅
+```
+
+**Simple, asynchronous with completion**<br />
+```swift
+let emoji = textToEmoji.emoji(for: "tomato", completion: { emoji in
+            print(emoji) // 🍅
+        })
+```
+
+**Simple, async await**<br />
+```swift
+let emoji = await textToEmoji.emoji(for: "tomato") // 🍅
+```
 
 ## Localization
 TBD
