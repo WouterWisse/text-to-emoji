@@ -7,9 +7,6 @@ struct ContentView: View {
     @State private var text: String = ""
     @State private var emoji: String = "🤷‍♂️"
     
-    private let accuracyOptions: [TextToEmoji.MatchAccuracy] = [.low, .medium, .high, .perfect]
-    @State private var selectedAccuracyOption = 1
-    
     private let categoryOptions: [TextToEmoji.EmojiCategory] = [
         .smileysAndPeople,
         .animalsAndNature,
@@ -24,26 +21,6 @@ struct ContentView: View {
     
     var body: some View {
         VStack(alignment: .center) {
-            VStack {
-                Text("Accuracy")
-                    .fontWeight(.semibold)
-                    .foregroundColor(.primary)
-                
-                Picker("Accuracy", selection: $selectedAccuracyOption) {
-                    Text("Low").tag(0)
-                    Text("Medium").tag(1)
-                    Text("High").tag(2)
-                    Text("Perfect").tag(3)
-                }
-                .pickerStyle(.segmented)
-                
-                Text("The higher the accuracy, the more accurate the results.\nA higher accuracy is less forgiving in terms of typo's.")
-                    .multilineTextAlignment(.center)
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-            }
-            .padding()
-            
             VStack {
                 Text("Preferred Category")
                     .fontWeight(.semibold)
@@ -75,12 +52,10 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                     .onSubmit {
                         Task {
-                            let accuracy = accuracyOptions[selectedAccuracyOption]
                             let category = selectedCategoryOption < 0 ? nil : categoryOptions[selectedCategoryOption]
                             self.emoji = await textToEmoji.emoji(
                                 for: text,
-                                preferredCategory: category,
-                                accuracy: accuracy
+                                preferredCategory: category
                             ) ?? "🤷‍♂️"
                         }
                     }
