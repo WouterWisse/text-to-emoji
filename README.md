@@ -63,7 +63,15 @@ let shrimp = textToEmoji.emoji(for: "shrimp", preferredCategory: .animalsAndNatu
 ```
 
 ## Localization
-TBD
+| Languages    | Supported   |
+|--------------|-------------|
+| 🇬🇧 English   | ✅          |
+| 🇳🇱 Dutch     | Coming soon |
+| 🇩🇪 Deutsch   | Coming soon |
+| 🇪🇸 Español   | Coming soon |
+| 🇫🇷 Français  | Coming soon |
+| 🇮🇹 Italiano  | Coming soon |
+| 🇵🇹 Português | Coming soon |
 
 ## Contribution
-TBD
+Feel free to contribute to this project via a `pull-request`.
