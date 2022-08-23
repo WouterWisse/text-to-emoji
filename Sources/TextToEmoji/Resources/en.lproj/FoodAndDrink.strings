@@ -145,11 +145,11 @@
 "baguette" = "🥖";
 "stack" = "🥞";
 
-// 🌶 Peppers
+// 🌶 Pepper
 "pepper" = "🌶️";
 "jalapeno" = "🌶️";
 
-// 🥬 Leafy Greens
+// 🥬 Leafy Green
 "greens" = "🥬";
 "spinach" = "🥬";
 "kale" = "🥬";
@@ -162,7 +162,7 @@
 "rapini" = "🥬";
 "turnip" = "🥬";
 
-// 🌿 Herbs
+// 🌿 Herb
 "coriander" = "🌿";
 "basil" = "🌿";
 "parsley" = "🌿";
@@ -176,7 +176,7 @@
 "dill" = "🌿";
 "oregano" = "🌿";
 
-// 🍄 Mushrooms
+// 🍄 Mushroom
 "shiitake" = "🍄";
 "crimino" = "🍄";
 "portabello" = "🍄";
@@ -190,7 +190,7 @@
 "porcino" = "🍄";
 "porel" = "🍄";
 
-// 🧀 Cheeses
+// 🧀 Cheese
 "cheese" = "🧀";
 "mozzarella" = "🧀";
 "parmesan" = "🧀";
@@ -203,60 +203,131 @@
 "provolone" = "🧀";
 "monterey jack" = "🧀";
 
-// 🍺 Beers
+// 🍺 Beer
 "beer" = "🍺";
 "ale" = "🍺";
 "ipa" = "🍺";
 "pint" = "🍺";
 "6 pack" = "🍺";
 
+// 🥓 Bacon
+"turkey bacon" = "🥓";
+"panchetta" = "🥓";
+"speck" = "🥓";
+
+// 🍖 Boney Meat
 "ribs" = "🍖";
-// TODO: Many more
+"ham" = "🍖";
+
+// 🍗 Poultry
 "chicken" = "🍗";
 "turkey" = "🍗";
-// TODO: Many More
+
+// 🥩 Red meat
 "steak" = "🥩";
-// TODO: Many More
+"beef" = "🥩";
+
+// 🥗 Salad
 "salad" = "🥗";
-// TODO: Many more
+
+// 🥫 Sause
 "tomato saus" = "🥫";
-// TODO: Many more
+
+// 🍚 Rice
 "rice" = "🍚";
+"white rice" = "🍚";
+"brown rice" = "🍚";
+"black rice" = "🍚";
+"risotto rice" = "🍚";
+"basmati rice" = "🍚";
+
+// 🍛 Curry
 "curry" = "🍛";
+
+// 🍠 Sweet potatoe
 "sweet potato" = "🍠";
+
+// 🍤 Shrimp
 "shrimp" = "🍤";
+"tempura shrimp" = "🍤";
+"fried shrimp" = "🍤";
+"deepfried shrimp" = "🍤";
+
+// 🥡 Takeout
 "takeout" = "🥡";
-"mussle" = "🦪";
+
+// 🍩 Donut
 "donut" = "🍩";
+
+// 🦪 Clam
+"mussle" = "🦪";
+"clam" = "🦪";
+
+// 🍪 Cookie
 "oreo" = "🍪";
-// TODO: Many more
+
+// 🍫 Chocolate
 "chocolate" = "🍫";
-// TODO: Many more
+"twix" = "🍫";
+"mars" = "🍫";
+"snickers" = "🍫";
+"m&m's" = "🍫";
+"m&m" = "🍫";
+
+// 🍯 Honey and Syrup
 "honey" = "🍯";
 "maple syrup" = "🍯";
-// TODO: More
-"baby" = "🍼";
+
+// 🍼 Baby
+"baby milk" = "🍼";
+"breastfeeding" = "🍼";
+
+// 🥛 Milk
 "milk" = "🥛";
+"soy milk" = "🥛";
+"almond milk" = "🥛";
+"chocolate milk" = "🥛";
+
+// ☕️ Coffee
 "coffee" = "☕️";
+"americano" = "☕️";
+"latte" = "☕️";
 "espresso" = "☕️";
 "cappuccino" = "☕️";
-// TODO: More
+
+// 🫖 Tea
 "tea" = "🫖";
+
+// 🍾 Bubble
 "champagne" = "🍾";
 "prosecco" = "🍾";
-// TODO: More
+
+// 🍷 Wine
 "wine" = "🍷";
+
+// 🍸 Cocktail
 "cocktail" = "🍸";
+
+// 🍹 Tropical Drink
 "smoothie" = "🍹";
 
+// 🥃 Whikey
 "whiskey" = "🥃";
 "whisky" = "🥃";
 "brandy" = "🥃";
 "scotch" = "🥃";
-// TODO: More
-"lemonade" = "🥤";
-// TODO: more
+
+// 🥤 Soda
+"soda" = "🥤";
+"cola" = "🥤";
+"coke" = "🥤";
+
+// 🧋 Iced Beverage
 "starbucks" = "🧋";
-// TODO: More
+"iced coffee" = "🧋";
+"frappuccino" = "🧋";
+
+// 🧃 Juice
 "juice box" = "🧃";
-// TODO: More
+"apple juice" = "🧃";
+"orange juice" = "🧃";
