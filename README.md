@@ -11,7 +11,7 @@
 </p>
 
 ## Installation
-`Xcode` → `File` → `Add packages...` → enter the url of this repository → `https://github.com/WouterWisse/text-to-emoji`
+`Xcode` → `File` → `Add packages...` → enter url → `https://github.com/WouterWisse/text-to-emoji`
 
 ## How to use
 **Basic initialization**<br />
