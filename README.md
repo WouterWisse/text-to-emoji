@@ -9,11 +9,6 @@
       <img src="https://img.shields.io/badge/contact%20-@wouterwisse-blue.svg">
    </a>
 </p>
-<p align="center">
-   <a href="https://www.buymeacoffee.com/wouterwisse" target="_blank">
-      <img width="180" src=".github/assets/bmc-button.png" alt="Buy me a Coffee">
-   </a>
-</p>
 
 ## Installation
 `Xcode` → `File` → `Add packages...` → enter the url of this repository → `https://github.com/WouterWisse/text-to-emoji`
@@ -73,3 +68,8 @@ let shrimp = textToEmoji.emoji(for: "shrimp", preferredCategory: .animalsAndNatu
 
 ## Contribution
 Feel free to contribute to this project via a `pull-request`.
+
+## Keep me caffeinated
+   <a href="https://www.buymeacoffee.com/wouterwisse" target="_blank">
+      <img width="220" src=".github/assets/bmc-button.png" alt="Buy me a Coffee">
+   </a>
