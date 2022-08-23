@@ -31,8 +31,7 @@ public struct TextToEmoji {
         for text: String,
         preferredCategory: EmojiCategory? = nil
     ) -> String? {
-        let input = text.lowercased()
-        return localizedEmoji(for: input, category: preferredCategory)
+        localizedEmoji(for: text, category: preferredCategory)
     }
     
     /**
@@ -77,8 +76,7 @@ public struct TextToEmoji {
     ) async -> String? {
         await withCheckedContinuation { continuation in
             globalDispatchQueue.executeAsync {
-                let input = text.lowercased()
-                let emoji = localizedEmoji(for: input, category: preferredCategory)
+                let emoji = localizedEmoji(for: text, category: preferredCategory)
                 mainDispatchQueue.executeAsync {
                     continuation.resume(returning: emoji)
                 }
@@ -95,6 +93,7 @@ private extension TextToEmoji {
         category: EmojiCategory?
     ) -> String? {
         let tableName = category?.tableName ?? "All"
+        let input = text.lowercased()
         guard
             let path = Bundle.module.path(forResource: tableName, ofType: "strings"),
             let dictionary = NSDictionary(contentsOfFile: path),
@@ -102,7 +101,7 @@ private extension TextToEmoji {
         else { return nil }
         
         let scores = allKeys
-            .map { (key: $0, score: stringMatchScoreProvider.provideScore(text, $0)) }
+            .map { (key: $0, score: stringMatchScoreProvider.provideScore(input, $0)) }
             .sorted(by: { $0.score < $1.score })
 
         guard
