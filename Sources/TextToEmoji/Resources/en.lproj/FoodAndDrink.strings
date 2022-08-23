@@ -218,9 +218,13 @@
 // 🍖 Boney Meat
 "ribs" = "🍖";
 "ham" = "🍖";
+"pork chop" = "🍖";
 
 // 🍗 Poultry
 "chicken" = "🍗";
+"chicken breast" = "🍗";
+"chicken thigh" = "🍗";
+"chicken wings" = "🍗";
 "turkey" = "🍗";
 
 // 🥩 Red meat
@@ -325,6 +329,7 @@
 // 🧋 Iced Beverage
 "starbucks" = "🧋";
 "iced coffee" = "🧋";
+"iced latte" = "🧋";
 "frappuccino" = "🧋";
 
 // 🧃 Juice
