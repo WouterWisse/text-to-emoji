@@ -15,7 +15,6 @@
 
 ## How to use
 **Basic initialization**<br />
-Use the default configuration.
 ```swift
 let textToEmoji = TextToEmoji()
 ```
@@ -47,7 +46,8 @@ let emoji = await textToEmoji.emoji(for: "tomato") // 🍅
 ```
 
 **Advanced, with a preferred emoji category**<br />
-With `preferredCategory`, you can give a certain emoji category a higher priority. This can be very useful if you already know the context in which you are searching. For example, when looking for the word `shrimp`, two matching emoji's would be: `🦐` and `🍤`. By passing `.foodAndDrink` as the `preferredCategory`, the only match will be `🍤`, since the preferred category is about food (and drink). Passing `.animalsAndNature` would result in `🦐`. See `EmojiCategory.swift` for all categories.
+With `preferredCategory`, you can give a certain emoji category a higher priority. This can be very useful if you already know the context in which you are searching. For example, when looking for the word `shrimp`, two matching emoji's would be: `🦐` and `🍤`.<br/>
+By passing `.foodAndDrink` as the `preferredCategory`, the only match will be `🍤`, since the preferred category is about food (and drink). Passing `.animalsAndNature` would result in `🦐`. See `EmojiCategory.swift` for all categories.
 ```swift
 let shrimp = textToEmoji.emoji(for: "shrimp", preferredCategory: .foodAndDrink) // 🍤
 ```
