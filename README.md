@@ -1,10 +1,8 @@
-<p align="center">
-   <img width="180" src=".github/assets/icon-readme.png" alt="Text To Emoji - Logo">
-</p>
-<p align="center">
-   <strong>Text to Emoji</strong><br />
-   Not sure why you'd need this.
-</p>
+<div align="center">
+   <img width="400" src="https://github.com/WouterWisse/text-to-emoji/blob/main/.github/assets/logo-light.png?raw=true#gh-light-mode-only" alt="Text To Emoji - Logo">
+   <img width="400" src="https://github.com/WouterWisse/text-to-emoji/blob/main/.github/assets/logo-dark.png?raw=true#gh-dark-mode-only" alt="Text To Emoji - Logo">
+</div>
+
 <p align="center">
    <img src="https://github.com/WouterWisse/text-to-emoji/actions/workflows/main.yml/badge.svg">
    <a href="https://www.twitter.com/wouterwisse" target="_blank">
