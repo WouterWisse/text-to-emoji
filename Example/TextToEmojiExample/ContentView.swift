@@ -38,7 +38,7 @@ struct ContentView: View {
                 }
                 .pickerStyle(.automatic)
                 
-                Text("The preferred category will be given a higher priorty when multiple emoji’s match the given text.\nFor example: “Shrimp” could match 🦐 and 🍤.\nThe latter is returned when Food & Drink is selected.")
+                Text("The preferred category will be given a higher priorty when multiple emoji’s match the given text.\n\nFor example: `'Shrimp'` could match `🦐` and `🍤`.\n\n**Food & Drink** will return `🍤`\n**Animals & Nature** will return `🦐`")
                     .multilineTextAlignment(.center)
                     .font(.caption)
                     .foregroundColor(.secondary)
