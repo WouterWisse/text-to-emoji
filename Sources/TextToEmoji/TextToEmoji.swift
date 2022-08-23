@@ -92,8 +92,17 @@ private extension TextToEmoji {
         for text: String,
         category: EmojiCategory?
     ) -> String? {
-        let tableName = category?.tableName ?? "All"
         let input = text.lowercased()
+        
+        if let preferredTable = category?.tableName,
+            let preferredEmoji = emoji(for: input, from: preferredTable) {
+            return preferredEmoji
+        }
+        
+        return emoji(for: input, from: "All")
+    }
+    
+    func emoji(for text: String, from tableName: String) -> String? {
         guard
             let path = Bundle.module.path(forResource: tableName, ofType: "strings"),
             let dictionary = NSDictionary(contentsOfFile: path),
@@ -101,7 +110,7 @@ private extension TextToEmoji {
         else { return nil }
         
         let scores = allKeys
-            .map { (key: $0, score: stringMatchScoreProvider.provideScore(input, $0)) }
+            .map { (key: $0, score: stringMatchScoreProvider.provideScore(text, $0)) }
             .sorted(by: { $0.score < $1.score })
 
         guard
