@@ -1,6 +1,6 @@
 <div align="center">
-   <img width="400" src="https://github.com/WouterWisse/text-to-emoji/blob/main/.github/assets/logo-light.png?raw=true#gh-light-mode-only" alt="Text To Emoji - Logo">
-   <img width="400" src="https://github.com/WouterWisse/text-to-emoji/blob/main/.github/assets/logo-dark.png?raw=true#gh-dark-mode-only" alt="Text To Emoji - Logo">
+   <img width="800" src="https://github.com/WouterWisse/text-to-emoji/blob/main/.github/assets/logo-light@2x.png?raw=true#gh-light-mode-only" alt="Text To Emoji - Logo">
+   <img width="800" src="https://github.com/WouterWisse/text-to-emoji/blob/main/.github/assets/logo-dark.png?raw=true#gh-dark-mode-only" alt="Text To Emoji - Logo">
 </div>
 
 <p align="center">
