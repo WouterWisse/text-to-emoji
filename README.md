@@ -4,8 +4,8 @@
 </div>
 
 <div align="center">
-   <img width="120" src=".github/assets/github-swift-package-logo-light@2x.png?raw=true#gh-light-mode-only" alt="Text To Emoji - Logo">
-   <img width="120" src=".github/assets/github-swift-package-logo-dark@2x.png?raw=true#gh-dark-mode-only" alt="Text To Emoji - Logo">
+   <img height="24" src=".github/assets/github-swift-package-logo-light@2x.png?raw=true#gh-light-mode-only" alt="Text To Emoji - Logo">
+   <img height="24" src=".github/assets/github-swift-package-logo-dark@2x.png?raw=true#gh-dark-mode-only" alt="Text To Emoji - Logo">
 </div>
 
 <br />
