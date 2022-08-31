@@ -94,12 +94,19 @@ private extension TextToEmoji {
     ) -> String? {
         let input = text.lowercased()
         
-        if let preferredTable = category?.tableName,
-            let preferredEmoji = emoji(for: input, from: preferredTable) {
-            return preferredEmoji
+        var allTables = EmojiCategory.allCases.map { $0.tableName }
+        if let category = category, let index = allTables.firstIndex(of: category.tableName) {
+            allTables.remove(at: index)
+            allTables.insert(category.tableName, at: 0)
         }
         
-        return emoji(for: input, from: "All")
+        for table in allTables {
+            if let emoji = emoji(for: input, from: table) {
+                return emoji
+            }
+        }
+        
+        return nil
     }
     
     func emoji(for text: String, from tableName: String) -> String? {
