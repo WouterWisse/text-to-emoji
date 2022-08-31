@@ -238,3 +238,19 @@
 "placard" = "🪧";
 "identification card" = "🪪";
 "potable water" = "🚰";
+
+// Custom
+
+// 🧼 Soap
+"hand soap" = "🧼";
+"dish soap" = "🧼";
+"shampoo" = "🧼";
+
+// 🧴 Lotion
+"shampoo" = "🧴";
+"conditioner" = "🧴";
+
+// 🧻 Roll of paper
+"toilet paper" = "🧻";
+"kitchen paper" = "🧻";
+"kitchen towel" = "🧻";
