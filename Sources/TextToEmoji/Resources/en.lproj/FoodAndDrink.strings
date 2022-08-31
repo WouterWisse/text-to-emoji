@@ -133,16 +133,51 @@
 
 // MARK: Custom
 
+// 🍊 Orange
 "orange" = "🍊";
+"blood orange" = "🍊";
+"grapefruit" = "🍊";
+
+// 🍎 Apple
 "apple" = "🍎";
+"apples" = "🍎";
+
+// 🍒 Cherry
 "cherry" = "🍒";
+
+// 🍓 Strawberry
 "strawberries" = "🍓";
+"strawberry jam" = "🍓";
+
+// 🫐 Blueberry
+"blueberry" = "🫐";
+"blueberry jam" = "🫐";
+
+// 🥝 Kiwi
+"kiwi" = "🥝";
+
+// 🥑 Avocado
 "guacamole" = "🥑";
+"guac" = "🥑";
+
+// 🥔 Potatie
 "chips" = "🥔";
+
+// 🌽 Corn
 "corn" = "🌽";
+
+// 🥒 Cucumber
 "zucchini" = "🥒";
+
+// 🥜 Peanut
 "peanut Butter" = "🥜";
+"almond Butter" = "🥜";
+"nutButter" = "🥜";
+
+// 🥖 Baguette
 "baguette" = "🥖";
+
+// 🥞 Pancake
 "stack" = "🥞";
 
 // 🌶 Pepper
@@ -336,3 +371,10 @@
 "juice box" = "🧃";
 "apple juice" = "🧃";
 "orange juice" = "🧃";
+
+// 🐕 Dog
+"dog food" = "🐕";
+
+// 🐈 Cat
+"cat food" = "🐈";
+
