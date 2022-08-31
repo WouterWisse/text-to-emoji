@@ -1,7 +1,7 @@
 import Foundation
 
 extension TextToEmoji {
-    public enum EmojiCategory: Equatable {
+    public enum EmojiCategory: Equatable, CaseIterable {
         /// 😃 Smileys & People - Emojis for smileys, people, families, hand gestures, clothing and accessories.
         case smileysAndPeople
         /// 🐻 Animals & Nature - Emojis for animals, nature, and weather.
