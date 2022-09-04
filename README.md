@@ -76,7 +76,7 @@ See `EmojiCategory.swift` for all categories.
 | 🇵🇹 Português | Coming soon |
 
 ## Contribution
-Feel free to contribute to this project via a `pull-request`.
+Feel free to contribute to this project via a `pull request`.
 
 ## Keep me caffeinated
    <a href="https://www.buymeacoffee.com/wouterwisse" target="_blank">
