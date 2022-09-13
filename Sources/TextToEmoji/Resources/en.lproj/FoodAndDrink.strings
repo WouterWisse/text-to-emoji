@@ -249,11 +249,19 @@
 "turkey bacon" = "🥓";
 "panchetta" = "🥓";
 "speck" = "🥓";
+"bacon strips" = "🥓";
 
 // 🍖 Boney Meat
 "ribs" = "🍖";
 "ham" = "🍖";
+"pork" = "🍖";
 "pork chop" = "🍖";
+"pork belly" = "🍖";
+"pork rib roast" = "🍖";
+"pork ribs" = "🍖";
+"pork steak" = "🍖";
+"pork tenderloin" = "🍖";
+"pork shoulder" = "🍖";
 
 // 🍗 Poultry
 "chicken" = "🍗";
@@ -261,10 +269,20 @@
 "chicken thigh" = "🍗";
 "chicken wings" = "🍗";
 "turkey" = "🍗";
+"turkey breast" = "🍗";
+"turkey thigh" = "🍗";
 
 // 🥩 Red meat
 "steak" = "🥩";
 "beef" = "🥩";
+"ribeye" = "🥩";
+"flank" = "🥩";
+"new york strip" = "🥩";
+"skirt" = "🥩";
+"prime rib" = "🥩";
+"tenderloin" = "🥩";
+"sirloin" = "🥩";
+"porterhouse" = "🥩";
 
 // 🥗 Salad
 "salad" = "🥗";
@@ -310,6 +328,8 @@
 "twix" = "🍫";
 "mars" = "🍫";
 "snickers" = "🍫";
+"bounty" = "🍫";
+"lion" = "🍫";
 "m&m's" = "🍫";
 "m&m" = "🍫";
 
@@ -377,4 +397,3 @@
 
 // 🐈 Cat
 "cat food" = "🐈";
-
