@@ -6,6 +6,8 @@ public enum TextToEmojiError: Error {
 
 public struct TextToEmoji {
     private let stringMatchScoreProvider: StringMatchScoreProvider = .default
+    public init() {}
+    
     /**
      Will try to match the given text with an emoji.
      
