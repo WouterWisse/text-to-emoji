@@ -4,53 +4,54 @@ import XCTest
 final class TextToEmojiTests: XCTestCase {
     
     var sut: TextToEmoji!
-    var mockDispatchQueueExecutor: MockDispatchQueueExecutor!
     
     // MARK: Setup / Teardown
     
     override func setUpWithError() throws {
         try super.setUpWithError()
-        mockDispatchQueueExecutor = MockDispatchQueueExecutor()
-        mockDispatchQueueExecutor.shouldInvokeExecuteAsyncWork = true
-        
-        sut = TextToEmoji(
-            globalDispatchQueue: mockDispatchQueueExecutor,
-            mainDispatchQueue: mockDispatchQueueExecutor
-        )
+        sut = TextToEmoji()
     }
     
     override func tearDownWithError() throws {
         try super.tearDownWithError()
-        mockDispatchQueueExecutor = nil
         sut = nil
     }
     
     // MARK: Tests
     
-    func test_emoji_withValidText_shouldReturnEmoji() {
-        let emoji = sut.emoji(for: "lemon")
-        
+    func test_emoji_withValidText_shouldReturnEmoji() async throws {
+        let emoji = try await sut.emoji(for: "lemon")
+
         XCTAssertEqual(emoji, "🍋")
     }
     
-    func test_emoji_withInvalidText_shouldReturnNil() {
-        let emoji = sut.emoji(for: "abc123")
-        
-        XCTAssertNil(emoji)
+    func test_emoji_withInvalidText_shouldReturnNil() async throws {
+        await XCTAssertThrowsError(try await sut.emoji(for: "abc123"))
     }
     
-    func test_emoji_withTextAndPreferredCategory_shouldReturnDifferentEmoji() {
-        let emoji = sut.emoji(for: "chicken")
-        let preferredEmoji = sut.emoji(for: "chicken", preferredCategory: .foodAndDrink)
+    func test_emoji_withTextAndPreferredCategory_shouldReturnDifferentEmoji() async throws {
+        let nature = try await sut.emoji(for: "shrimp", preferredCategory: .animalsAndNature)
+        let food = try await sut.emoji(for: "shrimp", preferredCategory: .foodAndDrink)
         
-        XCTAssertEqual(emoji, "🐔")
-        XCTAssertEqual(preferredEmoji, "🍗")
-        XCTAssertNotEqual(emoji, preferredEmoji)
+        XCTAssertEqual(nature, "🦐")
+        XCTAssertEqual(food, "🍤")
+        XCTAssertNotEqual(nature, food)
     }
-    
-    func test_emoji_withTextAndCompletion_shouldReturnEmoji() {
-        sut.emoji(for: "tomato", completion: { emoji in
-            XCTAssertEqual(emoji, "🍅")
-        })
+}
+
+private extension XCTest {
+    func XCTAssertThrowsError<T: Sendable>(
+        _ expression: @autoclosure () async throws -> T,
+        _ message: @autoclosure () -> String = "",
+        file: StaticString = #filePath,
+        line: UInt = #line,
+        _ errorHandler: (_ error: Error) -> Void = { _ in }
+    ) async {
+        do {
+            _ = try await expression()
+            XCTFail(message(), file: file, line: line)
+        } catch {
+            errorHandler(error)
+        }
     }
 }
