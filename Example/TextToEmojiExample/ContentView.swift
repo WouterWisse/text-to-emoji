@@ -53,7 +53,7 @@ struct ContentView: View {
                     .onSubmit {
                         Task {
                             let category = selectedCategoryOption < 0 ? nil : categoryOptions[selectedCategoryOption]
-                            self.emoji = await textToEmoji.emoji(
+                            self.emoji = try await textToEmoji.emoji(
                                 for: text,
                                 preferredCategory: category
                             ) ?? "🤷‍♂️"
