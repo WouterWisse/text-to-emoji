@@ -1,6 +1,6 @@
 import Foundation
 
-enum TextToEmojiError: Error {
+public enum TextToEmojiError: Error {
     case noMatchFound
 }
 
