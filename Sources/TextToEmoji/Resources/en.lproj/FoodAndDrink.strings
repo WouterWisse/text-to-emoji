@@ -162,6 +162,7 @@
 
 // 🥔 Potato
 "chips" = "🥔";
+"crisps" = "🥔";
 
 // 🌽 Corn
 "corn" = "🌽";
@@ -196,6 +197,10 @@
 "gandelion" = "🥬";
 "rapini" = "🥬";
 "turnip" = "🥬";
+
+// 🥦 Broccoli
+"vegs" = "🥦";
+"veggies" = "🥦";
 
 // 🌿 Herb
 "coriander" = "🌿";
@@ -262,6 +267,10 @@
 "pork steak" = "🍖";
 "pork tenderloin" = "🍖";
 "pork shoulder" = "🍖";
+"sliced pork" = "🍖";
+"lamb" = "🍖";
+"lamb chop" = "🍖";
+"lamb rack" = "🍖";
 
 // 🍗 Poultry
 "chicken" = "🍗";
@@ -271,8 +280,13 @@
 "turkey" = "🍗";
 "turkey breast" = "🍗";
 "turkey thigh" = "🍗";
+"sliced turkey" = "🍗";
 
 // 🥩 Red meat
+"deli" = "🥩";
+"deli meat" = "🥩";
+"red meat" = "🥩";
+"meat" = "🥩";
 "steak" = "🥩";
 "beef" = "🥩";
 "ribeye" = "🥩";
@@ -283,6 +297,20 @@
 "tenderloin" = "🥩";
 "sirloin" = "🥩";
 "porterhouse" = "🥩";
+
+// 🥚 Egg
+"eggs" = "🥚";
+"organic eggs" = "🥚";
+
+// 🥣 Bowl
+"soup" = "🥣";
+"yoghurt" = "🥣";
+"greek yoghurt" = "🥣";
+"greek style yoghurt" = "🥣";
+"soy yoghurt" = "🥣";
+"quark" = "🥣";
+"cereal" = "🥣";
+"granola" = "🥣";
 
 // 🥗 Salad
 "salad" = "🥗";
@@ -339,12 +367,12 @@
 
 // 🍼 Baby
 "baby milk" = "🍼";
-"breastfeeding" = "🍼";
 
 // 🥛 Milk
 "milk" = "🥛";
 "soy milk" = "🥛";
 "almond milk" = "🥛";
+"pea milk" = "🥛";
 "chocolate milk" = "🥛";
 
 // ☕️ Coffee
@@ -353,6 +381,8 @@
 "latte" = "☕️";
 "espresso" = "☕️";
 "cappuccino" = "☕️";
+"coffee beans" = "☕️";
+"coffee grind" = "☕️";
 
 // 🫖 Tea
 "tea" = "🫖";
@@ -380,6 +410,11 @@
 "soda" = "🥤";
 "cola" = "🥤";
 "coke" = "🥤";
+"fanta" = "🥤";
+"7up" = "🥤";
+"sprite" = "🥤";
+"dr pepper" = "🥤";
+"pepsi" = "🥤";
 
 // 🧋 Iced Beverage
 "starbucks" = "🧋";
@@ -388,6 +423,7 @@
 "frappuccino" = "🧋";
 
 // 🧃 Juice
+"juice" = "🧃";
 "juice box" = "🧃";
 "apple juice" = "🧃";
 "orange juice" = "🧃";
@@ -397,3 +433,14 @@
 
 // 🐈 Cat
 "cat food" = "🐈";
+
+// 🌾 Wheat
+"granola bar" = "🌾";
+"buckwheat" = "🌾";
+"bulgur" = "🌾";
+"millet" = "🌾";
+"flour" = "🌾";
+"oatmeal" = "🌾";
+"oats" = "🌾";
+"instant oatmeal" = "🌾";
+"instant oats" = "🌾";
