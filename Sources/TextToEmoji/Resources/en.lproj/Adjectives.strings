@@ -1,0 +1,11 @@
+// MARK: - Sizes
+"mini" = "mini";
+"baby" = "baby";
+"small" = "small";
+"medium" = "medium";
+"big" = "big";
+"large" = "large";
+"huge" = "huge";
+
+// MARK: - Produce
+"organic" = "organic";

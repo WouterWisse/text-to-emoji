@@ -25,6 +25,12 @@ final class TextToEmojiTests: XCTestCase {
         XCTAssertEqual(emoji, "🍋")
     }
     
+    func test_emoji_withValidTextWithAdjectives_shouldReturnEmoji() async throws {
+        let emoji = try await sut.emoji(for: "large organic avocado")
+        
+        XCTAssertEqual(emoji, "🥑")
+    }
+    
     func test_emoji_withInvalidText_shouldReturnNil() async throws {
         await XCTAssertThrowsError(try await sut.emoji(for: "abc123"))
     }

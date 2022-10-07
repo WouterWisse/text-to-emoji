@@ -34,7 +34,7 @@ private extension TextToEmoji {
         category: EmojiCategory?
     ) async throws -> String {
         let emojiTask = Task {
-            let input = text.lowercased()
+            let input = text.prepareString()
             
             var allTables = EmojiCategory.allCases.map { $0.tableName }
             if let category = category, let index = allTables.firstIndex(of: category.tableName) {

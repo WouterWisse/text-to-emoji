@@ -156,7 +156,12 @@
 // 🥝 Kiwi
 "kiwi" = "🥝";
 
+// 🥥 Coconut
+"coconut milk" = "🥥";
+
 // 🥑 Avocado
+"avocados" = "🥑";
+"hass avocado" = "🥑";
 "guacamole" = "🥑";
 "guac" = "🥑";
 
@@ -216,6 +221,11 @@
 "dill" = "🌿";
 "oregano" = "🌿";
 
+// Onion 🧅
+"onions" = "🧅";
+"red onion" = "🧅";
+"yellow onion" = "🧅";
+
 // 🍄 Mushroom
 "shiitake" = "🍄";
 "crimino" = "🍄";
@@ -233,15 +243,32 @@
 // 🧀 Cheese
 "cheese" = "🧀";
 "mozzarella" = "🧀";
+"shredded mozzarella" = "🧀";
+"manchego" = "🧀";
 "parmesan" = "🧀";
+"parmesan cheese" = "🧀";
 "cheddar" = "🧀";
 "brie" = "🧀";
 "swiss" = "🧀";
+"swiss cheese" = "🧀";
 "gruyere" = "🧀";
 "feta" = "🧀";
 "gouda" = "🧀";
+"gouda cheese" = "🧀";
 "provolone" = "🧀";
 "monterey jack" = "🧀";
+"grated cheese" = "🧀";
+"sliced cheese" = "🧀";
+"cheese slices" = "🧀";
+"shredded cheese" = "🧀";
+"feta" = "🧀";
+"feta cheese" = "🧀";
+"crumbled feta" = "🧀";
+"american cheese" = "🧀";
+"american cheese slices" = "🧀";
+"goat cheese" = "🧀";
+"sheep cheese" = "🧀";
+"cream cheese" = "🧀";
 
 // 🍺 Beer
 "beer" = "🍺";
@@ -277,6 +304,7 @@
 "chicken breast" = "🍗";
 "chicken thigh" = "🍗";
 "chicken wings" = "🍗";
+"chicken nuggets" = "🍗";
 "turkey" = "🍗";
 "turkey breast" = "🍗";
 "turkey thigh" = "🍗";
@@ -297,10 +325,15 @@
 "tenderloin" = "🥩";
 "sirloin" = "🥩";
 "porterhouse" = "🥩";
+"beef ribeye steak" = "🥩";
+"boneless beef ribeye steak" = "🥩";
+"ground beef" = "🥩";
+"beyond beef" = "🌱";
 
 // 🥚 Egg
 "eggs" = "🥚";
-"organic eggs" = "🥚";
+"just egg" = "🥚";
+"eggwhite" = "🥚";
 
 // 🥣 Bowl
 "soup" = "🥣";
@@ -311,6 +344,10 @@
 "quark" = "🥣";
 "cereal" = "🥣";
 "granola" = "🥣";
+
+// 🧈 Butter
+"salted butter" = "🧈";
+"unsalted butter" = "🧈";
 
 // 🥗 Salad
 "salad" = "🥗";
@@ -374,6 +411,13 @@
 "almond milk" = "🥛";
 "pea milk" = "🥛";
 "chocolate milk" = "🥛";
+"full fat milk" = "🥛";
+"oatly" = "🥛";
+"whole milk" = "🥛";
+"barista milk" = "🥛";
+"cream" = "🥛";
+"heavy cream" = "🥛";
+"whipping cream" = "🥛";
 
 // ☕️ Coffee
 "coffee" = "☕️";
