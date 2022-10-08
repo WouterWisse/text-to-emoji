@@ -244,7 +244,9 @@
 // 🧼 Soap
 "hand soap" = "🧼";
 "dish soap" = "🧼";
-"shampoo" = "🧼";
+
+// Toothbrush
+"toothpaste" = "🪥";
 
 // 🧴 Lotion
 "shampoo" = "🧴";
@@ -254,3 +256,7 @@
 "toilet paper" = "🧻";
 "kitchen paper" = "🧻";
 "kitchen towel" = "🧻";
+"tissues" = "🧻";
+
+// Cigarette 🚬
+"cigarettes" = "🚬";

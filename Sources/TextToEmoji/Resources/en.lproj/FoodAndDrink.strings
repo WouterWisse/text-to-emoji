@@ -243,7 +243,6 @@
 // 🧀 Cheese
 "cheese" = "🧀";
 "mozzarella" = "🧀";
-"shredded mozzarella" = "🧀";
 "manchego" = "🧀";
 "parmesan" = "🧀";
 "parmesan cheese" = "🧀";
@@ -257,15 +256,9 @@
 "gouda cheese" = "🧀";
 "provolone" = "🧀";
 "monterey jack" = "🧀";
-"grated cheese" = "🧀";
-"sliced cheese" = "🧀";
-"cheese slices" = "🧀";
-"shredded cheese" = "🧀";
 "feta" = "🧀";
 "feta cheese" = "🧀";
-"crumbled feta" = "🧀";
 "american cheese" = "🧀";
-"american cheese slices" = "🧀";
 "goat cheese" = "🧀";
 "sheep cheese" = "🧀";
 "cream cheese" = "🧀";
@@ -328,7 +321,6 @@
 "beef ribeye steak" = "🥩";
 "boneless beef ribeye steak" = "🥩";
 "ground beef" = "🥩";
-"beyond beef" = "🌱";
 
 // 🥚 Egg
 "eggs" = "🥚";
@@ -338,22 +330,20 @@
 // 🥣 Bowl
 "soup" = "🥣";
 "yoghurt" = "🥣";
-"greek yoghurt" = "🥣";
-"greek style yoghurt" = "🥣";
-"soy yoghurt" = "🥣";
 "quark" = "🥣";
 "cereal" = "🥣";
 "granola" = "🥣";
 
-// 🧈 Butter
-"salted butter" = "🧈";
-"unsalted butter" = "🧈";
+// Salt 🧂
+"salt" = "🧂";
+"pepper" = "🧂";
 
 // 🥗 Salad
 "salad" = "🥗";
 
 // 🥫 Sause
 "tomato saus" = "🥫";
+"pasta saus" = "🥫";
 
 // 🍚 Rice
 "rice" = "🍚";
@@ -459,6 +449,7 @@
 "sprite" = "🥤";
 "dr pepper" = "🥤";
 "pepsi" = "🥤";
+"mountain dew" = "🥤";
 
 // 🧋 Iced Beverage
 "starbucks" = "🧋";
@@ -488,3 +479,11 @@
 "oats" = "🌾";
 "instant oatmeal" = "🌾";
 "instant oats" = "🌾";
+
+// 🌱 Plant Based
+"tofu" = "🌱";
+"beyond meat" = "🌱";
+"beyond sausage" = "🌱";
+"beyond ground" = "🌱";
+"impossible burger" = "🌱";
+
