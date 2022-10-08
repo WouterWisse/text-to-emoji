@@ -12,6 +12,7 @@
 
 <p align="center">
    <img src="https://github.com/WouterWisse/text-to-emoji/actions/workflows/main.yml/badge.svg">
+   <img src="https://img.shields.io/badge/ios%20-13-orange.svg">
    <a href="https://www.twitter.com/wouterwisse" target="_blank">
       <img src="https://img.shields.io/badge/contact%20-@wouterwisse-blue.svg">
    </a>

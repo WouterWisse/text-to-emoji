@@ -1,0 +1,498 @@
+// 🍔 Food & Drink
+// Emojis for fruit, vegetables, meals, beverages and utensils.
+// Export from: https://emojipedia.org/food-drink/
+
+// MARK: Default
+
+"druiven" = "🍇";
+"meloen" = "🍈";
+"watermeloen" = "🍉";
+"mandarijn" = "🍊";
+"citroen" = "🍋";
+"banaan" = "🍌";
+"ananas" = "🍍";
+"mango" = "🥭";
+"rode appel" = "🍎";
+"groene appel" = "🍏";
+"peer" = "🍐";
+"perzik" = "🍑";
+"kersen" = "🍒";
+"aardbei" = "🍓";
+"blauwe bessen" = "🫐";
+"kiwi" = "🥝";
+"tomaat" = "🍅";
+"olijf" = "🫒";
+"kokosnoot" = "🥥";
+"avocado" = "🥑";
+"aubergine" = "🍆";
+"aardappel" = "🥔";
+"wortel" = "🥕";
+"maiskolf" = "🌽";
+"rode peper" = "🌶️";
+"paprika" = "🫑";
+"komkommer" = "🥒";
+"sla" = "🥬";
+"broccoli" = "🥦";
+"knoflook" = "🧄";
+"ui" = "🧅";
+"paddenstoel" = "🍄";
+"pindas" = "🥜";
+"bonen" = "🫘";
+"kastanje" = "🌰";
+"brood" = "🍞";
+"croissant" = "🥐";
+"stokbrood" = "🥖";
+"flatbread" = "🫓";
+"pretzel" = "🥨";
+"bagel" = "🥯";
+"pannenkoeken" = "🥞";
+"wafel" = "🧇";
+"kaas" = "🧀";
+"vlees op bot" = "🍖";
+"gevogelte poot" = "🍗";
+"stuk vlees" = "🥩";
+"spek" = "🥓";
+"hamburger" = "🍔";
+"friet" = "🍟";
+"pizza" = "🍕";
+"hot dog" = "🌭";
+"broodje" = "🥪";
+"taco" = "🌮";
+"burrito" = "🌯";
+"tamale" = "🫔";
+"gevuld flatbread" = "🥙";
+"falafel" = "🧆";
+"ei" = "🥚";
+"koken" = "🍳";
+"pan met eten" = "🥘";
+"bak met eten" = "🍲";
+"fondue" = "🫕";
+"kom met lepel" = "🥣";
+"groene salade" = "🥗";
+"popcorn" = "🍿";
+"boter" = "🧈";
+"zout" = "🧂";
+"eten in blik" = "🥫";
+"bento box" = "🍱";
+"rijst cracker" = "🍘";
+"rijst bal" = "🍙";
+"gekookte rijst" = "🍚";
+"curry rijst" = "🍛";
+"stomende kom" = "🍜";
+"spaghetti" = "🍝";
+"geroosterde zoete aardappel" = "🍠";
+"oden" = "🍢";
+"sushi" = "🍣";
+"gefrituurde garnaal" = "🍤";
+"vis cake met swirl" = "🍥";
+"moon cake" = "🥮";
+"dango" = "🍡";
+"dumpling" = "🥟";
+"fortune cookie" = "🥠";
+"afhaal doos" = "🥡";
+"oester" = "🦪";
+"softijs" = "🍦";
+"sorbetijs" = "🍧";
+"roomijs" = "🍨";
+"donut" = "🍩";
+"koekje" = "🍪";
+"verjaardagstaart" = "🎂";
+"shortcake" = "🍰";
+"cupcake" = "🧁";
+"taart" = "🥧";
+"chocolade reep" = "🍫";
+"snoep" = "🍬";
+"lolly" = "🍭";
+"vla" = "🍮";
+"honing pot" = "🍯";
+"baby fles" = "🍼";
+"glas melk" = "🥛";
+"heet drankje" = "☕";
+"theepot" = "🫖";
+"theepot zonder handvat" = "🍵";
+"sake" = "🍶";
+"fles met bubbels" = "🍾";
+"wijnglas" = "🍷";
+"cocktailglas" = "🍸";
+"tropisch drankje" = "🍹";
+"bierpul" = "🍺";
+"proostende bierpullen" = "🍻";
+"proostende glazen" = "🥂";
+"whiskeyglas" = "🥃";
+"vloeistof gieten" = "🫗";
+"beker met rietje" = "🥤";
+"bubble tea" = "🧋";
+"drink pakje" = "🧃";
+"mate" = "🧉";
+"ijsblokje" = "🧊";
+"eetstokjes" = "🥢";
+"vork met mes met bord" = "🍽️";
+"vork en mes" = "🍴";
+"lepel" = "🥄";
+"pot" = "🫙";
+
+// MARK: Custom
+
+// 🍇 Grapes
+"druif" = "🍇";
+
+// 🍊 Orange
+"sinasappel" = "🍊";
+"bloedsinasappel" = "🍊";
+"grapefruit" = "🍊";
+
+// 🍌 Banana
+"bananen" = "🍌";
+
+// 🍎 Apple
+"appel" = "🍎";
+"appels" = "🍎";
+
+// 🍒 Cherry
+"kers" = "🍒";
+
+// 🍓 Strawberry
+"aardbeien" = "🍓";
+"aardbeienjam" = "🍓";
+
+// 🫐 Blueberry
+"blauwe bes" = "🫐";
+"blauwe bessen jam" = "🫐";
+
+// 🥝 Kiwi
+"kiwis" = "🥝";
+
+// 🥥 Coconut
+"kokosmelk" = "🥥";
+
+// 🥑 Avocado
+"avocado's" = "🥑";
+"avo" = "🥑";
+"guacamole" = "🥑";
+"guac" = "🥑";
+
+// 🥔 Potato
+"aardappelen" = "🥔";
+"chips" = "🥔";
+"aardappelpurree" = "🥔";
+
+// 🌽 Corn
+"mais" = "🌽";
+
+// 🥒 Cucumber
+"komkommers" = "🥒";
+"courgette" = "🥒";
+"courgettes" = "🥒";
+"augurk" = "🥒";
+"augurken" = "🥒";
+
+// 🥜 Peanut
+"pindakaas" = "🥜";
+"amandelboter" = "🥜";
+"notenboter" = "🥜";
+
+// 🥖 Baguette
+"stokbroodje" = "🥖";
+
+// 🥞 Pancake
+"pannenkoek" = "🥞";
+
+// 🌶 Pepper
+"hete peper" = "🌶️";
+"groene peper" = "🌶️";
+"jalapeno" = "🌶️";
+
+// 🥬 Leafy Green
+"sla" = "🥬";
+"salade" = "🥬";
+"ijsbergsla" = "🥬";
+"slamelange" = "🥬";
+"rucola" = "🥬";
+"paksoy" = "🥬";
+"prei" = "🥬";
+
+// 🥦 Broccoli
+"groenten" = "🥦";
+"groentjes" = "🥦";
+
+// 🌿 Herb
+"koriander" = "🌿";
+"basilicum" = "🌿";
+"peterselie" = "🌿";
+"munt" = "🌿";
+"rosemarijn" = "🌿";
+"tijm" = "🌿";
+"sali" = "🌿";
+"bieslook" = "🌿";
+"dille" = "🌿";
+"oregano" = "🌿";
+
+// Onion 🧅
+"uien" = "🧅";
+"rode ui" = "🧅";
+"gele ui" = "🧅";
+"sjalot" = "🧅";
+
+// 🍄 Mushroom
+"paddenstoelen" = "🍄";
+"shiitake" = "🍄";
+"kastanjechampignon" = "🍄";
+"kastanjechampignons" = "🍄";
+"portobello" = "🍄";
+"maitake" = "🍄";
+"oesterzwam" = "🍄";
+"oesterzwammen" = "🍄";
+"enoki" = "🍄";
+"beukenzwam" = "🍄";
+"Trumpet-paddenstoel" = "🍄";
+"hanenkam" = "🍄";
+"gele stekelzwam" = "🍄";
+"porcino" = "🍄";
+"porel" = "🍄";
+
+// 🧀 Cheese
+"mozzarella" = "🧀";
+"manchego" = "🧀";
+"parmezaan" = "🧀";
+"parmezaanse kaas" = "🧀";
+"cheddar" = "🧀";
+"brie" = "🧀";
+"zwitserse kaas" = "🧀";
+"feta" = "🧀";
+"feta kaas" = "🧀";
+"gouda" = "🧀";
+"geitenkaas" = "🧀";
+"shapenkaas" = "🧀";
+"roomkaas" = "🧀";
+"smeerkaas" = "🧀";
+"kaasblokjes" = "🧀";
+"blok kaas" = "🧀";
+"kaasjes" = "🧀";
+
+// 🍺 Beer
+"bier" = "🍺";
+"biertjes" = "🍺";
+"ipa" = "🍺";
+"ipas" = "🍺";
+"6 pack" = "🍺";
+"krat bier" = "🍺";
+"kratje bier" = "🍺";
+"pils" = "🍺";
+"pilsjes" = "🍺";
+"speciaalbier" = "🍺";
+"speciaalbiertjes" = "🍺";
+"heineken" = "🍺";
+"hertog jan" = "🍺";
+"amstel" = "🍺";
+"grolsch" = "🍺";
+
+// 🍖 Boney Meat
+"varken" = "🍖";
+"spareribs" = "🍖";
+"ham" = "🍖";
+"gekookte ham" = "🍖";
+"gerookte ham" = "🍖";
+"varkensvlees" = "🍖";
+"karbonade" = "🍖";
+"schouderkarbonade" = "🍖";
+"buikspek" = "🍖";
+"lam" = "🍖";
+"lamsrack" = "🍖";
+
+// 🍗 Poultry
+"kip" = "🍗";
+"kipfilet" = "🍗";
+"kippendijen" = "🍗";
+"kippenvleugels" = "🍗";
+"kalkoen" = "🍗";
+"kalkoenfilet" = "🍗";
+
+// 🥩 Red meat
+"rund" = "🥩";
+"rundvlees" = "🥩";
+"rood vlees" = "🥩";
+"vlees" = "🥩";
+"steak" = "🥩";
+"biefstuk" = "🥩";
+"ribeye" = "🥩";
+"gehakt" = "🥩";
+
+// 🥓 Bacon
+"bacon" = "🥓";
+"panchetta" = "🥓";
+"speck" = "🥓";
+"ontbijtspel" = "🥓";
+"pannenkoeken spek" = "🥓";
+"engels spek" = "🥓";
+"engelse bacon" = "🥓";
+
+// 🍟 French fries
+"frietjes" = "🍟";
+"patat" = "🍟";
+
+// 🥚 Egg
+"eieren" = "🥚";
+"eiwit" = "🥚";
+
+// 🥣 Bowl
+"soep" = "🥣";
+"yoghurt" = "🥣";
+"kwark" = "🥣";
+"muesli" = "🥣";
+"granola" = "🥣";
+
+// Salt 🧂
+"zout" = "🧂";
+"peper" = "🧂";
+
+// 🥗 Salad
+"maaltijdsalade" = "🥗";
+
+// 🥫 Sause
+"tomatensaus" = "🥫";
+"pastasaus" = "🥫";
+
+// 🍚 Rice
+"rijst" = "🍚";
+"witte rijst" = "🍚";
+"bruine rijst" = "🍚";
+"zwarte rijst" = "🍚";
+"risotto rijst" = "🍚";
+"basmati rijst" = "🍚";
+
+// 🍛 Curry
+"curry" = "🍛";
+
+// 🍠 Sweet potatoe
+"zoete aardappel" = "🍠";
+
+// 🍤 Shrimp
+"garnaal" = "🍤";
+"tempura garnaal" = "🍤";
+"gefrituurde garnaal" = "🍤";
+
+// 🥡 Takeout
+"afhaal" = "🥡";
+
+// 🍩 Donut
+"donuts" = "🍩";
+
+// 🦪 Clam
+"mossel" = "🦪";
+"mossels" = "🦪";
+"mosselen" = "🦪";
+"schelp" = "🦪";
+"schelpdier" = "🦪";
+
+// 🍪 Cookie
+"koek" = "🍪";
+"koekjes" = "🍪";
+"gevulde koek" = "🍪";
+
+// 🍫 Chocolate
+"chocolate" = "🍫";
+"chocola" = "🍫";
+"twix" = "🍫";
+"mars" = "🍫";
+"snickers" = "🍫";
+"bounty" = "🍫";
+"lion" = "🍫";
+"m&m's" = "🍫";
+"m&m" = "🍫";
+"ritter" = "🍫";
+
+// 🍯 Honey and Syrup
+"honing" = "🍯";
+"stroop" = "🍯";
+"schenkstroop" = "🍯";
+"maple syrup" = "🍯";
+
+// 🍼 Baby
+"baby melk" = "🍼";
+
+// 🥛 Milk
+"melk" = "🥛";
+"amandelmelk" = "🥛";
+"erwtenmelk" = "🥛";
+"chocolademelk" = "🥛";
+"oatly" = "🥛";
+"cappucino melk" = "🥛";
+"room" = "🥛";
+"slagroom" = "🥛";
+
+// ☕️ Coffee
+"koffie" = "☕️";
+"espresso" = "☕️";
+"cappuccino" = "☕️";
+"koffiebonen" = "☕️";
+"koffiefilters" = "☕️";
+
+// 🫖 Tea
+"thee" = "🫖";
+
+// 🍾 Bubble
+"champagne" = "🍾";
+"prosecco" = "🍾";
+
+// 🍷 Wine
+"wijn" = "🍷";
+"rode wijn" = "🍷";
+"witte wijn" = "🍷";
+
+// 🍸 Cocktail
+"cocktail" = "🍸";
+
+// 🍹 Tropical Drink
+"smoothie" = "🍹";
+
+// 🥃 Whikey
+"whiskey" = "🥃";
+"whisky" = "🥃";
+"brandy" = "🥃";
+"scotch" = "🥃";
+
+// 🥤 Soda
+"fristdrank" = "🥤";
+"cola" = "🥤";
+"fanta" = "🥤";
+"7up" = "🥤";
+"sprite" = "🥤";
+"dr pepper" = "🥤";
+"pepsi" = "🥤";
+"mountain dew" = "🥤";
+"sinas" = "🥤";
+
+// 🧋 Iced Beverage
+"starbucks" = "🧋";
+"ijskoffie" = "🧋";
+"frappuccino" = "🧋";
+
+// 🧃 Juice
+"sap" = "🧃";
+"sapjes" = "🧃";
+"appelsap" = "🧃";
+"sinasappelsap" = "🧃";
+
+// 🐕 Dog
+"hondenvoer" = "🐕";
+
+// 🐈 Cat
+"kattenvoer" = "🐈";
+
+// 🌾 Wheat
+"mueslireep" = "🌾";
+"mueslirepen" = "🌾";
+"bulgur" = "🌾";
+"bloem" = "🌾";
+"tarwe" = "🌾";
+"tarwebloem" = "🌾";
+"havermout" = "🌾";
+"haver" = "🌾";
+
+// 🌱 Plant Based
+"tofu" = "🌱";
+"beyond meat" = "🌱";
+"beyond sausage" = "🌱";
+"beyond worst" = "🌱";
+"beyond gehakt" = "🌱";
+"impossible burger" = "🌱";

@@ -5,13 +5,17 @@
 "big" = "big";
 "large" = "large";
 "huge" = "huge";
+"heavy" = "heavy";
 
 "organic" = "organic";
 "firm" = "firm";
+"whole" = "whole";
+"wholewheat" = "wholewheat";
 
 "salted" = "salted";
 "unsalted" = "unsalted";
 "unsweetened" = "unsweetened";
+"sweetened" = "sweetened";
 
 "soy" = "soy";
 "greek" = "greek";

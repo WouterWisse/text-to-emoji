@@ -133,10 +133,16 @@
 
 // MARK: Custom
 
+// 🍇 Grapes
+"grape" = "🍇";
+
 // 🍊 Orange
 "orange" = "🍊";
 "blood orange" = "🍊";
 "grapefruit" = "🍊";
+
+// 🍌 Banana
+"bananas" = "🍌";
 
 // 🍎 Apple
 "apple" = "🍎";
@@ -168,12 +174,17 @@
 // 🥔 Potato
 "chips" = "🥔";
 "crisps" = "🥔";
+"mashed potato" = "🥔";
 
 // 🌽 Corn
 "corn" = "🌽";
 
 // 🥒 Cucumber
+"cucumbers" = "🥒";
 "zucchini" = "🥒";
+"zucchinis" = "🥒";
+"pickle" = "🥒";
+"pickles" = "🥒";
 
 // 🥜 Peanut
 "peanut butter" = "🥜";
@@ -212,7 +223,6 @@
 "basil" = "🌿";
 "parsley" = "🌿";
 "cilantro" = "🌿";
-"cilantro" = "🌿";
 "mint" = "🌿";
 "rosemary" = "🌿";
 "thyme" = "🌿";
@@ -225,6 +235,7 @@
 "onions" = "🧅";
 "red onion" = "🧅";
 "yellow onion" = "🧅";
+"charlotte" = "🧅";
 
 // 🍄 Mushroom
 "shiitake" = "🍄";
@@ -252,12 +263,11 @@
 "swiss cheese" = "🧀";
 "gruyere" = "🧀";
 "feta" = "🧀";
+"feta cheese" = "🧀";
 "gouda" = "🧀";
 "gouda cheese" = "🧀";
 "provolone" = "🧀";
 "monterey jack" = "🧀";
-"feta" = "🧀";
-"feta cheese" = "🧀";
 "american cheese" = "🧀";
 "goat cheese" = "🧀";
 "sheep cheese" = "🧀";
@@ -270,12 +280,6 @@
 "pint" = "🍺";
 "6 pack" = "🍺";
 
-// 🥓 Bacon
-"turkey bacon" = "🥓";
-"panchetta" = "🥓";
-"speck" = "🥓";
-"bacon strips" = "🥓";
-
 // 🍖 Boney Meat
 "ribs" = "🍖";
 "ham" = "🍖";
@@ -287,7 +291,6 @@
 "pork steak" = "🍖";
 "pork tenderloin" = "🍖";
 "pork shoulder" = "🍖";
-"sliced pork" = "🍖";
 "lamb" = "🍖";
 "lamb chop" = "🍖";
 "lamb rack" = "🍖";
@@ -301,7 +304,6 @@
 "turkey" = "🍗";
 "turkey breast" = "🍗";
 "turkey thigh" = "🍗";
-"sliced turkey" = "🍗";
 
 // 🥩 Red meat
 "deli" = "🥩";
@@ -321,6 +323,15 @@
 "beef ribeye steak" = "🥩";
 "boneless beef ribeye steak" = "🥩";
 "ground beef" = "🥩";
+
+// 🥓 Bacon
+"turkey bacon" = "🥓";
+"panchetta" = "🥓";
+"speck" = "🥓";
+"bacon strips" = "🥓";
+
+// 🍟 French fries
+"fries" = "🍟";
 
 // 🥚 Egg
 "eggs" = "🥚";
@@ -362,7 +373,6 @@
 // 🍤 Shrimp
 "shrimp" = "🍤";
 "tempura shrimp" = "🍤";
-"fried shrimp" = "🍤";
 "deepfried shrimp" = "🍤";
 
 // 🥡 Takeout
@@ -397,16 +407,13 @@
 
 // 🥛 Milk
 "milk" = "🥛";
-"soy milk" = "🥛";
 "almond milk" = "🥛";
 "pea milk" = "🥛";
 "chocolate milk" = "🥛";
 "full fat milk" = "🥛";
 "oatly" = "🥛";
-"whole milk" = "🥛";
 "barista milk" = "🥛";
 "cream" = "🥛";
-"heavy cream" = "🥛";
 "whipping cream" = "🥛";
 
 // ☕️ Coffee
@@ -417,6 +424,7 @@
 "cappuccino" = "☕️";
 "coffee beans" = "☕️";
 "coffee grind" = "☕️";
+"coffee filters" = "☕️";
 
 // 🫖 Tea
 "tea" = "🫖";
