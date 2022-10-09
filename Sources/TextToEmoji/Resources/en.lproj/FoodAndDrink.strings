@@ -236,7 +236,7 @@
 "dill" = "🌿";
 "oregano" = "🌿";
 
-// Onion 🧅
+// 🧅 Onion
 "onions" = "🧅";
 "red onion" = "🧅";
 "yellow onion" = "🧅";
@@ -443,7 +443,7 @@
 "barista milk" = "🥛";
 "cream" = "🥛";
 "whipping cream" = "🥛";
-"coffee milk"
+"coffee milk" = "🥛";
 
 // ☕️ Coffee
 "coffee" = "☕️";
