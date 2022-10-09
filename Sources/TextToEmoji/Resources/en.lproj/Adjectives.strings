@@ -9,13 +9,21 @@
 
 "organic" = "organic";
 "firm" = "firm";
+"silk" = "silk";
+"silken" = "silken";
 "whole" = "whole";
 "wholewheat" = "wholewheat";
+"light" = "light";
+"zero" = "zero";
 
 "salted" = "salted";
 "unsalted" = "unsalted";
 "unsweetened" = "unsweetened";
 "sweetened" = "sweetened";
+
+"smoked" = "smoked";
+"baked" = "baked";
+"frozen" = "frozen";
 
 "soy" = "soy";
 "greek" = "greek";
@@ -25,3 +33,8 @@
 "grated" = "grated";
 "shredded" = "shredded";
 "crumbled" = "crumbled";
+"instant" = "instant";
+
+"canned" = "canned";
+
+"fillet" = "fillet";

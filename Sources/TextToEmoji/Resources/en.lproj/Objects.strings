@@ -241,6 +241,9 @@
 
 // Custom
 
+// 🗑️ Bin
+"trash bags" = "🗑️";
+
 // 🧼 Soap
 "hand soap" = "🧼";
 "dish soap" = "🧼";

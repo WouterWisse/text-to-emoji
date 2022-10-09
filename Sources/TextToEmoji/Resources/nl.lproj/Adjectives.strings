@@ -9,11 +9,23 @@
 "biologisch" = "biologisch";
 "volle" = "volle";
 "magere" = "magere";
+"light" = "light";
+"zero" = "zero";
+"volkoren" = "volkoren";
 
 "gezouten" = "gezouten";
 "ongezouten" = "ongezouten";
 "ongezoet" = "ongezoet";
 "gezoet" = "gezoet";
+
+"gerookt" = "gerookt";
+"gerookte" = "gerookte";
+"gekookt" = "gekookt";
+"gekookte" = "gekookte";
+"gebraden" = "gebraden";
+"ingevroren" = "ingevroren";
+"bevroren" = "bevroren";
+"diepvries" = "diepvries";
 
 "soja" = "soja";
 "grieks" = "grieks";
@@ -24,5 +36,8 @@
 "plakjes" = "plakjes";
 "geraspt" = "geraspt";
 "geraspte" = "geraspte";
+"instant" = "instant";
 
 "in blik" = "in blik";
+
+"filet" = "filet";

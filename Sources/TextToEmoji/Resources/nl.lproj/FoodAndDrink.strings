@@ -202,6 +202,11 @@
 "groene peper" = "🌶️";
 "jalapeno" = "🌶️";
 
+// 🫑 Bell Pepper
+"rode paprika" = "🫑";
+"gele paprika" = "🫑";
+"groene paprika" = "🫑";
+
 // 🥬 Leafy Green
 "sla" = "🥬";
 "salade" = "🥬";
@@ -301,11 +306,9 @@
 
 // 🍗 Poultry
 "kip" = "🍗";
-"kipfilet" = "🍗";
 "kippendijen" = "🍗";
 "kippenvleugels" = "🍗";
 "kalkoen" = "🍗";
-"kalkoenfilet" = "🍗";
 
 // 🥩 Red meat
 "rund" = "🥩";
@@ -333,6 +336,7 @@
 // 🥚 Egg
 "eieren" = "🥚";
 "eiwit" = "🥚";
+"eiersalade" = "🥚";
 
 // 🥣 Bowl
 "soep" = "🥣";
@@ -363,6 +367,14 @@
 // 🍛 Curry
 "curry" = "🍛";
 
+// 🍜 Steaming Bowl
+"rijstnoedels" = "🍜";
+"noedels" = "🍜";
+
+// 🍝 Spahhetti
+"pasta" = "🍝";
+"tagliatelle" = "🍝";
+
 // 🍠 Sweet potatoe
 "zoete aardappel" = "🍠";
 
@@ -373,6 +385,13 @@
 
 // 🥡 Takeout
 "afhaal" = "🥡";
+
+// 🍨 Ice cream
+"ben & jerry" = "🍨";
+"benjerry" = "🍨";
+"ben and jerry" = "🍨";
+"vanilleijs" = "🍨";
+"chocoladeijs" = "🍨";
 
 // 🍩 Donut
 "donuts" = "🍩";
@@ -387,10 +406,21 @@
 // 🍪 Cookie
 "koek" = "🍪";
 "koekjes" = "🍪";
+"oreo" = "🍪";
 "gevulde koek" = "🍪";
+"pepernoten" = "🍪";
+"stroopwafels" = "🍪";
+"roze koeken" = "🍪";
+"speculaas" = "🍪";
+"bastogne koeken" = "🍪";
+"bastogne koek" = "🍪";
+"biscuitjes" = "🍪";
+"kokosbiscuitjes" = "🍪";
+"lange vingers" = "🍪";
+"spritsen" = "🍪";
 
 // 🍫 Chocolate
-"chocolate" = "🍫";
+"chocolade" = "🍫";
 "chocola" = "🍫";
 "twix" = "🍫";
 "mars" = "🍫";
@@ -400,6 +430,8 @@
 "m&m's" = "🍫";
 "m&m" = "🍫";
 "ritter" = "🍫";
+"rittersport" = "🍫";
+"chocoladeletter" = "🍫";
 
 // 🍯 Honey and Syrup
 "honing" = "🍯";
@@ -419,6 +451,7 @@
 "cappucino melk" = "🥛";
 "room" = "🥛";
 "slagroom" = "🥛";
+"koffiemelk" = "🥛";
 
 // ☕️ Coffee
 "koffie" = "☕️";
@@ -429,6 +462,10 @@
 
 // 🫖 Tea
 "thee" = "🫖";
+"groene thee" = "🫖";
+"munt thee" = "🫖";
+"zwarte thee" = "🫖";
+"fruit thee" = "🫖";
 
 // 🍾 Bubble
 "champagne" = "🍾";
@@ -438,6 +475,31 @@
 "wijn" = "🍷";
 "rode wijn" = "🍷";
 "witte wijn" = "🍷";
+"airén" = "🍷";
+"carmenere" = "🍷";
+"cabernet sauvignon" = "🍷";
+"chardonnay" = "🍷";
+"chenin blanc" = "🍷";
+"gamay" = "🍷";
+"gewürztraminer" = "🍷";
+"grenache" = "🍷";
+"grüner veltliner" = "🍷";
+"malbec" = "🍷";
+"merlot" = "🍷";
+"nebbiolo" = "🍷";
+"pinot blanc" = "🍷";
+"pinot gris" = "🍷";
+"pinot noir" = "🍷";
+"pinotage" = "🍷";
+"riesling" = "🍷";
+"sangiovese" = "🍷";
+"sauvignon blanc" = "🍷";
+"shiraz" = "🍷";
+"tempranillo" = "🍷";
+"trebbiano toscano" = "🍷";
+"verdejo" = "🍷";
+"viognier" = "🍷";
+"zinfandel" = "🍷";
 
 // 🍸 Cocktail
 "cocktail" = "🍸";
@@ -478,6 +540,7 @@
 
 // 🐈 Cat
 "kattenvoer" = "🐈";
+"whiskas" = "🐈";
 
 // 🌾 Wheat
 "mueslireep" = "🌾";
@@ -491,8 +554,38 @@
 
 // 🌱 Plant Based
 "tofu" = "🌱";
+"tempeh" = "🌱";
 "beyond meat" = "🌱";
 "beyond sausage" = "🌱";
 "beyond worst" = "🌱";
 "beyond gehakt" = "🌱";
 "impossible burger" = "🌱";
+"impossible sausage" = "🌱";
+
+// 🎃 Pumpkin
+"pompoen" = "🎃";
+"flespompoen" = "🎃";
+
+// 🐙 Octopus
+"octopus" = "🐙";
+
+// 🦑 Squid
+"inktvis" = "inktvis";
+
+// 🐟 Fish
+"zalm" = "🐟";
+"zalmsalade" = "🐟";
+"zalmmoot" = "🐟";
+"tonijn" = "🐟";
+"tonijnsalade" = "🐟";
+"tonijn moot" = "🐟";
+"witvis" = "🐟";
+"kabbeljauw" = "🐟";
+"pangasius" = "🐟";
+
+// 🦀 Crab
+"krab" = "🦀";
+"krabsalade" = "🦀";
+
+// 🦞 Lobster
+"kreeft" = "🦞";
