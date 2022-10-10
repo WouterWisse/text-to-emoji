@@ -2,7 +2,7 @@
 // Emojis for fruit, vegetables, meals, beverages and utensils.
 // Export from: https://emojipedia.org/food-drink/
 
-// MARK: Default
+// MARK: - Default -
 
 "grapes" = "🍇";
 "melon" = "🍈";
@@ -131,81 +131,67 @@
 "spoon" = "🥄";
 "jar" = "🫙";
 
-// MARK: Custom
+// MARK: - Custom -
 
 // 🍇 Grapes
 "grape" = "🍇";
-
-// 🍊 Orange
+"white grapes" = "🍇";
+"blue grapes" = "🍇";
+"red grapes" = "🍇";
+// 🍈 Melon
+// 🍉 Watermelon
+// 🍊 Tangerine
+"tangerine" = "🍊";
 "orange" = "🍊";
 "blood orange" = "🍊";
 "grapefruit" = "🍊";
-
+// 🍋 Lemon
 // 🍌 Banana
 "bananas" = "🍌";
-
-// 🍎 Apple
+// 🍍 Pineapple
+// 🥭 Mango
+// 🍎 Red Apple
 "apple" = "🍎";
-"apples" = "🍎";
-
-// 🍒 Cherry
+// 🍏 Green Apple
+// 🍐 Pear
+// 🍑 Peach
+// 🍒 Cherries
 "cherry" = "🍒";
-
 // 🍓 Strawberry
 "strawberries" = "🍓";
 "strawberry jam" = "🍓";
-
-// 🫐 Blueberry
+// 🫐 Blueberries
 "blueberry" = "🫐";
 "blueberry jam" = "🫐";
-
-// 🥝 Kiwi
+// 🥝 Kiwi Fruit
 "kiwi" = "🥝";
-
+// 🍅 Tomato
+// 🫒 Olive
 // 🥥 Coconut
 "coconut milk" = "🥥";
-
 // 🥑 Avocado
-"avocados" = "🥑";
 "hass avocado" = "🥑";
 "guacamole" = "🥑";
 "guac" = "🥑";
-
+// 🍆 Eggplant
 // 🥔 Potato
 "chips" = "🥔";
 "crisps" = "🥔";
 "mashed potato" = "🥔";
-
-// 🌽 Corn
+// 🥕 Carrot
+// 🌽 Ear Of Corn
 "corn" = "🌽";
-
-// 🥒 Cucumber
-"cucumbers" = "🥒";
-"zucchini" = "🥒";
-"zucchinis" = "🥒";
-"pickle" = "🥒";
-"pickles" = "🥒";
-
-// 🥜 Peanut
-"peanut butter" = "🥜";
-"almond butter" = "🥜";
-"nut butter" = "🥜";
-
-// 🥖 Baguette
-"baguette" = "🥖";
-
-// 🥞 Pancake
-"stack" = "🥞";
-
-// 🌶 Pepper
+// 🌶️ Hot Pepper
 "pepper" = "🌶️";
 "jalapeno" = "🌶️";
-
 // 🫑 Bell Pepper
 "red bell pepper" = "🫑";
 "yellow bell pepper" = "🫑";
 "green bell pepper" = "🫑";
-
+// 🥒 Cucumber
+"cucumbers" = "🥒";
+"zucchini" = "🥒";
+"pickle" = "🥒";
 // 🥬 Leafy Green
 "greens" = "🥬";
 "spinach" = "🥬";
@@ -218,30 +204,16 @@
 "gandelion" = "🥬";
 "rapini" = "🥬";
 "turnip" = "🥬";
-
 // 🥦 Broccoli
+"broccoli flowers" = "🥦";
 "vegs" = "🥦";
 "veggies" = "🥦";
-
-// 🌿 Herb
-"coriander" = "🌿";
-"basil" = "🌿";
-"parsley" = "🌿";
-"cilantro" = "🌿";
-"mint" = "🌿";
-"rosemary" = "🌿";
-"thyme" = "🌿";
-"sage" = "🌿";
-"chives" = "🌿";
-"dill" = "🌿";
-"oregano" = "🌿";
-
+// 🧄 Garlic
 // 🧅 Onion
 "onions" = "🧅";
 "red onion" = "🧅";
 "yellow onion" = "🧅";
 "charlotte" = "🧅";
-
 // 🍄 Mushroom
 "shiitake" = "🍄";
 "crimino" = "🍄";
@@ -255,8 +227,33 @@
 "hedgehog" = "🍄";
 "porcino" = "🍄";
 "porel" = "🍄";
-
-// 🧀 Cheese
+// 🥜 Peanuts
+"peanut butter" = "🥜";
+"almond butter" = "🥜";
+"nut butter" = "🥜";
+// 🫘 Beans
+"kidney beans" = "🫘";
+"chickpeas" = "🫘";
+// 🌰 Chestnut
+// 🍞 Bread
+"brioche" = "🍞";
+"brioche bread" = "🍞";
+// 🥐 Croissant
+"chocolate croissant" = "🥐";
+// 🥖 Baguette Bread
+"baguette" = "🥖";
+// 🫓 Flatbread
+// 🥨 Pretzel
+// 🥯 Bagel
+"everything bagel" = "🥯";
+"sesame bagel" = "🥯";
+"plain bagel" = "🥯";
+// 🥞 Pancakes
+"stack" = "🥞";
+"pancake mix" = "🥞";
+// 🧇 Waffle
+"waffle mix" = "🥞";
+// 🧀 Cheese Wedge
 "cheese" = "🧀";
 "mozzarella" = "🧀";
 "manchego" = "🧀";
@@ -277,43 +274,21 @@
 "goat cheese" = "🧀";
 "sheep cheese" = "🧀";
 "cream cheese" = "🧀";
-
-// 🍺 Beer
-"beer" = "🍺";
-"ale" = "🍺";
-"ipa" = "🍺";
-"pint" = "🍺";
-"6 pack" = "🍺";
-"blue moon" = "🍺";
-"budweiser" = "🍺";
-"bud" = "🍺";
-
-// 🍖 Boney Meat
+// 🍖 Meat On Bone
 "ribs" = "🍖";
 "ham" = "🍖";
 "pork" = "🍖";
-"pork chop" = "🍖";
 "pork belly" = "🍖";
 "pork rib roast" = "🍖";
 "pork ribs" = "🍖";
 "pork steak" = "🍖";
-"pork tenderloin" = "🍖";
 "pork shoulder" = "🍖";
+"pork tenderloin" = "🍖";
 "lamb" = "🍖";
-"lamb chop" = "🍖";
-"lamb rack" = "🍖";
-
-// 🍗 Poultry
+// 🍗 Poultry Leg
 "chicken" = "🍗";
-"chicken breast" = "🍗";
-"chicken thigh" = "🍗";
-"chicken wings" = "🍗";
-"chicken nuggets" = "🍗";
 "turkey" = "🍗";
-"turkey breast" = "🍗";
-"turkey thigh" = "🍗";
-
-// 🥩 Red meat
+// 🥩 Cut Of Meat
 "deli" = "🥩";
 "deli meat" = "🥩";
 "red meat" = "🥩";
@@ -331,92 +306,99 @@
 "beef ribeye steak" = "🥩";
 "boneless beef ribeye steak" = "🥩";
 "ground beef" = "🥩";
-
 // 🥓 Bacon
 "turkey bacon" = "🥓";
 "panchetta" = "🥓";
 "speck" = "🥓";
 "bacon strips" = "🥓";
-
-// 🍟 French fries
+// 🍔 Hamburger
+// 🍟 French Fries
 "fries" = "🍟";
-
+// 🍕 Pizza
+// 🌭 Hot Dog
+// 🥪 Sandwich
+// 🌮 Taco
+// 🌯 Burrito
+// 🫔 Tamale
+// 🥙 Stuffed Flatbread
+// 🧆 Falafel
 // 🥚 Egg
 "eggs" = "🥚";
 "just egg" = "🥚";
 "eggwhite" = "🥚";
-"egg salad" = "🥚";
-
-// 🥣 Bowl
+// 🍳 Cooking
+// 🥘 Shallow Pan Of Food
+// 🍲 Pot Of Food
+// 🫕 Fondue
+// 🥣 Bowl With Spoon
 "soup" = "🥣";
 "yoghurt" = "🥣";
 "quark" = "🥣";
 "cereal" = "🥣";
 "granola" = "🥣";
-
-// Salt 🧂
+// 🥗 Green Salad
+"salad" = "🥗";
+// 🍿 Popcorn
+// 🧈 Butter
+// 🧂 Salt
 "salt" = "🧂";
 "pepper" = "🧂";
-
-// 🥗 Salad
-"salad" = "🥗";
-
-// 🥫 Sause
+// 🥫 Canned Food
 "tomato saus" = "🥫";
 "pasta saus" = "🥫";
-
-// 🍚 Rice
+// 🍱 Bento Box
+// 🍘 Rice Cracker
+// 🍙 Rice Ball
+// 🍚 Cooked Rice
 "rice" = "🍚";
-"white rice" = "🍚";
-"brown rice" = "🍚";
-"black rice" = "🍚";
 "risotto rice" = "🍚";
 "basmati rice" = "🍚";
-
-// 🍛 Curry
+// 🍛 Curry Rice
 "curry" = "🍛";
-
 // 🍜 Steaming Bowl
 "rice noodles" = "🍜";
 "noodles" = "🍜";
-
-// 🍝 Spahhetti
+// 🍝 Spaghetti
 "pasta" = "🍝";
 "tagliatelle" = "🍝";
-
-// 🍠 Sweet potatoe
+// 🍠 Roasted Sweet Potato
 "sweet potato" = "🍠";
-
-// 🍤 Shrimp
+// 🍢 Oden
+// 🍣 Sushi
+// 🍤 Fried Shrimp
 "shrimp" = "🍤";
 "tempura shrimp" = "🍤";
-"deepfried shrimp" = "🍤";
-
-// 🥡 Takeout
+// 🍥 Fish Cake With Swirl
+// 🥮 Moon Cake
+// 🍡 Dango
+// 🥟 Dumpling
+// 🥠 Fortune Cookie
+// 🥡 Takeout Box
 "takeout" = "🥡";
-
-// 🍨 Ice cream
+// 🦪 Oyster
+"mussle" = "🦪";
+"clam" = "🦪";
+// 🍦 Soft Ice Cream
+// 🍧 Shaved Ice
+// 🍨 Ice Cream
 "ben & jerry" = "🍨";
 "benjerry" = "🍨";
 "ben and jerry" = "🍨";
 "vanilla ice cream" = "🍨";
 "chocolate ice cream" = "🍨";
-
-// 🍩 Donut
+// 🍩 Doughnut
 "donut" = "🍩";
-
-// 🦪 Clam
-"mussle" = "🦪";
-"clam" = "🦪";
-
 // 🍪 Cookie
 "oreo" = "🍪";
 "chocolate chip" = "🍪";
 "chocolate chip cookie" = "🍪";
 "gingerbread" = "🍪";
 "shortbread" = "🍪";
-
-// 🍫 Chocolate
+// 🎂 Birthday Cake
+// 🍰 Shortcake
+// 🧁 Cupcake
+// 🥧 Pie
+// 🍫 Chocolate Bar
 "chocolate" = "🍫";
 "twix" = "🍫";
 "mars" = "🍫";
@@ -425,15 +407,15 @@
 "lion" = "🍫";
 "m&m's" = "🍫";
 "m&m" = "🍫";
-
-// 🍯 Honey and Syrup
+// 🍬 Candy
+// 🍭 Lollipop
+// 🍮 Custard
+// 🍯 Honey Pot
 "honey" = "🍯";
 "maple syrup" = "🍯";
-
-// 🍼 Baby
+// 🍼 Baby Bottle
 "baby milk" = "🍼";
-
-// 🥛 Milk
+// 🥛 Glass Of Milk
 "milk" = "🥛";
 "almond milk" = "🥛";
 "pea milk" = "🥛";
@@ -444,8 +426,7 @@
 "cream" = "🥛";
 "whipping cream" = "🥛";
 "coffee milk" = "🥛";
-
-// ☕️ Coffee
+// ☕ Hot Beverage
 "coffee" = "☕️";
 "americano" = "☕️";
 "latte" = "☕️";
@@ -454,19 +435,18 @@
 "coffee beans" = "☕️";
 "coffee grind" = "☕️";
 "coffee filters" = "☕️";
-
-// 🫖 Tea
+// 🫖 Teapot
 "tea" = "🫖";
 "green tea" = "🫖";
 "mint tea" = "🫖";
 "black tea" = "🫖";
 "fruit tea" = "🫖";
-
-// 🍾 Bubble
+// 🍵 Teacup Without Handle
+// 🍶 Sake
+// 🍾 Bottle With Popping Cork
 "champagne" = "🍾";
 "prosecco" = "🍾";
-
-// 🍷 Wine
+// 🍷 Wine Glass
 "wine" = "🍷";
 "red wine" = "🍷";
 "white wine" = "🍷";
@@ -495,20 +475,28 @@
 "verdejo" = "🍷";
 "viognier" = "🍷";
 "zinfandel" = "🍷";
-
-// 🍸 Cocktail
+// 🍸 Cocktail Glass
 "cocktail" = "🍸";
-
 // 🍹 Tropical Drink
 "smoothie" = "🍹";
-
-// 🥃 Whikey
+// 🍺 Beer Mug
+"beer" = "🍺";
+"ale" = "🍺";
+"ipa" = "🍺";
+"pint" = "🍺";
+"6 pack" = "🍺";
+"blue moon" = "🍺";
+"budweiser" = "🍺";
+"bud" = "🍺";
+// 🍻 Clinking Beer Mugs
+// 🥂 Clinking Glasses
+// 🥃 Tumbler Glass
 "whiskey" = "🥃";
 "whisky" = "🥃";
 "brandy" = "🥃";
 "scotch" = "🥃";
-
-// 🥤 Soda
+// 🫗 Pouring Liquid
+// 🥤 Cup With Straw
 "soda" = "🥤";
 "cola" = "🥤";
 "coke" = "🥤";
@@ -518,26 +506,43 @@
 "dr pepper" = "🥤";
 "pepsi" = "🥤";
 "mountain dew" = "🥤";
-
-// 🧋 Iced Beverage
+// 🧋 Bubble Tea
 "starbucks" = "🧋";
 "iced coffee" = "🧋";
 "iced latte" = "🧋";
 "frappuccino" = "🧋";
-
-// 🧃 Juice
+// 🧃 Beverage Box
 "juice" = "🧃";
 "juice box" = "🧃";
 "apple juice" = "🧃";
 "orange juice" = "🧃";
+// 🧉 Mate
+// 🧊 Ice
+// 🥢 Chopsticks
+// 🍽️ Fork And Knife With Plate
+// 🍴 Fork And Knife
+// 🥄 Spoon
+// 🫙 Jar
 
+// MARK: - From other sets -
+
+// 🌿 Herb
+"coriander" = "🌿";
+"basil" = "🌿";
+"parsley" = "🌿";
+"cilantro" = "🌿";
+"mint" = "🌿";
+"rosemary" = "🌿";
+"thyme" = "🌿";
+"sage" = "🌿";
+"chives" = "🌿";
+"dill" = "🌿";
+"oregano" = "🌿";
 // 🐕 Dog
 "dog food" = "🐕";
-
 // 🐈 Cat
 "cat food" = "🐈";
 "whiskas" = "🐈";
-
 // 🌾 Wheat
 "granola bar" = "🌾";
 "buckwheat" = "🌾";
@@ -546,9 +551,6 @@
 "flour" = "🌾";
 "oatmeal" = "🌾";
 "oats" = "🌾";
-"instant oatmeal" = "🌾";
-"instant oats" = "🌾";
-
 // 🌱 Plant Based
 "tofu" = "🌱";
 "tempeh" = "🌱";
@@ -557,26 +559,17 @@
 "beyond ground" = "🌱";
 "impossible burger" = "🌱";
 "impossible sausage" = "🌱";
-
 // 🎃 Pumpkin
 "pumpkin" = "🎃";
 "squash" = "🎃";
-
 // 🐙 Octopus
 "octopus" = "🐙";
-
 // 🦑 Squid
 "squid" = "squid";
-
 // 🐟 Fish
 "salmon" = "🐟";
-"salmon salad" = "🐟";
 "tuna" = "🐟";
-"tuna salad" = "🐟";
-
 // 🦀 Crab
 "crab" = "🦀";
-"crab salad" = "🦀";
-
 // 🦞 Lobster
 "lobster" = "🦞";

@@ -24,6 +24,7 @@
 "smoked" = "smoked";
 "baked" = "baked";
 "frozen" = "frozen";
+"deepfried" = "deepfried";
 
 "soy" = "soy";
 "greek" = "greek";
@@ -38,3 +39,14 @@
 "canned" = "canned";
 
 "fillet" = "fillet";
+"breast" = "breast";
+"thigh" = "thigh";
+"nuggets" = "nuggets";
+"wings" = "wings";
+"chop" = "chop";
+
+"salad" = "salad";
+
+"black" = "black";
+"brown" = "brown";
+"white" = "white";

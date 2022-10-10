@@ -2,7 +2,7 @@
 // Emojis for fruit, vegetables, meals, beverages and utensils.
 // Export from: https://emojipedia.org/food-drink/
 
-// MARK: Default
+// MARK: - Default -
 
 "druiven" = "🍇";
 "meloen" = "🍈";
@@ -131,82 +131,69 @@
 "lepel" = "🥄";
 "pot" = "🫙";
 
-// MARK: Custom
+// MARK: - Custom -
 
 // 🍇 Grapes
 "druif" = "🍇";
-
-// 🍊 Orange
+// 🍈 Melon
+// 🍉 Watermelon
+// 🍊 Tangerine
 "sinasappel" = "🍊";
 "bloedsinasappel" = "🍊";
 "grapefruit" = "🍊";
-
+// 🍋 Lemon
 // 🍌 Banana
 "bananen" = "🍌";
-
-// 🍎 Apple
+// 🍍 Pineapple
+// 🥭 Mango
+// 🍎 Red Apple
 "appel" = "🍎";
 "appels" = "🍎";
-
-// 🍒 Cherry
+// 🍏 Green Apple
+// 🍐 Pear
+// 🍑 Peach
+// 🍒 Cherries
 "kers" = "🍒";
-
 // 🍓 Strawberry
 "aardbeien" = "🍓";
 "aardbeienjam" = "🍓";
-
-// 🫐 Blueberry
+// 🫐 Blueberries
 "blauwe bes" = "🫐";
 "blauwe bessen jam" = "🫐";
-
-// 🥝 Kiwi
+// 🥝 Kiwi Fruit
 "kiwis" = "🥝";
-
+// 🍅 Tomato
+"tomaten" = "🍅";
+// 🫒 Olive
 // 🥥 Coconut
 "kokosmelk" = "🥥";
-
 // 🥑 Avocado
 "avocado's" = "🥑";
 "avo" = "🥑";
 "guacamole" = "🥑";
 "guac" = "🥑";
-
+// 🍆 Eggplant
 // 🥔 Potato
 "aardappelen" = "🥔";
 "chips" = "🥔";
 "aardappelpurree" = "🥔";
-
-// 🌽 Corn
+// 🥕 Carrot
+// 🌽 Ear Of Corn
 "mais" = "🌽";
-
+// 🌶️ Hot Pepper
+"hete peper" = "🌶️";
+"groene peper" = "🌶️";
+"jalapeno" = "🌶️";
+// 🫑 Bell Pepper
+"rode paprika" = "🫑";
+"gele paprika" = "🫑";
+"groene paprika" = "🫑";
 // 🥒 Cucumber
 "komkommers" = "🥒";
 "courgette" = "🥒";
 "courgettes" = "🥒";
 "augurk" = "🥒";
 "augurken" = "🥒";
-
-// 🥜 Peanut
-"pindakaas" = "🥜";
-"amandelboter" = "🥜";
-"notenboter" = "🥜";
-
-// 🥖 Baguette
-"stokbroodje" = "🥖";
-
-// 🥞 Pancake
-"pannenkoek" = "🥞";
-
-// 🌶 Pepper
-"hete peper" = "🌶️";
-"groene peper" = "🌶️";
-"jalapeno" = "🌶️";
-
-// 🫑 Bell Pepper
-"rode paprika" = "🫑";
-"gele paprika" = "🫑";
-"groene paprika" = "🫑";
-
 // 🥬 Leafy Green
 "sla" = "🥬";
 "salade" = "🥬";
@@ -215,29 +202,15 @@
 "rucola" = "🥬";
 "paksoy" = "🥬";
 "prei" = "🥬";
-
 // 🥦 Broccoli
 "groenten" = "🥦";
 "groentjes" = "🥦";
-
-// 🌿 Herb
-"koriander" = "🌿";
-"basilicum" = "🌿";
-"peterselie" = "🌿";
-"munt" = "🌿";
-"rosemarijn" = "🌿";
-"tijm" = "🌿";
-"sali" = "🌿";
-"bieslook" = "🌿";
-"dille" = "🌿";
-"oregano" = "🌿";
-
+// 🧄 Garlic
 // 🧅 Onion
 "uien" = "🧅";
 "rode ui" = "🧅";
 "gele ui" = "🧅";
 "sjalot" = "🧅";
-
 // 🍄 Mushroom
 "paddenstoelen" = "🍄";
 "shiitake" = "🍄";
@@ -254,8 +227,26 @@
 "gele stekelzwam" = "🍄";
 "porcino" = "🍄";
 "porel" = "🍄";
-
-// 🧀 Cheese
+// 🥜 Peanuts
+"pindakaas" = "🥜";
+"amandelboter" = "🥜";
+"notenboter" = "🥜";
+// 🫘 Beans
+"kikkererwten" = "🫘";
+// 🌰 Chestnut
+// 🍞 Bread
+// 🥐 Croissant
+// 🥖 Baguette Bread
+"stokbroodje" = "🥖";
+// 🫓 Flatbread
+// 🥨 Pretzel
+// 🥯 Bagel
+// 🥞 Pancakes
+"pannenkoek" = "🥞";
+"pannenkoekenmix" = "🥞";
+// 🧇 Waffle
+"wafelmix" = "🧇";
+// 🧀 Cheese Wedge
 "mozzarella" = "🧀";
 "manchego" = "🧀";
 "parmezaan" = "🧀";
@@ -273,25 +264,7 @@
 "kaasblokjes" = "🧀";
 "blok kaas" = "🧀";
 "kaasjes" = "🧀";
-
-// 🍺 Beer
-"bier" = "🍺";
-"biertjes" = "🍺";
-"ipa" = "🍺";
-"ipas" = "🍺";
-"6 pack" = "🍺";
-"krat bier" = "🍺";
-"kratje bier" = "🍺";
-"pils" = "🍺";
-"pilsjes" = "🍺";
-"speciaalbier" = "🍺";
-"speciaalbiertjes" = "🍺";
-"heineken" = "🍺";
-"hertog jan" = "🍺";
-"amstel" = "🍺";
-"grolsch" = "🍺";
-
-// 🍖 Boney Meat
+// 🍖 Meat On Bone
 "varken" = "🍖";
 "spareribs" = "🍖";
 "ham" = "🍖";
@@ -303,14 +276,12 @@
 "buikspek" = "🍖";
 "lam" = "🍖";
 "lamsrack" = "🍖";
-
-// 🍗 Poultry
+// 🍗 Poultry Leg
 "kip" = "🍗";
 "kippendijen" = "🍗";
 "kippenvleugels" = "🍗";
 "kalkoen" = "🍗";
-
-// 🥩 Red meat
+// 🥩 Cut Of Meat
 "rund" = "🥩";
 "rundvlees" = "🥩";
 "rood vlees" = "🥩";
@@ -319,7 +290,6 @@
 "biefstuk" = "🥩";
 "ribeye" = "🥩";
 "gehakt" = "🥩";
-
 // 🥓 Bacon
 "bacon" = "🥓";
 "panchetta" = "🥓";
@@ -328,81 +298,91 @@
 "pannenkoeken spek" = "🥓";
 "engels spek" = "🥓";
 "engelse bacon" = "🥓";
-
-// 🍟 French fries
+// 🍔 Hamburger
+// 🍟 French Fries
 "frietjes" = "🍟";
 "patat" = "🍟";
-
+// 🍕 Pizza
+// 🌭 Hot Dog
+// 🥪 Sandwich
+// 🌮 Taco
+// 🌯 Burrito
+// 🫔 Tamale
+// 🥙 Stuffed Flatbread
+// 🧆 Falafel
 // 🥚 Egg
 "eieren" = "🥚";
 "eiwit" = "🥚";
 "eiersalade" = "🥚";
-
-// 🥣 Bowl
+// 🍳 Cooking
+// 🥘 Shallow Pan Of Food
+// 🍲 Pot Of Food
+// 🫕 Fondue
+// 🥣 Bowl With Spoon
 "soep" = "🥣";
 "yoghurt" = "🥣";
 "kwark" = "🥣";
 "muesli" = "🥣";
 "granola" = "🥣";
-
-// Salt 🧂
+// 🥗 Green Salad
+"maaltijdsalade" = "🥗";
+// 🍿 Popcorn
+// 🧈 Butter
+// 🧂 Salt
 "zout" = "🧂";
 "peper" = "🧂";
-
-// 🥗 Salad
-"maaltijdsalade" = "🥗";
-
-// 🥫 Sause
+// 🥫 Canned Food
 "tomatensaus" = "🥫";
 "pastasaus" = "🥫";
-
-// 🍚 Rice
+// 🍱 Bento Box
+// 🍘 Rice Cracker
+// 🍙 Rice Ball
+// 🍚 Cooked Rice
 "rijst" = "🍚";
 "witte rijst" = "🍚";
 "bruine rijst" = "🍚";
 "zwarte rijst" = "🍚";
 "risotto rijst" = "🍚";
 "basmati rijst" = "🍚";
-
-// 🍛 Curry
+// 🍛 Curry Rice
 "curry" = "🍛";
-
 // 🍜 Steaming Bowl
 "rijstnoedels" = "🍜";
 "noedels" = "🍜";
-
-// 🍝 Spahhetti
+// 🍝 Spaghetti
 "pasta" = "🍝";
 "tagliatelle" = "🍝";
-
-// 🍠 Sweet potatoe
+// 🍠 Roasted Sweet Potato
 "zoete aardappel" = "🍠";
-
-// 🍤 Shrimp
+// 🍢 Oden
+// 🍣 Sushi
+// 🍤 Fried Shrimp
 "garnaal" = "🍤";
 "tempura garnaal" = "🍤";
 "gefrituurde garnaal" = "🍤";
-
-// 🥡 Takeout
+// 🍥 Fish Cake With Swirl
+// 🥮 Moon Cake
+// 🍡 Dango
+// 🥟 Dumpling
+// 🥠 Fortune Cookie
+// 🥡 Takeout Box
 "afhaal" = "🥡";
-
-// 🍨 Ice cream
-"ben & jerry" = "🍨";
-"benjerry" = "🍨";
-"ben and jerry" = "🍨";
-"vanilleijs" = "🍨";
-"chocoladeijs" = "🍨";
-
-// 🍩 Donut
-"donuts" = "🍩";
-
-// 🦪 Clam
+// 🦪 Oyster
 "mossel" = "🦪";
 "mossels" = "🦪";
 "mosselen" = "🦪";
 "schelp" = "🦪";
 "schelpdier" = "🦪";
-
+// 🍦 Soft Ice Cream
+// 🍧 Shaved Ice
+// 🍨 Ice Cream
+"ben & jerry" = "🍨";
+"benjerry" = "🍨";
+"ben and jerry" = "🍨";
+"vanilleijs" = "🍨";
+"chocoladeijs" = "🍨";
+// 🍩 Doughnut
+"donuts" = "🍩";
 // 🍪 Cookie
 "koek" = "🍪";
 "koekjes" = "🍪";
@@ -418,8 +398,16 @@
 "kokosbiscuitjes" = "🍪";
 "lange vingers" = "🍪";
 "spritsen" = "🍪";
-
-// 🍫 Chocolate
+// 🎂 Birthday Cake
+"slagroomtaart" = "🎂";
+// 🍰 Shortcake
+"appeltaart" = "🍰";
+"vlaai" = "🍰";
+"appelkruimelvlaai" = "🍰";
+"kersenvlaai" = "🍰";
+// 🧁 Cupcake
+// 🥧 Pie
+// 🍫 Chocolate Bar
 "chocolade" = "🍫";
 "chocola" = "🍫";
 "twix" = "🍫";
@@ -432,17 +420,17 @@
 "ritter" = "🍫";
 "rittersport" = "🍫";
 "chocoladeletter" = "🍫";
-
-// 🍯 Honey and Syrup
+// 🍬 Candy
+// 🍭 Lollipop
+// 🍮 Custard
+// 🍯 Honey Pot
 "honing" = "🍯";
 "stroop" = "🍯";
 "schenkstroop" = "🍯";
 "maple syrup" = "🍯";
-
-// 🍼 Baby
+// 🍼 Baby Bottle
 "baby melk" = "🍼";
-
-// 🥛 Milk
+// 🥛 Glass Of Milk
 "melk" = "🥛";
 "amandelmelk" = "🥛";
 "erwtenmelk" = "🥛";
@@ -452,26 +440,24 @@
 "room" = "🥛";
 "slagroom" = "🥛";
 "koffiemelk" = "🥛";
-
-// ☕️ Coffee
+// ☕ Hot Beverage
 "koffie" = "☕️";
 "espresso" = "☕️";
 "cappuccino" = "☕️";
 "koffiebonen" = "☕️";
 "koffiefilters" = "☕️";
-
-// 🫖 Tea
+// 🫖 Teapot
 "thee" = "🫖";
 "groene thee" = "🫖";
 "munt thee" = "🫖";
 "zwarte thee" = "🫖";
 "fruit thee" = "🫖";
-
-// 🍾 Bubble
+// 🍵 Teacup Without Handle
+// 🍶 Sake
+// 🍾 Bottle With Popping Cork
 "champagne" = "🍾";
 "prosecco" = "🍾";
-
-// 🍷 Wine
+// 🍷 Wine Glass
 "wijn" = "🍷";
 "rode wijn" = "🍷";
 "witte wijn" = "🍷";
@@ -500,20 +486,35 @@
 "verdejo" = "🍷";
 "viognier" = "🍷";
 "zinfandel" = "🍷";
-
-// 🍸 Cocktail
+// 🍸 Cocktail Glass
 "cocktail" = "🍸";
-
 // 🍹 Tropical Drink
 "smoothie" = "🍹";
-
-// 🥃 Whikey
+// 🍺 Beer Mug
+"bier" = "🍺";
+"biertjes" = "🍺";
+"ipa" = "🍺";
+"ipas" = "🍺";
+"6 pack" = "🍺";
+"krat bier" = "🍺";
+"kratje bier" = "🍺";
+"pils" = "🍺";
+"pilsjes" = "🍺";
+"speciaalbier" = "🍺";
+"speciaalbiertjes" = "🍺";
+"heineken" = "🍺";
+"hertog jan" = "🍺";
+"amstel" = "🍺";
+"grolsch" = "🍺";
+// 🍻 Clinking Beer Mugs
+// 🥂 Clinking Glasses
+// 🥃 Tumbler Glass
 "whiskey" = "🥃";
 "whisky" = "🥃";
 "brandy" = "🥃";
 "scotch" = "🥃";
-
-// 🥤 Soda
+// 🫗 Pouring Liquid
+// 🥤 Cup With Straw
 "fristdrank" = "🥤";
 "cola" = "🥤";
 "fanta" = "🥤";
@@ -523,25 +524,41 @@
 "pepsi" = "🥤";
 "mountain dew" = "🥤";
 "sinas" = "🥤";
-
-// 🧋 Iced Beverage
+// 🧋 Bubble Tea
 "starbucks" = "🧋";
 "ijskoffie" = "🧋";
 "frappuccino" = "🧋";
-
-// 🧃 Juice
+// 🧃 Beverage Box
 "sap" = "🧃";
 "sapjes" = "🧃";
 "appelsap" = "🧃";
 "sinasappelsap" = "🧃";
+// 🧉 Mate
+// 🧊 Ice
+// 🥢 Chopsticks
+// 🍽️ Fork And Knife With Plate
+// 🍴 Fork And Knife
+// 🥄 Spoon
+// 🫙 Jar
 
+// MARK: - From other sets -
+
+// 🌿 Herb
+"koriander" = "🌿";
+"basilicum" = "🌿";
+"peterselie" = "🌿";
+"munt" = "🌿";
+"rosemarijn" = "🌿";
+"tijm" = "🌿";
+"sali" = "🌿";
+"bieslook" = "🌿";
+"dille" = "🌿";
+"oregano" = "🌿";
 // 🐕 Dog
 "hondenvoer" = "🐕";
-
 // 🐈 Cat
 "kattenvoer" = "🐈";
 "whiskas" = "🐈";
-
 // 🌾 Wheat
 "mueslireep" = "🌾";
 "mueslirepen" = "🌾";
@@ -551,7 +568,6 @@
 "tarwebloem" = "🌾";
 "havermout" = "🌾";
 "haver" = "🌾";
-
 // 🌱 Plant Based
 "tofu" = "🌱";
 "tempeh" = "🌱";
@@ -561,17 +577,13 @@
 "beyond gehakt" = "🌱";
 "impossible burger" = "🌱";
 "impossible sausage" = "🌱";
-
 // 🎃 Pumpkin
 "pompoen" = "🎃";
 "flespompoen" = "🎃";
-
 // 🐙 Octopus
 "octopus" = "🐙";
-
 // 🦑 Squid
 "inktvis" = "inktvis";
-
 // 🐟 Fish
 "zalm" = "🐟";
 "zalmsalade" = "🐟";
@@ -582,10 +594,8 @@
 "witvis" = "🐟";
 "kabbeljauw" = "🐟";
 "pangasius" = "🐟";
-
 // 🦀 Crab
 "krab" = "🦀";
 "krabsalade" = "🦀";
-
 // 🦞 Lobster
 "kreeft" = "🦞";
