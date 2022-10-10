@@ -1,22 +1,18 @@
-<div align="center">
-   <img width="600" src=".github/assets/logo-light@2x.png?raw=true#gh-light-mode-only" alt="Text To Emoji - Logo">
-   <img width="600" src=".github/assets/logo-dark@2x.png?raw=true#gh-dark-mode-only" alt="Text To Emoji - Logo">
-</div>
-
-<div align="center">
-   <img height="24" src=".github/assets/github-swift-package-logo-light@2x.png?raw=true#gh-light-mode-only" alt="Text To Emoji - Logo">
-   <img height="24" src=".github/assets/github-swift-package-logo-dark@2x.png?raw=true#gh-dark-mode-only" alt="Text To Emoji - Logo">
-</div>
-
-<br />
-
+<p align="center">
+   <img width="180" src=".github/assets/icon-readme@2x.png" alt="text-to-emoji">
+</p>
+<p align="center">
+   <strong>text-to-😎</strong><BR>
+   🤷‍♂️ Not sure why you'd need this.
+</p>
 <p align="center">
    <img src="https://github.com/WouterWisse/text-to-emoji/actions/workflows/main.yml/badge.svg">
-   <img src="https://img.shields.io/badge/ios%20-13-orange.svg">
+   <img src="https://img.shields.io/badge/iOS%20-13+-orange.svg">
    <a href="https://www.twitter.com/wouterwisse" target="_blank">
-      <img src="https://img.shields.io/badge/contact%20-@wouterwisse-blue.svg">
+      <img src="https://img.shields.io/badge/Contact%20-@wouterwisse-blue.svg">
    </a>
 </p>
+
 
 ## Installation
 `Xcode` → `File` → `Add packages...` → enter url → `https://github.com/WouterWisse/text-to-emoji`
