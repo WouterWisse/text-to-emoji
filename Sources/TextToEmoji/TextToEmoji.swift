@@ -5,9 +5,6 @@ public enum TextToEmojiError: Error {
 }
 
 public struct TextToEmoji {
-    private let stringMatchScoreProvider: StringMatchScoreProvider = .default
-    public init() {}
-    
     /**
      Will try to match the given text with an emoji.
      
@@ -18,7 +15,7 @@ public struct TextToEmoji {
      - Parameter text: The text that will be matched with an emoji
      - Parameter preferredCategory: The preferred category can be useful when looking for specific sets of emoji
      */
-    public func emoji(
+    public static func emoji(
         for text: String,
         preferredCategory: EmojiCategory? = nil
     ) async throws -> String? {
@@ -29,7 +26,7 @@ public struct TextToEmoji {
 // MARK: Localized Emoji
 
 private extension TextToEmoji {
-    func localizedEmoji(
+    static  func localizedEmoji(
         for text: String,
         category: EmojiCategory?
     ) async throws -> String {
@@ -53,7 +50,7 @@ private extension TextToEmoji {
         return try await emojiTask.value
     }
     
-    func emoji(for text: String, from tableName: String) -> String? {
+    static  func emoji(for text: String, from tableName: String) -> String? {
         guard
             let path = Bundle.module.path(forResource: tableName, ofType: "strings"),
             let dictionary = NSDictionary(contentsOfFile: path),
@@ -61,7 +58,7 @@ private extension TextToEmoji {
         else { return nil  }
         
         let scores = allKeys
-            .map { (key: $0, score: stringMatchScoreProvider.provideScore(text, $0)) }
+            .map { (key: $0, score: StringMatchScoreProvider.default.provideScore(text, $0)) }
             .sorted(by: { $0.score < $1.score })
         
         guard

@@ -2,42 +2,28 @@ import XCTest
 @testable import TextToEmoji
 
 final class TextToEmojiTests: XCTestCase {
-    
-    var sut: TextToEmoji!
-    
-    // MARK: Setup / Teardown
-    
-    override func setUpWithError() throws {
-        try super.setUpWithError()
-        sut = TextToEmoji()
-    }
-    
-    override func tearDownWithError() throws {
-        try super.tearDownWithError()
-        sut = nil
-    }
-    
+
     // MARK: Tests
     
     func test_emoji_withValidText_shouldReturnEmoji() async throws {
-        let emoji = try await sut.emoji(for: "lemon")
+        let emoji = try await TextToEmoji.emoji(for: "lemon")
 
         XCTAssertEqual(emoji, "🍋")
     }
     
     func test_emoji_withValidTextWithAdjectives_shouldReturnEmoji() async throws {
-        let emoji = try await sut.emoji(for: "large organic avocado")
+        let emoji = try await TextToEmoji.emoji(for: "large organic avocado")
         
         XCTAssertEqual(emoji, "🥑")
     }
     
     func test_emoji_withInvalidText_shouldReturnNil() async throws {
-        await XCTAssertThrowsError(try await sut.emoji(for: "abc123"))
+        await XCTAssertThrowsError(try await TextToEmoji.emoji(for: "abc123"))
     }
     
     func test_emoji_withTextAndPreferredCategory_shouldReturnDifferentEmoji() async throws {
-        let nature = try await sut.emoji(for: "shrimp", preferredCategory: .animalsAndNature)
-        let food = try await sut.emoji(for: "shrimp", preferredCategory: .foodAndDrink)
+        let nature = try await TextToEmoji.emoji(for: "shrimp", preferredCategory: .animalsAndNature)
+        let food = try await TextToEmoji.emoji(for: "shrimp", preferredCategory: .foodAndDrink)
         
         XCTAssertEqual(nature, "🦐")
         XCTAssertEqual(food, "🍤")
