@@ -2,7 +2,7 @@
    <img width="180" src=".github/assets/icon-readme@2x.png" alt="text-to-emoji">
 </p>
 <p align="center">
-   <strong>text-to-😎</strong><BR>
+   <strong>text-to-🤯</strong><BR>
    🤷‍♂️ Not sure why you'd need this.
 </p>
 <p align="center">
