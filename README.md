@@ -46,12 +46,12 @@ See `EmojiCategory.swift` for all categories.
 | Languages    | Supported   |
 |--------------|-------------|
 | 🇬🇧 English   | ✅          |
-| 🇳🇱 Dutch     | Coming soon |
-| 🇩🇪 Deutsch   | Coming soon-ish |
-| 🇪🇸 Español   | Coming soon-ish |
-| 🇫🇷 Français  | Coming soon-ish |
-| 🇮🇹 Italiano  | Coming soon-ish |
-| 🇵🇹 Português | Coming soon-ish |
+| 🇳🇱 Dutch     | ✅          |
+| 🇩🇪 Deutsch   | ⏳          |
+| 🇪🇸 Español   | ⏳          |
+| 🇫🇷 Français  | ⏳          |
+| 🇮🇹 Italiano  | ⏳          |
+| 🇵🇹 Português | ⏳          |
 
 ## Contribution
 Feel free to contribute to this project via a `pull request`.
