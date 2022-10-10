@@ -54,7 +54,7 @@ See `EmojiCategory.swift` for all categories.
 | 🇵🇹 Português | ⏳          |
 
 ## Contribution
-Feel free to contribute to this project via a `pull request`.
+Feel free to help me out here, especially with the localization.
 
 ## Keep me caffeinated
    <a href="https://www.buymeacoffee.com/wouterwisse" target="_blank">
