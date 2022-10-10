@@ -40,4 +40,18 @@ final class StringPreparationTests: XCTestCase {
             "Expected `string` to equal 'avocado', but it is `\(string)`"
         )
     }
+    
+    func test_perpareString_withAdjectiveButOnlyOneWord_shouldNotRemoveAdjective() {
+        let mutlipleWords = "soy milk".prepareString()
+        let oneWord = "soy".prepareString()
+        
+        XCTAssertEqual(
+            mutlipleWords, "milk",
+            "Expected `string` to equal 'milk', but it is `\(mutlipleWords)`"
+        )
+        XCTAssertEqual(
+            oneWord, "soy",
+            "Expected `string` to equal 'soy', but it is `\(oneWord)`"
+        )
+    }
 }

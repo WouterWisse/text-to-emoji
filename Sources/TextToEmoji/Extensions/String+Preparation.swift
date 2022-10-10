@@ -5,6 +5,7 @@ internal extension String {
         var preparedString = self.lowercased()
         
         guard
+            preparedString.components(separatedBy: " ").count > 1,
             let path = Bundle.module.path(forResource: "Adjectives", ofType: "strings"),
             let dictionary = NSDictionary(contentsOfFile: path),
             let allKeys = dictionary.allKeys as? [String]
