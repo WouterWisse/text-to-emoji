@@ -2,7 +2,7 @@
    <img width="180" src=".github/assets/icon-readme@2x.png" alt="text-to-emoji">
 </p>
 <p align="center">
-   <strong>text-to-🤯</strong><BR>
+   <strong>text-to-🤩</strong><BR>
    🤷‍♂️ Not sure why you'd need this.
 </p>
 <p align="center">
@@ -19,23 +19,18 @@
 `Xcode` → `File` → `Add packages...` → enter url → `https://github.com/WouterWisse/text-to-emoji`
 
 ## How to use
-**Initialization**<br />
-```swift
-let textToEmoji = TextToEmoji()
-```
-
 **Get an emoji**<br />
 ```swift
-let emoji = await textToEmoji.emoji(for: "tomato") // 🍅
+let emoji = await TextToEmoji.emoji(for: "tomato") // 🍅
 ```
 This is an `async` method that will `throw` the error `noMatchFound` if no emoji has been matched with the given text.
 
 **Get an emoji for a preferred category**<br />
 ```swift
-let shrimp = textToEmoji.emoji(for: "shrimp", preferredCategory: .foodAndDrink) // 🍤
+let shrimp = TextToEmoji.emoji(for: "shrimp", preferredCategory: .foodAndDrink) // 🍤
 ```
 ```swift
-let shrimp = textToEmoji.emoji(for: "shrimp", preferredCategory: .animalsAndNature) // 🦐
+let shrimp = TextToEmoji.emoji(for: "shrimp", preferredCategory: .animalsAndNature) // 🦐
 ```
 With `preferredCategory`, you can give a certain emoji category a higher priority. This can be very useful if you already know the context in which you are searching. For example, when looking for the word `shrimp`, two matching emoji's could be: `🦐` and `🍤`.<br/>
 By passing `.foodAndDrink` as the `preferredCategory`, the first match will be `🍤`. Passing `.animalsAndNature` would result in `🦐`.
