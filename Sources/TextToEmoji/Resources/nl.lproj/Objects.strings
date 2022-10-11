@@ -2,6 +2,8 @@
 // Emojis for household items, celebrations, stationery and miscellaneous objects.
 // Export from: https://emojipedia.org/objects/
 
+// MARK: - Default -
+
 "liefdesbrief" = "💌";
 "gat" = "🕳️";
 "bom" = "💣";
@@ -108,7 +110,7 @@
 "pagina met krul" = "📃";
 "rol" = "📜";
 "pagina naar boven gericht" = "📄";
-"krant-" = "📰";
+"krant" = "📰";
 "opgerolde krant" = "🗞️";
 "bladwijzertabbladen" = "📑";
 "bladwijzer" = "🔖";
@@ -214,7 +216,7 @@
 "bank en lamp" = "🛋️";
 "stoel" = "🪑";
 "toilet" = "🚽";
-"plunjer" = "🪠";
+"ontstopper" = "🪠";
 "douche" = "🚿";
 "bad" = "🛁";
 "muizenval" = "🪤";
@@ -239,24 +241,25 @@
 "identiteitskaart" = "🪪";
 "drinkwater" = "🚰";
 
-// Custom
+// MARK: - Custom -
 
 // 🧼 Soap
-"hand soap" = "🧼";
-"dish soap" = "🧼";
+"handzeep" = "🧼";
+"afwasmiddel" = "🧼";
+"wasmiddel" = "🧼";
 
-// Toothbrush
-"toothpaste" = "🪥";
+// 🪥 Toothbrush
+"tandpasta" = "🪥";
 
 // 🧴 Lotion
 "shampoo" = "🧴";
 "conditioner" = "🧴";
 
 // 🧻 Roll of paper
-"toilet paper" = "🧻";
-"kitchen paper" = "🧻";
-"kitchen towel" = "🧻";
-"tissues" = "🧻";
+"toiletpapier" = "🧻";
+"keukenpapier" = "🧻";
+"zakdoekken" = "🧻";
+"zakdoekjes" = "🧻";
 
-// Cigarette 🚬
-"cigarettes" = "🚬";
+// 🚬 Cigarette
+"sigaretten" = "🚬";
