@@ -1,4 +1,5 @@
 "mini" = "mini";
+"baby" = "baby";
 "klein" = "klein";
 "kleine" = "kleine";
 "gemiddeld" = "gemiddeld";
@@ -13,10 +14,21 @@
 "zero" = "zero";
 "volkoren" = "volkoren";
 
+"jong" = "jong";
+"jonge" = "jonge";
+"belegen" = "belegen";
+"jongbelegen" = "jongbelegen";
+"platte" = "platte";
+
 "gezouten" = "gezouten";
 "ongezouten" = "ongezouten";
 "ongezoet" = "ongezoet";
 "gezoet" = "gezoet";
+"zoete" = "zoete";
+"zoute" = "zoute";
+
+"poeder" = "poeder";
+"gemalen" = "gema;em";
 
 "gerookt" = "gerookt";
 "gerookte" = "gerookte";
@@ -26,6 +38,7 @@
 "ingevroren" = "ingevroren";
 "bevroren" = "bevroren";
 "diepvries" = "diepvries";
+"gefrituurde" = "gefrituurde";
 
 "soja" = "soja";
 "grieks" = "grieks";
@@ -37,6 +50,8 @@
 "geraspt" = "geraspt";
 "geraspte" = "geraspte";
 "instant" = "instant";
+"magnetron" = "magnetron";
+"oven" = "oven";
 
 "in blik" = "in blik";
 

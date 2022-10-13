@@ -151,7 +151,13 @@
 "appels" = "🍎";
 // 🍏 Green Apple
 // 🍐 Pear
+"peren" = "🍐";
 // 🍑 Peach
+"perziken" = "🍑";
+"nectarine" = "🍑";
+"nectarines" = "🍑";
+"pruim" = "🍑";
+"pruimen" = "🍑";
 // 🍒 Cherries
 "kers" = "🍒";
 // 🍓 Strawberry
@@ -164,7 +170,10 @@
 "kiwis" = "🥝";
 // 🍅 Tomato
 "tomaten" = "🍅";
+"cherrytomaten" = "🍅";
 // 🫒 Olive
+"olijven" = "🫒";
+"olijfolie" = "🫒";
 // 🥥 Coconut
 "kokosmelk" = "🥥";
 // 🥑 Avocado
@@ -178,8 +187,11 @@
 "chips" = "🥔";
 "aardappelpurree" = "🥔";
 // 🥕 Carrot
+"worteltjes" = "🥕";
+"winterpeen" = "🥕";
 // 🌽 Ear Of Corn
 "mais" = "🌽";
+"maiskolven" = "🌽";
 // 🌶️ Hot Pepper
 "hete peper" = "🌶️";
 "groene peper" = "🌶️";
@@ -200,8 +212,39 @@
 "ijsbergsla" = "🥬";
 "slamelange" = "🥬";
 "rucola" = "🥬";
-"paksoy" = "🥬";
+"paksoi" = "🥬";
 "prei" = "🥬";
+"witlof" = "🥬";
+"knolselderij" = "🥬";
+"bloemkool" = "🥬";
+"sperzibonen" = "🥬";
+"snijbonen" = "🥬";
+"spinazie" = "🥬";
+"roerbakgroente" = "🥬";
+"bleekselderij" = "🥬";
+"romaine" = "🥬";
+"venkel" = "🥬";
+"andijvie" = "🥬";
+"kropsla" = "🥬";
+"hutspot" = "🥬";
+"spitskool" = "🥬";
+"tauge" = "🥬";
+"spruitjes" = "🥬";
+"radijs" = "🥬";
+"zuurkool" = "🥬";
+"veldsla" = "🥬";
+"asperges" = "🥬";
+"groene asperges" = "🥬";
+"witte asperges" = "🥬";
+"kool" = "🥬";
+"boerenkool" = "🥬";
+"chinese kool" = "🥬";
+"aspergebroccoli" = "🥬";
+"doperwten" = "🥬";
+"peulen" = "🥬";
+"peultjes" = "🥬";
+"sugar snaps" = "🥬";
+"bladsla" = "🥬";
 // 🥦 Broccoli
 "groenten" = "🥦";
 "groentjes" = "🥦";
@@ -209,7 +252,9 @@
 // 🧅 Onion
 "uien" = "🧅";
 "rode ui" = "🧅";
+"rode uien" = "🧅";
 "gele ui" = "🧅";
+"gele uien" = "🧅";
 "sjalot" = "🧅";
 // 🍄 Mushroom
 "paddenstoelen" = "🍄";
@@ -233,11 +278,31 @@
 "notenboter" = "🥜";
 // 🫘 Beans
 "kikkererwten" = "🫘";
+"kidneybonen" = "🫘";
+"zwarte bonen" = "🫘";
+"witte bonen" = "🫘";
+"bruine bonen" = "🫘";
 // 🌰 Chestnut
 // 🍞 Bread
+"boterham" = "🍞";
+"boterhammen" = "🍞";
+"halfje wit" = "🍞";
+"halfje bruin" = "🍞";
+"tijgerbrood" = "🍞";
+"casino wit" = "🍞";
+"broodjes" = "🍞";
+"pistolet" = "🍞";
+"pistoletjes" = "🍞";
+"afbakbrood" = "🍞";
+"afbakbroodjes" = "🍞";
 // 🥐 Croissant
+"chocoladebroodje" = "🥐";
+"chocolade croissant" = "🥐";
+"hamkaas croissant" = "🥐";
+"kaas croissant" = "🥐";
 // 🥖 Baguette Bread
 "stokbroodje" = "🥖";
+"afbak stokbrood" = "🥖";
 // 🫓 Flatbread
 // 🥨 Pretzel
 // 🥯 Bagel
@@ -268,20 +333,23 @@
 "varken" = "🍖";
 "spareribs" = "🍖";
 "ham" = "🍖";
-"gekookte ham" = "🍖";
-"gerookte ham" = "🍖";
+"worst" = "🍖";
+"worstjes" = "🍖";
 "varkensvlees" = "🍖";
 "karbonade" = "🍖";
 "schouderkarbonade" = "🍖";
 "buikspek" = "🍖";
 "lam" = "🍖";
 "lamsrack" = "🍖";
+"sate" = "🍖";
 // 🍗 Poultry Leg
 "kip" = "🍗";
 "kippendijen" = "🍗";
 "kippenvleugels" = "🍗";
 "kalkoen" = "🍗";
 // 🥩 Cut Of Meat
+"bbq" = "🥩";
+"barbeque" = "🥩";
 "rund" = "🥩";
 "rundvlees" = "🥩";
 "rood vlees" = "🥩";
@@ -294,7 +362,7 @@
 "bacon" = "🥓";
 "panchetta" = "🥓";
 "speck" = "🥓";
-"ontbijtspel" = "🥓";
+"ontbijtspek" = "🥓";
 "pannenkoeken spek" = "🥓";
 "engels spek" = "🥓";
 "engelse bacon" = "🥓";
@@ -304,12 +372,22 @@
 "patat" = "🍟";
 // 🍕 Pizza
 // 🌭 Hot Dog
+"worstenbroodje" = "🌭";
+"worstenbrood" = "🌭";
+"saucijzenbroodje" = "🌭";
 // 🥪 Sandwich
 // 🌮 Taco
+"tacos" = "🌮";
+"taco schelpen" = "🌮";
 // 🌯 Burrito
+"wraps" = "🌯";
+"tortilla" = "🌯";
+"tortillas" = "🌯";
+"turkse pizza" = "🌯";
 // 🫔 Tamale
 // 🥙 Stuffed Flatbread
 // 🧆 Falafel
+"shoarma" = "🧆";
 // 🥚 Egg
 "eieren" = "🥚";
 "eiwit" = "🥚";
@@ -322,18 +400,27 @@
 "soep" = "🥣";
 "yoghurt" = "🥣";
 "kwark" = "🥣";
-"muesli" = "🥣";
-"granola" = "🥣";
 // 🥗 Green Salad
 "maaltijdsalade" = "🥗";
 // 🍿 Popcorn
 // 🧈 Butter
+"kruidenboter" = "🧈";
 // 🧂 Salt
 "zout" = "🧂";
 "peper" = "🧂";
+"suiker" = "🧂";
 // 🥫 Canned Food
 "tomatensaus" = "🥫";
 "pastasaus" = "🥫";
+"tomatensoep" = "🥫";
+"groentesoep" = "🥫";
+"mosterdsoep" = "🥫";
+"goulashsoep" = "🥫";
+"kippensoep" = "🥫";
+"pompoensoep" = "🥫";
+"paddenstoelensoep" = "🥫";
+"cup-a-soep" = "🥫";
+"cupasoep" = "🥫";
 // 🍱 Bento Box
 // 🍘 Rice Cracker
 // 🍙 Rice Ball
@@ -349,21 +436,26 @@
 // 🍜 Steaming Bowl
 "rijstnoedels" = "🍜";
 "noedels" = "🍜";
+"noodles" = "🍜";
 // 🍝 Spaghetti
 "pasta" = "🍝";
 "tagliatelle" = "🍝";
+"pennen" = "🍝";
+"fusili" = "🍝";
 // 🍠 Roasted Sweet Potato
 "zoete aardappel" = "🍠";
+"oranje zoete aardappel" = "🍠";
 // 🍢 Oden
 // 🍣 Sushi
 // 🍤 Fried Shrimp
 "garnaal" = "🍤";
 "tempura garnaal" = "🍤";
-"gefrituurde garnaal" = "🍤";
 // 🍥 Fish Cake With Swirl
 // 🥮 Moon Cake
 // 🍡 Dango
 // 🥟 Dumpling
+"dumplins" = "🥟";
+"gyosa" = "🥟";
 // 🥠 Fortune Cookie
 // 🥡 Takeout Box
 "afhaal" = "🥡";
@@ -375,12 +467,17 @@
 "schelpdier" = "🦪";
 // 🍦 Soft Ice Cream
 // 🍧 Shaved Ice
+"limoenijs" = "🍧";
+"citroenijs" = "🍧";
+"perenijs" = "🍧";
+"sorbet" = "🍧";
 // 🍨 Ice Cream
 "ben & jerry" = "🍨";
 "benjerry" = "🍨";
 "ben and jerry" = "🍨";
 "vanilleijs" = "🍨";
 "chocoladeijs" = "🍨";
+"magnum" = "🍨";
 // 🍩 Doughnut
 "donuts" = "🍩";
 // 🍪 Cookie
@@ -406,7 +503,9 @@
 "appelkruimelvlaai" = "🍰";
 "kersenvlaai" = "🍰";
 // 🧁 Cupcake
+"taartje" = "🧁";
 // 🥧 Pie
+"lasagne" = "🥧";
 // 🍫 Chocolate Bar
 "chocolade" = "🍫";
 "chocola" = "🍫";
@@ -421,6 +520,10 @@
 "rittersport" = "🍫";
 "chocoladeletter" = "🍫";
 // 🍬 Candy
+"kauwgom" = "🍬";
+"smint" = "🍬";
+"haribo" = "🍬";
+"pepermunt" = "🍬";
 // 🍭 Lollipop
 // 🍮 Custard
 // 🍯 Honey Pot
@@ -506,15 +609,27 @@
 "hertog jan" = "🍺";
 "amstel" = "🍺";
 "grolsch" = "🍺";
+"klok" = "🍺";
+"corona" = "🍺";
+"desperados" = "🍺";
+"radler" = "🍺";
+"alcoholvrij bier" = "🍺";
+"0.0 bier" = "🍺";
+"0.0% bier" = "🍺";
+"0.0%" = "🍺";
+"0.0" = "🍺";
 // 🍻 Clinking Beer Mugs
 // 🥂 Clinking Glasses
 // 🥃 Tumbler Glass
+"jackdaniels" = "🥃";
 "whiskey" = "🥃";
 "whisky" = "🥃";
 "brandy" = "🥃";
 "scotch" = "🥃";
 // 🫗 Pouring Liquid
 // 🥤 Cup With Straw
+"limonade" = "🥤";
+"dubbelfriss" = "🥤";
 "fristdrank" = "🥤";
 "cola" = "🥤";
 "fanta" = "🥤";
@@ -533,13 +648,20 @@
 "sapjes" = "🧃";
 "appelsap" = "🧃";
 "sinasappelsap" = "🧃";
+"perensap" = "🧃";
 // 🧉 Mate
 // 🧊 Ice
+"ijsblokjes" = "🧊";
 // 🥢 Chopsticks
 // 🍽️ Fork And Knife With Plate
+"wegwerp bestek" = "🍽️";
+"wegwerp servies" = "🍽️";
 // 🍴 Fork And Knife
 // 🥄 Spoon
 // 🫙 Jar
+"bewaar bakje" = "🫙";
+"bewaar bak" = "🫙";
+"tupperware" = "🫙";
 
 // MARK: - From other sets -
 
@@ -554,12 +676,16 @@
 "bieslook" = "🌿";
 "dille" = "🌿";
 "oregano" = "🌿";
+"gember" = "🌿";
+"selderij" = "🌿";
 // 🐕 Dog
 "hondenvoer" = "🐕";
 // 🐈 Cat
 "kattenvoer" = "🐈";
 "whiskas" = "🐈";
 // 🌾 Wheat
+"granola" = "🌾";
+"muesli" = "🌾";
 "mueslireep" = "🌾";
 "mueslirepen" = "🌾";
 "bulgur" = "🌾";
@@ -577,6 +703,9 @@
 "beyond gehakt" = "🌱";
 "impossible burger" = "🌱";
 "impossible sausage" = "🌱";
+"vleesvervanger" = "🌱";
+"kipstuckjes" = "🌱";
+"nepvlees" = "🌱";
 // 🎃 Pumpkin
 "pompoen" = "🎃";
 "flespompoen" = "🎃";
@@ -594,6 +723,7 @@
 "witvis" = "🐟";
 "kabbeljauw" = "🐟";
 "pangasius" = "🐟";
+"visje" = "🐟";
 // 🦀 Crab
 "krab" = "🦀";
 "krabsalade" = "🦀";

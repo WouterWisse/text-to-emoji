@@ -243,6 +243,12 @@
 
 // MARK: - Custom -
 
+// 🗑️ Bin
+"vuilniszakken" = "🗑️";
+"vuilnis zakken" = "🗑️";
+"vuilniszak" = "🗑️";
+"plasticzak" = "🗑️";
+
 // 🧼 Soap
 "handzeep" = "🧼";
 "afwasmiddel" = "🧼";
