@@ -358,6 +358,8 @@
 "biefstuk" = "🥩";
 "ribeye" = "🥩";
 "gehakt" = "🥩";
+"vleeswaar" = "🥩";
+"vleeswaren" = "🥩";
 // 🥓 Bacon
 "bacon" = "🥓";
 "panchetta" = "🥓";
@@ -396,6 +398,8 @@
 // 🥘 Shallow Pan Of Food
 // 🍲 Pot Of Food
 // 🫕 Fondue
+"kaasfondue" = "🫕";
+"fonduekaas" = "🫕";
 // 🥣 Bowl With Spoon
 "soep" = "🥣";
 "yoghurt" = "🥣";
@@ -484,6 +488,7 @@
 "koek" = "🍪";
 "koekjes" = "🍪";
 "oreo" = "🍪";
+"oreos" = "🍪";
 "gevulde koek" = "🍪";
 "pepernoten" = "🍪";
 "stroopwafels" = "🍪";
@@ -519,6 +524,11 @@
 "ritter" = "🍫";
 "rittersport" = "🍫";
 "chocoladeletter" = "🍫";
+"hagelslag" = "🍫";
+"chocolade hagelslag" = "🍫";
+"chocolate hagel" = "🍫";
+"vlokken" = "🍫";
+"chocolade vlokken" = "🍫";
 // 🍬 Candy
 "kauwgom" = "🍬";
 "smint" = "🍬";
@@ -558,8 +568,11 @@
 // 🍵 Teacup Without Handle
 // 🍶 Sake
 // 🍾 Bottle With Popping Cork
+"bubbels" = "🍾";
+"bubbel wijn" = "🍾";
 "champagne" = "🍾";
 "prosecco" = "🍾";
+"brut" = "🍾";
 // 🍷 Wine Glass
 "wijn" = "🍷";
 "rode wijn" = "🍷";
@@ -591,8 +604,10 @@
 "zinfandel" = "🍷";
 // 🍸 Cocktail Glass
 "cocktail" = "🍸";
+"martini" = "🍸";
 // 🍹 Tropical Drink
 "smoothie" = "🍹";
+"malibu" = "🍹";
 // 🍺 Beer Mug
 "bier" = "🍺";
 "biertjes" = "🍺";
@@ -629,7 +644,6 @@
 // 🫗 Pouring Liquid
 // 🥤 Cup With Straw
 "limonade" = "🥤";
-"dubbelfriss" = "🥤";
 "fristdrank" = "🥤";
 "cola" = "🥤";
 "fanta" = "🥤";
@@ -639,6 +653,9 @@
 "pepsi" = "🥤";
 "mountain dew" = "🥤";
 "sinas" = "🥤";
+"engerydrink" = "🥤";
+"redbull" = "🥤";
+"monster" = "🥤";
 // 🧋 Bubble Tea
 "starbucks" = "🧋";
 "ijskoffie" = "🧋";
@@ -649,6 +666,13 @@
 "appelsap" = "🧃";
 "sinasappelsap" = "🧃";
 "perensap" = "🧃";
+"dubbelfris" = "🧃";
+"diksap" = "🧃";
+"fristi" = "🧃";
+"taxi" = "🧃";
+"drinkpakje" = "🧃";
+"drinkpakjes" = "🧃";
+"pakjes" = "🧃";
 // 🧉 Mate
 // 🧊 Ice
 "ijsblokjes" = "🧊";

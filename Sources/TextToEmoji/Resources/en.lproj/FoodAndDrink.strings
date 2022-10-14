@@ -154,7 +154,9 @@
 "apple" = "🍎";
 // 🍏 Green Apple
 // 🍐 Pear
+"pears" = "🍐";
 // 🍑 Peach
+"peaches" = "🍑";
 // 🍒 Cherries
 "cherry" = "🍒";
 // 🍓 Strawberry
@@ -391,6 +393,7 @@
 "donut" = "🍩";
 // 🍪 Cookie
 "oreo" = "🍪";
+"oreos" = "🍪";
 "chocolate chip" = "🍪";
 "chocolate chip cookie" = "🍪";
 "gingerbread" = "🍪";
