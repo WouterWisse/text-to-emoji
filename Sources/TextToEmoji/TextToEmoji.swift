@@ -26,18 +26,16 @@ public struct TextToEmoji {
 // MARK: Localized Emoji
 
 private extension TextToEmoji {
-    static  func localizedEmoji(
+    static func localizedEmoji(
         for text: String,
-        category: EmojiCategory?
+        category: EmojiCategory?,
     ) async throws -> String {
         let emojiTask = Task {
             let input = text.prepareString()
             
-            var allTables = EmojiCategory.allCases.map { $0.tableName }
-            if let category = category, let index = allTables.firstIndex(of: category.tableName) {
-                allTables.remove(at: index)
-                allTables.insert(category.tableName, at: 0)
-            }
+            let allTables = EmojiCategory.allCases
+                .map { $0.tableName }
+                .sorted(by: { $0 == category?.tableName && $1 != category?.tableName })
             
             for table in allTables {
                 if let emoji = emoji(for: input, from: table) {
