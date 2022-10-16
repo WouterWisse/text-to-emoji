@@ -14,18 +14,17 @@
    </a>
 </p>
 
-
 ## Installation
 `Xcode` → `File` → `Add packages...` → enter url → `https://github.com/WouterWisse/text-to-emoji`
 
 ## How to use
-**Get an emoji**<br />
+#### Get an emoji
 ```swift
 let emoji = await TextToEmoji.emoji(for: "tomato") // 🍅
 ```
 This is an `async` method that will `throw` the error `noMatchFound` if no emoji has been matched with the given text.
 
-**Get an emoji for a preferred category**<br />
+#### Get an emoji for a preferred category
 ```swift
 let shrimp = TextToEmoji.emoji(for: "shrimp", preferredCategory: .foodAndDrink) // 🍤
 ```
@@ -52,6 +51,6 @@ See `EmojiCategory.swift` for all categories.
 Feel free to help me out here, especially with the localization.
 
 ## Keep me caffeinated
-   <a href="https://www.buymeacoffee.com/wouterwisse" target="_blank">
-      <img width="220" src=".github/assets/bmc-button.png" alt="Buy me a Coffee">
-   </a>
+<a href="https://www.buymeacoffee.com/wouterwisse" target="_blank">
+   <img width="220" src=".github/assets/bmc-button.png" alt="Buy me a Coffee">
+</a>
