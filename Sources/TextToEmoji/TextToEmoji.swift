@@ -28,7 +28,7 @@ public struct TextToEmoji {
 private extension TextToEmoji {
     static func localizedEmoji(
         for text: String,
-        category: EmojiCategory?,
+        category: EmojiCategory?
     ) async throws -> String {
         let emojiTask = Task {
             let input = text.prepareString()
