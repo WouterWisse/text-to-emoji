@@ -244,9 +244,16 @@
 // 🗑️ Bin
 "trash bags" = "🗑️";
 
+// 🪒 Razor
+"shaving" = "🪒";
+"shaving supplies" = "🪒";
+
 // 🧼 Soap
 "hand soap" = "🧼";
 "dish soap" = "🧼";
+"dishwashing soap" = "🧼";
+"dishwasher soap" = "🧼";
+"laundry detergent" = "🧼";
 
 // Toothbrush
 "toothpaste" = "🪥";
@@ -254,12 +261,16 @@
 // 🧴 Lotion
 "shampoo" = "🧴";
 "conditioner" = "🧴";
+"lotion" = "🧴";
+"deodorant" = "🧴";
+"deo" = "🧴";
 
 // 🧻 Roll of paper
 "toilet paper" = "🧻";
 "kitchen paper" = "🧻";
 "kitchen towel" = "🧻";
 "tissues" = "🧻";
+"paper towels" = "🧻";
 
 // Cigarette 🚬
 "cigarettes" = "🚬";

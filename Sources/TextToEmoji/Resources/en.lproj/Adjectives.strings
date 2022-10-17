@@ -7,6 +7,7 @@
 "huge" = "huge";
 "heavy" = "heavy";
 
+"fresh" = "fresh";
 "organic" = "organic";
 "extra" = "extra";
 "super" = "super";
@@ -30,6 +31,11 @@
 
 "soy" = "soy";
 "greek" = "greek";
+"nondairy" = "nondairy";
+"vegan" = "vegan";
+"plant based" = "plant based";
+"plantbased" = "plantbased";
+"plant-based" = "plant-based";
 
 "sliced" = "sliced";
 "slices" = "slices";
@@ -39,6 +45,7 @@
 "instant" = "instant";
 
 "canned" = "canned";
+"oil" = "oil";
 
 "fillet" = "fillet";
 "breast" = "breast";

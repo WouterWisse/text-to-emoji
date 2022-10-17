@@ -143,9 +143,13 @@
 // 🍊 Tangerine
 "tangerine" = "🍊";
 "orange" = "🍊";
+"oranges" = "🍊";
 "blood orange" = "🍊";
 "grapefruit" = "🍊";
 // 🍋 Lemon
+"lemons" = "🍋";
+"lime" = "🍋";
+"limes" = "🍋";
 // 🍌 Banana
 "bananas" = "🍌";
 // 🍍 Pineapple
@@ -157,6 +161,8 @@
 "pears" = "🍐";
 // 🍑 Peach
 "peaches" = "🍑";
+"plum" = "🍑";
+"plums" = "🍑";
 // 🍒 Cherries
 "cherry" = "🍒";
 // 🍓 Strawberry
@@ -170,8 +176,10 @@
 // 🍅 Tomato
 "tomatoes" = "🍅";
 // 🫒 Olive
+"oil" = "🫒";
 // 🥥 Coconut
 "coconut milk" = "🥥";
+"coconut water" = "🥥";
 // 🥑 Avocado
 "hass avocado" = "🥑";
 "guacamole" = "🥑";
@@ -187,6 +195,8 @@
 // 🌶️ Hot Pepper
 "pepper" = "🌶️";
 "jalapeno" = "🌶️";
+"hot sause" = "🌶️";
+"salsa" = "🌶️";
 // 🫑 Bell Pepper
 "red bell pepper" = "🫑";
 "yellow bell pepper" = "🫑";
@@ -207,10 +217,20 @@
 "gandelion" = "🥬";
 "rapini" = "🥬";
 "turnip" = "🥬";
+"asparagus" = "🥬";
+"brussels sprouts" = "🥬";
+"cabbage" = "🥬";
+"celery" = "🥬";
+"green beans" = "🥬";
+"jicama" = "🥬";
+"edamame" = "🥬";
+"veg" = "🥬";
+"vegs" = "🥬";
+"veggies" = "🥬";
+"vegetables" = "🥬";
 // 🥦 Broccoli
+"cauliflower" = "🥦";
 "broccoli flowers" = "🥦";
-"vegs" = "🥦";
-"veggies" = "🥦";
 // 🧄 Garlic
 // 🧅 Onion
 "onions" = "🧅";
@@ -234,18 +254,30 @@
 "peanut butter" = "🥜";
 "almond butter" = "🥜";
 "nut butter" = "🥜";
+"almonds" = "🥜";
+"cashews" = "🥜";
+"chia seeds" = "🥜";
+"macadamias" = "🥜";
+"walnuts" = "🥜";
+"pine nuts" = "🥜";
 // 🫘 Beans
 "kidney beans" = "🫘";
 "chickpeas" = "🫘";
+"lentils" = "🫘";
+"pinto beans" = "🫘";
 // 🌰 Chestnut
 // 🍞 Bread
 "brioche" = "🍞";
 "brioche bread" = "🍞";
+"buns" = "🍞";
+"sourdough" = "🍞";
 // 🥐 Croissant
 "chocolate croissant" = "🥐";
 // 🥖 Baguette Bread
 "baguette" = "🥖";
 // 🫓 Flatbread
+"pita" = "🫓";
+"tortillas" = "🫓";
 // 🥨 Pretzel
 // 🥯 Bagel
 "everything bagel" = "🥯";
@@ -319,9 +351,38 @@
 "fries" = "🍟";
 // 🍕 Pizza
 // 🌭 Hot Dog
+"sausage" = "🌭";
+"country sausage" = "🌭";
+"summer sausage" = "🌭";
+"salami" = "🌭";
+"pepperoni" = "🌭";
+"bologna" = "🌭";
+"smoked sausage" = "🌭";
+"frankfurter" = "🌭";
+"blood sausage" = "🌭";
+"andouille" = "🌭";
+"chorizo" = "🌭";
+"loukaniko" = "🌭";
+"italian sausage" = "🌭";
+"bratwurst" = "🌭";
+"beerwurst" = "🌭";
+"bockwurst" = "🌭";
+"bauerwurst" = "🌭";
+"knackwurst" = "🌭";
+"weisswurst" = "🌭";
+"thuringer" = "🌭";
+"landjaeger" = "🌭";
+"kielbasa" = "🌭";
+"hungarian sausage" = "🌭";
+"head cheese" = "🌭";
+"chinese sausage" = "🌭";
+"poultry sausage" = "🌭";
 // 🥪 Sandwich
+"sandwich bread" = "🥪";
 // 🌮 Taco
+"tacos" = "🌮";
 // 🌯 Burrito
+"food wrap" = "🌯";
 // 🫔 Tamale
 // 🥙 Stuffed Flatbread
 // 🧆 Falafel
@@ -334,7 +395,6 @@
 // 🍲 Pot Of Food
 // 🫕 Fondue
 // 🥣 Bowl With Spoon
-"soup" = "🥣";
 "yoghurt" = "🥣";
 "quark" = "🥣";
 "cereal" = "🥣";
@@ -346,9 +406,15 @@
 // 🧂 Salt
 "salt" = "🧂";
 "pepper" = "🧂";
+"sugar" = "🧂";
 // 🥫 Canned Food
-"tomato saus" = "🥫";
-"pasta saus" = "🥫";
+"tomato sauce" = "🥫";
+"pasta sauce" = "🥫";
+"apple sauce" = "🥫";
+"curry sauce" = "🥫";
+"broth" = "🥫";
+"soup" = "🥫";
+"ketchup" = "🥫";
 // 🍱 Bento Box
 // 🍘 Rice Cracker
 // 🍙 Rice Ball
@@ -398,6 +464,7 @@
 "chocolate chip cookie" = "🍪";
 "gingerbread" = "🍪";
 "shortbread" = "🍪";
+"crackers" = "🍪";
 // 🎂 Birthday Cake
 // 🍰 Shortcake
 // 🧁 Cupcake
@@ -411,18 +478,22 @@
 "lion" = "🍫";
 "m&m's" = "🍫";
 "m&m" = "🍫";
+"reeses" = "🍫";
+"reese's" = "🍫";
 // 🍬 Candy
 // 🍭 Lollipop
 // 🍮 Custard
 // 🍯 Honey Pot
 "honey" = "🍯";
 "maple syrup" = "🍯";
+"agave" = "🍯";
 // 🍼 Baby Bottle
 "baby milk" = "🍼";
 // 🥛 Glass Of Milk
 "milk" = "🥛";
 "almond milk" = "🥛";
 "pea milk" = "🥛";
+"nut milk" = "🥛";
 "chocolate milk" = "🥛";
 "full fat milk" = "🥛";
 "oatly" = "🥛";
@@ -447,6 +518,7 @@
 "fruit tea" = "🫖";
 // 🍵 Teacup Without Handle
 // 🍶 Sake
+"soy sauce" = "🍶";
 // 🍾 Bottle With Popping Cork
 "champagne" = "🍾";
 "prosecco" = "🍾";
@@ -544,8 +616,10 @@
 "oregano" = "🌿";
 // 🐕 Dog
 "dog food" = "🐕";
+"dog supplies" = "🐕";
 // 🐈 Cat
 "cat food" = "🐈";
+"cat supplies" = "🐈";
 "whiskas" = "🐈";
 // 🌾 Wheat
 "granola bar" = "🌾";
@@ -555,6 +629,12 @@
 "flour" = "🌾";
 "oatmeal" = "🌾";
 "oats" = "🌾";
+"barley" = "🌾";
+"couscous" = "🌾";
+"farro" = "🌾";
+"polenta" = "🌾";
+"quinoa" = "🌾";
+"spelt" = "🌾";
 // 🌱 Plant Based
 "tofu" = "🌱";
 "tempeh" = "🌱";
@@ -563,9 +643,11 @@
 "beyond ground" = "🌱";
 "impossible burger" = "🌱";
 "impossible sausage" = "🌱";
+"flaxseed" = "🌱";
 // 🎃 Pumpkin
 "pumpkin" = "🎃";
 "squash" = "🎃";
+"pumpkin seeds" = "🎃";
 // 🐙 Octopus
 "octopus" = "🐙";
 // 🦑 Squid
@@ -577,3 +659,5 @@
 "crab" = "🦀";
 // 🦞 Lobster
 "lobster" = "🦞";
+// 🌻 Sunflower
+"sunflower seeds" = "🌻";
