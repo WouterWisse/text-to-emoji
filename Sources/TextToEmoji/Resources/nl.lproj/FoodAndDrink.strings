@@ -276,6 +276,8 @@
 "pindakaas" = "🥜";
 "amandelboter" = "🥜";
 "notenboter" = "🥜";
+"satesaus" = "🥜";
+"pindasaus" = "🥜";
 // 🫘 Beans
 "kikkererwten" = "🫘";
 "kidneybonen" = "🫘";
@@ -547,6 +549,8 @@
 "melk" = "🥛";
 "amandelmelk" = "🥛";
 "erwtenmelk" = "🥛";
+"havermelk" = "🥛";
+"sojamelk" = "🥛";
 "chocolademelk" = "🥛";
 "oatly" = "🥛";
 "cappucino melk" = "🥛";
@@ -565,8 +569,12 @@
 "munt thee" = "🫖";
 "zwarte thee" = "🫖";
 "fruit thee" = "🫖";
+"citroen thee" = "🫖";
+"kamille thee" = "🫖";
 // 🍵 Teacup Without Handle
 // 🍶 Sake
+"sojasaus" = "🍶";
+"kikkoman" = "🍶";
 // 🍾 Bottle With Popping Cork
 "bubbels" = "🍾";
 "bubbel wijn" = "🍾";
@@ -666,6 +674,7 @@
 "appelsap" = "🧃";
 "sinasappelsap" = "🧃";
 "perensap" = "🧃";
+"druivensap" = "🧃";
 "dubbelfris" = "🧃";
 "diksap" = "🧃";
 "fristi" = "🧃";
