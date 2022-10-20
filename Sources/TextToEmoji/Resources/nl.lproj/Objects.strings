@@ -260,6 +260,7 @@
 // 🧴 Lotion
 "shampoo" = "🧴";
 "conditioner" = "🧴";
+"douchegel" = "🧴";
 
 // 🧻 Roll of paper
 "toiletpapier" = "🧻";
@@ -269,3 +270,6 @@
 
 // 🚬 Cigarette
 "sigaretten" = "🚬";
+
+// 🚰 Potable Water
+"water" = "🚰";

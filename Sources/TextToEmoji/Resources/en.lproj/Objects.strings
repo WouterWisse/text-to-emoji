@@ -249,17 +249,19 @@
 "shaving supplies" = "🪒";
 
 // 🧼 Soap
+"soap bar" = "🧼";
 "hand soap" = "🧼";
 "dish soap" = "🧼";
 "dishwashing soap" = "🧼";
 "dishwasher soap" = "🧼";
 "laundry detergent" = "🧼";
 
-// Toothbrush
+// 🪥 Toothbrush
 "toothpaste" = "🪥";
 
 // 🧴 Lotion
 "shampoo" = "🧴";
+"body wash" = "🧴";
 "conditioner" = "🧴";
 "lotion" = "🧴";
 "deodorant" = "🧴";
@@ -272,5 +274,8 @@
 "tissues" = "🧻";
 "paper towels" = "🧻";
 
-// Cigarette 🚬
+// 🚬 Cigarette
 "cigarettes" = "🚬";
+
+// 🚰 Potable Water
+"water" = "🚰";

@@ -11,6 +11,7 @@
 "verse" = "verse";
 "biologisch" = "biologisch";
 "volle" = "volle";
+"halfvolle" = "halfvolle";
 "magere" = "magere";
 "light" = "light";
 "zero" = "zero";
@@ -27,10 +28,12 @@
 "ongezoet" = "ongezoet";
 "gezoet" = "gezoet";
 "zoete" = "zoete";
+"zoet" = "zoet";
 "zoute" = "zoute";
+"zout" = "zout";
 
 "poeder" = "poeder";
-"gemalen" = "gema;em";
+"gemalen" = "gemalen";
 
 "gerookt" = "gerookt";
 "gerookte" = "gerookte";
@@ -41,10 +44,20 @@
 "bevroren" = "bevroren";
 "diepvries" = "diepvries";
 "gefrituurde" = "gefrituurde";
+"ongebrande" = "ongebrande";
+"gebrande" = "gebrande";
+"eetrijp" = "eetrijp";
+"pitloos" = "pitloos";
+"platte" = "platte";
+"romige" = "romige";
 
 "soja" = "soja";
 "grieks" = "grieks";
 "griekse" = "griekse";
+
+"heel" = "heel";
+"halfje" = "halfje";
+"half" = "half";
 
 "gesneden" = "gesneden";
 "plakken" = "plakken";
@@ -54,8 +67,12 @@
 "instant" = "instant";
 "magnetron" = "magnetron";
 "oven" = "oven";
+"afbak" = "afbak";
+"verpakte" = "verpakte";
+"voorverpakte" = "voorverpakte";
 
 "in blik" = "in blik";
+"uit blik" = "uit blik";
 
 "filet" = "filet";
 "vleugels" = "vleugels";

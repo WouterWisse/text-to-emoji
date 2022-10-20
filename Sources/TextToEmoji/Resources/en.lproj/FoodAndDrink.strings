@@ -135,6 +135,7 @@
 
 // 🍇 Grapes
 "grape" = "🍇";
+"green grapes" = "🍇";
 "white grapes" = "🍇";
 "blue grapes" = "🍇";
 "red grapes" = "🍇";
@@ -154,11 +155,17 @@
 "bananas" = "🍌";
 // 🍍 Pineapple
 // 🥭 Mango
+"fruit" = "🥭";
 // 🍎 Red Apple
 "apple" = "🍎";
+"honeycrips" = "🍎";
+"fuji apple" = "🍎";
+"gala apple" = "🍎";
 // 🍏 Green Apple
+"apple sauce" = "🍏";
 // 🍐 Pear
 "pears" = "🍐";
+"bartlett pear" = "🍐";
 // 🍑 Peach
 "peaches" = "🍑";
 "plum" = "🍑";
@@ -171,12 +178,14 @@
 // 🫐 Blueberries
 "blueberry" = "🫐";
 "blueberry jam" = "🫐";
+"berries" = "🫐";
+"berry blend" = "🫐";
 // 🥝 Kiwi Fruit
 "kiwi" = "🥝";
 // 🍅 Tomato
 "tomatoes" = "🍅";
+"vine tomato" = "🍅";
 // 🫒 Olive
-"oil" = "🫒";
 // 🥥 Coconut
 "coconut milk" = "🥥";
 "coconut water" = "🥥";
@@ -189,6 +198,7 @@
 "chips" = "🥔";
 "crisps" = "🥔";
 "mashed potato" = "🥔";
+"russet potato" = "🥔";
 // 🥕 Carrot
 // 🌽 Ear Of Corn
 "corn" = "🌽";
@@ -204,6 +214,7 @@
 // 🥒 Cucumber
 "cucumbers" = "🥒";
 "zucchini" = "🥒";
+"zucchini squash" = "🥒";
 "pickle" = "🥒";
 // 🥬 Leafy Green
 "greens" = "🥬";
@@ -228,6 +239,10 @@
 "vegs" = "🥬";
 "veggies" = "🥬";
 "vegetables" = "🥬";
+"red beet" = "🥬";
+"beet" = "🥬";
+"beets" = "🥬";
+"supergreens" = "🥬";
 // 🥦 Broccoli
 "cauliflower" = "🥦";
 "broccoli flowers" = "🥦";
@@ -236,6 +251,8 @@
 "onions" = "🧅";
 "red onion" = "🧅";
 "yellow onion" = "🧅";
+"green onion" = "🧅";
+"spring onion" = "🧅";
 "charlotte" = "🧅";
 // 🍄 Mushroom
 "shiitake" = "🍄";
@@ -260,6 +277,7 @@
 "macadamias" = "🥜";
 "walnuts" = "🥜";
 "pine nuts" = "🥜";
+"pistachios" = "🥜";
 // 🫘 Beans
 "kidney beans" = "🫘";
 "chickpeas" = "🫘";
@@ -271,8 +289,13 @@
 "brioche bread" = "🍞";
 "buns" = "🍞";
 "sourdough" = "🍞";
+"ciabatta" = "🍞";
+"hamburger bun" = "🍞";
+"hotdog bun" = "🍞";
 // 🥐 Croissant
 "chocolate croissant" = "🥐";
+"butter croissant" = "🥐";
+"cinnamon roll" = "🥐";
 // 🥖 Baguette Bread
 "baguette" = "🥖";
 // 🫓 Flatbread
@@ -288,6 +311,7 @@
 "pancake mix" = "🥞";
 // 🧇 Waffle
 "waffle mix" = "🥞";
+"belgium waffle" = "🥞";
 // 🧀 Cheese Wedge
 "cheese" = "🧀";
 "mozzarella" = "🧀";
@@ -309,6 +333,7 @@
 "goat cheese" = "🧀";
 "sheep cheese" = "🧀";
 "cream cheese" = "🧀";
+"cheese crisps" = "🧀";
 // 🍖 Meat On Bone
 "ribs" = "🍖";
 "ham" = "🍖";
@@ -322,7 +347,9 @@
 "lamb" = "🍖";
 // 🍗 Poultry Leg
 "chicken" = "🍗";
+"rotisserie chicken" = "🍗";
 "turkey" = "🍗";
+"ground turkey" = "🍗";
 // 🥩 Cut Of Meat
 "deli" = "🥩";
 "deli meat" = "🥩";
@@ -389,6 +416,7 @@
 // 🥚 Egg
 "eggs" = "🥚";
 "just egg" = "🥚";
+"liquid egg" = "🥚";
 "eggwhite" = "🥚";
 // 🍳 Cooking
 // 🥘 Shallow Pan Of Food
@@ -410,10 +438,13 @@
 // 🥫 Canned Food
 "tomato sauce" = "🥫";
 "pasta sauce" = "🥫";
-"apple sauce" = "🥫";
 "curry sauce" = "🥫";
 "broth" = "🥫";
 "soup" = "🥫";
+"tomato soup" = "🥫";
+"chicken soup" = "🥫";
+"noodle soup" = "🥫";
+"chicken noodle soup" = "🥫";
 "ketchup" = "🥫";
 // 🍱 Bento Box
 // 🍘 Rice Cracker
@@ -441,14 +472,21 @@
 // 🥮 Moon Cake
 // 🍡 Dango
 // 🥟 Dumpling
+"dumplings" = "🥟";
+"gyoza" = "🥟";
 // 🥠 Fortune Cookie
 // 🥡 Takeout Box
 "takeout" = "🥡";
 // 🦪 Oyster
 "mussle" = "🦪";
+"mussles" = "🦪";
 "clam" = "🦪";
+"clams" = "🦪";
+"shells" = "🦪";
+"shellfish" = "🦪";
 // 🍦 Soft Ice Cream
 // 🍧 Shaved Ice
+"lemon ice" = "🍧";
 // 🍨 Ice Cream
 "ben & jerry" = "🍨";
 "benjerry" = "🍨";
@@ -467,7 +505,12 @@
 "crackers" = "🍪";
 // 🎂 Birthday Cake
 // 🍰 Shortcake
+"tart" = "🍰";
+"fruit tart" = "🍰";
+"cheesecake" = "🍰";
+"carrot cake" = "🍰";
 // 🧁 Cupcake
+"scones" = "🧁";
 // 🥧 Pie
 // 🍫 Chocolate Bar
 "chocolate" = "🍫";
@@ -480,6 +523,7 @@
 "m&m" = "🍫";
 "reeses" = "🍫";
 "reese's" = "🍫";
+"brownies" = "🍫";
 // 🍬 Candy
 // 🍭 Lollipop
 // 🍮 Custard
@@ -577,12 +621,15 @@
 "soda" = "🥤";
 "cola" = "🥤";
 "coke" = "🥤";
+"coca-cola" = "🥤";
 "fanta" = "🥤";
 "7up" = "🥤";
 "sprite" = "🥤";
 "dr pepper" = "🥤";
 "pepsi" = "🥤";
 "mountain dew" = "🥤";
+"gatorade" = "🥤";
+"ice tea" = "🥤";
 // 🧋 Bubble Tea
 "starbucks" = "🧋";
 "iced coffee" = "🧋";
@@ -636,6 +683,7 @@
 "polenta" = "🌾";
 "quinoa" = "🌾";
 "spelt" = "🌾";
+"tortilla chips" = "🌾";
 // 🌱 Plant Based
 "tofu" = "🌱";
 "tempeh" = "🌱";
@@ -644,7 +692,11 @@
 "beyond ground" = "🌱";
 "impossible burger" = "🌱";
 "impossible sausage" = "🌱";
+"ginger" = "🌱";
 "flaxseed" = "🌱";
+"pesto" = "🌱";
+"hommus" = "🌱";
+"hummus" = "🌱";
 // 🎃 Pumpkin
 "pumpkin" = "🎃";
 "squash" = "🎃";
@@ -652,13 +704,27 @@
 // 🐙 Octopus
 "octopus" = "🐙";
 // 🦑 Squid
-"squid" = "squid";
+"squid" = "🦑";
 // 🐟 Fish
 "salmon" = "🐟";
 "tuna" = "🐟";
+"sea bass" = "🐟";
+"swordfish" = "🐟";
+"tilapia" = "🐟";
+"branzini" = "🐟";
+"cod" = "🐟";
+"fish" = "🐟";
+"fish sticks" = "🐟";
+"sardine" = "🐟";
+"anchovis" = "🐟";
+"sablefish" = "🐟";
 // 🦀 Crab
 "crab" = "🦀";
 // 🦞 Lobster
 "lobster" = "🦞";
 // 🌻 Sunflower
 "sunflower seeds" = "🌻";
+// 💪 Flexing Biceps
+"whey" = "💪";
+"whey protein" = "💪";
+"protein powder" = "💪";

@@ -7,10 +7,14 @@
 "huge" = "huge";
 "heavy" = "heavy";
 
+"dried" = "dried";
+"wild" = "wild";
 "fresh" = "fresh";
 "organic" = "organic";
 "extra" = "extra";
+"virgin" = "virgin";
 "super" = "super";
+"creamy" = "creamy";
 "firm" = "firm";
 "silk" = "silk";
 "silken" = "silken";
@@ -23,6 +27,10 @@
 "unsalted" = "unsalted";
 "unsweetened" = "unsweetened";
 "sweetened" = "sweetened";
+"sparkling" = "sparkling";
+"seedless" = "seedless";
+"boneless" = "boneless";
+"skinless" = "skinless";
 
 "smoked" = "smoked";
 "baked" = "baked";
