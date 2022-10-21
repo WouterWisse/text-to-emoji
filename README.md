@@ -9,9 +9,6 @@
    <img src="https://github.com/WouterWisse/text-to-emoji/actions/workflows/main.yml/badge.svg">
    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FWouterWisse%2Ftext-to-emoji%2Fbadge%3Ftype%3Dplatforms">
    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FWouterWisse%2Ftext-to-emoji%2Fbadge%3Ftype%3Dswift-versions">
-   <a href="https://www.twitter.com/wouterwisse" target="_blank">
-      <img src="https://img.shields.io/badge/Contact%20-@wouterwisse-blue.svg">
-   </a>
 </p>
 
 ## Installation
