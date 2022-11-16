@@ -32,7 +32,7 @@ let shrimp = TextToEmoji.emoji(for: "shrimp", preferredCategory: .foodAndDrink) 
 ```swift
 let shrimp = TextToEmoji.emoji(for: "shrimp", preferredCategory: .animalsAndNature) // 🦐
 ```
-With `preferredCategory`, you can give a certain emoji category a higher priority. This can be very useful if you already know the context in which you are searching. For example, when looking for the word `shrimp`, two matching emoji's could be: `🦐` and `🍤`.<br/>
+With `preferredCategory`, a certain emoji category can be given a higher priority. This can be very useful if the context of the search is known. For example, when looking for the word `shrimp`, two matching emoji's could be: `🦐` and `🍤`.<br/>
 By passing `.foodAndDrink` as the `preferredCategory`, the first match will be `🍤`. Passing `.animalsAndNature` would result in `🦐`.
 
 See `EmojiCategory.swift` for all categories.
